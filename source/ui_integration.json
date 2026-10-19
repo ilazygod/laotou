@@ -1,0 +1,70 @@
+{
+  "version": 1,
+  "scope": "display-only UI; preserve original v33 simulation and input state machine",
+  "files": {
+    "markup": "source/ui.html",
+    "script": "source/ui.js"
+  },
+  "installation": [
+    "保留 <canvas id=\"c\">。用 ui.html 替换原 touchZones、statusDock、titleScreen、introLabel、demo、controlBar DOM。不得并存重复 ID。",
+    "ui.html 内 CSS 必须位于所有旧 CSS 之后。完全移除正式版本 labBar/labHelp 测试界面，CSS 也有防漏隐藏。",
+    "将 ui.js 放在游戏脚本最后一个 requestAnimationFrame(frame) 前，或作为紧随游戏脚本的独立 script；必须在第一次 frame 回调前就绪。",
+    "frame 原 dockKills/dockMeta/dockFill/dockProgress/dockReady 的三行 DOM 同步替换为 studioUi.sync({count,kicks,hp,tier,ultReady,dead,intro},t)。不得保留原 dockMeta heart HTML 覆盖。",
+    "移除 draw 内 if(!cinematic && dead){const ranks=...} 整块旧 Canvas 结算，仅替换显示，不改 dead 来源/伤害或 reset。另一个 if(!cinematic && false) 是已禁用旧HUD，可清理。",
+    "保留 setIntro、introDraw、syncUltimate、startGame click、pressZone、jump、performJump、openingWave 原函数及调用时序。introDraw 只允许背景色替换成 Art Bible paper；不要重写镜头/燃目/时长。",
+    "在游戏层加 document.addEventListener(\"studio-command\",e=>{if(e.detail?.type===\"retry\"&&intro===\"play\"&&dead)jump(hero.face)}); UI 不直接调用 reset。",
+    "恢复正式入口初始 intro=title；不要沿用 stage2 的 setIntro(play)/lab bootstrap。startGame 原按钮 ID不变，已有 click 监听继续生效。",
+    "下方信息带height:90px，从G+26开始，真实尸体碰撞地面G+23保持可见。原touchZones底边G保持，不扩大触控范围。"
+  ],
+  "binding_call": "studioUi.sync({count,kicks,hp,tier,ultReady,dead,intro},t);",
+  "command_hook": "document.addEventListener(\"studio-command\",e=>{if(e.detail?.type===\"retry\"&&intro===\"play\"&&dead)jump(hero.face)});",
+  "preserved_ids": [
+    "c",
+    "touchZones",
+    "zoneL",
+    "zoneR",
+    "statusDock",
+    "dockKills",
+    "dockMeta",
+    "dockFill",
+    "dockProgress",
+    "dockReady",
+    "titleScreen",
+    "startGame",
+    "introLabel",
+    "demo",
+    "controlBar",
+    "left",
+    "right",
+    "ultHint"
+  ],
+  "new_ids": [
+    "studioLives",
+    "studioTier",
+    "studioRankToast",
+    "studioResult",
+    "studioResultRank",
+    "studioResultKills",
+    "studioResultNext",
+    "studioRetry"
+  ],
+  "dependencies": {
+    "dom": "native DOM; no external library/font/network",
+    "sourceState": [
+      "count",
+      "kicks",
+      "hp",
+      "tier",
+      "ultReady",
+      "dead",
+      "intro"
+    ],
+    "gameCommand": "jump(hero.face), only for dead/play retry"
+  },
+  "tests": "design/ui/unit-checks.json; browser layout/playback/input to be verified by main task",
+  "known_limits": [
+    "No new gamepad input; source game lacks it",
+    "No independent accessibility reviewer; sequential role self-review",
+    "Footer fixed90px preserves visible G+23 ground; safe-area phone layout requires actual device check without changing G."
+  ]
+}

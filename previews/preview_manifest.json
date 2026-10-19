@@ -1,0 +1,180 @@
+{
+  "source": "outputs/baimei_ink_studio_v1/playtest.html",
+  "sourceSha256": "11b0cebe70e26ad5a39c5459b274fe76723811152d11317a7ab44ea8901aba47",
+  "runtime": "Same final HTML simulation and render functions, deterministic offline 60Hz stepping; not a phone/browser performance recording",
+  "files": [
+    {
+      "file": "crescent_normal.mp4",
+      "fps": 60,
+      "durationSeconds": 7.6,
+      "width": 960,
+      "height": 720,
+      "sourceSha256": "d8928aa78259f37bd54a3e917345a3efb4c5989b246f8072c42d3e9a4c445bae",
+      "revisionNote": "Primary showcased slash/character/ninja/death subject unchanged; retained prior recording. Other scene speed brush used previous offset."
+    },
+    {
+      "file": "crescent_quarter_speed.mp4",
+      "fps": 60,
+      "durationSeconds": 6.4,
+      "width": 960,
+      "height": 720,
+      "sourceSha256": "d8928aa78259f37bd54a3e917345a3efb4c5989b246f8072c42d3e9a4c445bae",
+      "revisionNote": "Primary showcased slash/character/ninja/death subject unchanged; retained prior recording. Other scene speed brush used previous offset."
+    },
+    {
+      "file": "speed_lines.mp4",
+      "fps": 60,
+      "durationSeconds": 8,
+      "width": 960,
+      "height": 720,
+      "sourceSha256": "11b0cebe70e26ad5a39c5459b274fe76723811152d11317a7ab44ea8901aba47",
+      "revisionNote": "Updated brush start to44 px, unchanged physics"
+    },
+    {
+      "file": "ninja_actions.mp4",
+      "fps": 60,
+      "durationSeconds": 8,
+      "width": 960,
+      "height": 720,
+      "sourceSha256": "d8928aa78259f37bd54a3e917345a3efb4c5989b246f8072c42d3e9a4c445bae",
+      "revisionNote": "Primary showcased slash/character/ninja/death subject unchanged; retained prior recording. Other scene speed brush used previous offset."
+    },
+    {
+      "file": "ninja_waist_cut.mp4",
+      "fps": 60,
+      "durationSeconds": 10,
+      "width": 960,
+      "height": 720,
+      "sourceSha256": "d8928aa78259f37bd54a3e917345a3efb4c5989b246f8072c42d3e9a4c445bae",
+      "revisionNote": "Primary showcased slash/character/ninja/death subject unchanged; retained prior recording. Other scene speed brush used previous offset."
+    },
+    {
+      "file": "crescent_normal.gif",
+      "fps": 15,
+      "note": "Reduced-frame lightweight preview; MP4 contains full 60Hz motion",
+      "sourceSha256": "d8928aa78259f37bd54a3e917345a3efb4c5989b246f8072c42d3e9a4c445bae",
+      "revisionNote": "Primary showcased slash/character/ninja/death subject unchanged; retained prior recording. Other scene speed brush used previous offset."
+    },
+    {
+      "file": "crescent_quarter_speed.gif",
+      "fps": 15,
+      "note": "Reduced-frame lightweight preview; MP4 contains full 60Hz motion",
+      "sourceSha256": "d8928aa78259f37bd54a3e917345a3efb4c5989b246f8072c42d3e9a4c445bae",
+      "revisionNote": "Primary showcased slash/character/ninja/death subject unchanged; retained prior recording. Other scene speed brush used previous offset."
+    },
+    {
+      "file": "ninja_actions.gif",
+      "fps": 15,
+      "note": "Reduced-frame lightweight preview; MP4 contains full 60Hz motion",
+      "sourceSha256": "d8928aa78259f37bd54a3e917345a3efb4c5989b246f8072c42d3e9a4c445bae",
+      "revisionNote": "Primary showcased slash/character/ninja/death subject unchanged; retained prior recording. Other scene speed brush used previous offset."
+    }
+  ],
+  "deathEnd": {
+    "sleeping": 6,
+    "total": 6
+  },
+  "ffprobe": [
+    {
+      "file": "crescent_normal.mp4",
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_name": "h264",
+          "width": 960,
+          "height": 720,
+          "r_frame_rate": "60/1",
+          "nb_frames": "456"
+        }
+      ],
+      "format": {
+        "duration": "7.600000"
+      }
+    },
+    {
+      "file": "crescent_quarter_speed.mp4",
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_name": "h264",
+          "width": 960,
+          "height": 720,
+          "r_frame_rate": "60/1",
+          "nb_frames": "384"
+        }
+      ],
+      "format": {
+        "duration": "6.400000"
+      }
+    },
+    {
+      "file": "ninja_actions.mp4",
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_name": "h264",
+          "width": 960,
+          "height": 720,
+          "r_frame_rate": "60/1",
+          "nb_frames": "480"
+        }
+      ],
+      "format": {
+        "duration": "8.000000"
+      }
+    },
+    {
+      "file": "ninja_waist_cut.mp4",
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_name": "h264",
+          "width": 960,
+          "height": 720,
+          "r_frame_rate": "60/1",
+          "nb_frames": "600"
+        }
+      ],
+      "format": {
+        "duration": "10.000000"
+      }
+    },
+    {
+      "file": "speed_lines.mp4",
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_name": "h264",
+          "width": 960,
+          "height": 720,
+          "r_frame_rate": "60/1",
+          "nb_frames": "480"
+        }
+      ],
+      "format": {
+        "duration": "8.000000"
+      }
+    }
+  ],
+  "keyframes": [
+    "crescent_keyframe_018.png",
+    "speed_keyframe_right.png",
+    "speed_keyframe_left.png",
+    "death_keyframe.png"
+  ],
+  "separate_browser_recording": "browser_combat_normal.mp4 is supplied by the main task and is not part of this offline-render manifest.",
+  "speedRevision": {
+    "from": 22,
+    "to": 44,
+    "scope": "visual starting distance only; speed preview and keyframes refreshed",
+    "newKeyframes": [
+      "speed_keyframe_right.png",
+      "speed_keyframe_left.png"
+    ]
+  }
+}

@@ -1,0 +1,417 @@
+{
+  "generated": "2026-10-18",
+  "scope": "Actual existing project contract registry, populated from metadata and preserved code evidence; no prior system GDDs existed. JSON syntax is valid YAML 1.2. New art remains candidate.",
+  "entities": [
+    {
+      "name": "白眉老头",
+      "source": "design/gdd/game-concept.md",
+      "attributes": {
+        "approved_flight_and_sword": "frozen_direct_reuse",
+        "standing_source": "stage2_frozen"
+      },
+      "referenced_by": [
+        "design/art/art-bible.md",
+        "docs/technical/technical-contract.md"
+      ]
+    },
+    {
+      "name": "水墨忍者",
+      "source": "assets/ninja/metadata.json",
+      "attributes": {
+        "canvas": [
+          576,
+          576
+        ],
+        "origin": [
+          288.0,
+          376.0
+        ],
+        "pixels_per_v33_unit": 2,
+        "colors": [
+          "black",
+          "red",
+          "green"
+        ],
+        "independent_frames": 42,
+        "sheets": 15,
+        "status": "candidate_internal_review"
+      },
+      "referenced_by": [
+        "design/art/art-bible.md",
+        "design/asset-specs/ninja-assets.md",
+        "docs/technical/technical-contract.md"
+      ]
+    },
+    {
+      "name": "圆月斩",
+      "source": "assets/effects/metadata.json",
+      "attributes": {
+        "duration_s": 0.38,
+        "world_radius_px": 76,
+        "frames": 24,
+        "local_age_dissolution": "local texel age, density-dependent dilution plus independently growing bristle erosion; no whole-image fade"
+      },
+      "referenced_by": [
+        "design/asset-specs/ninja-assets.md",
+        "docs/technical/technical-contract.md"
+      ]
+    },
+    {
+      "name": "轻功速度线",
+      "source": "playtest.html:speedDraw",
+      "attributes": {
+        "ascent_strokes": 3,
+        "fall_strokes": 2,
+        "direction": "atan2(hero.vy,hero.vx)+PI",
+        "ascent_duration_s": 0.29
+      },
+      "referenced_by": [
+        "design/asset-specs/ninja-assets.md"
+      ]
+    },
+    {
+      "name": "背景",
+      "source": "assets/background/metadata.json",
+      "attributes": {
+        "ground_world_y": "G+23",
+        "paper": "#f6f2e8",
+        "mountain_open_fraction": 0.9352664947509766
+      },
+      "referenced_by": [
+        "design/art/art-bible.md",
+        "docs/technical/technical-contract.md",
+        "design/ui/hud-and-screens.md"
+      ]
+    },
+    {
+      "name": "UI",
+      "source": "design/ui/hud-and-screens.md",
+      "attributes": {
+        "health_marks": 3,
+        "dock_height_css_px": 90,
+        "charge_stages": 4,
+        "invisible_half_screen_input": true
+      },
+      "referenced_by": [
+        "design/art/art-bible.md",
+        "docs/technical/technical-contract.md"
+      ]
+    }
+  ],
+  "items": [],
+  "formulas": [
+    {
+      "name": "轻功初速度",
+      "source": "docs/technical/requirements.json:TR-freeze-002",
+      "formula": "max(-580,min(vy,0)-480)",
+      "variables": [
+        "vy"
+      ],
+      "output_cap": -580
+    },
+    {
+      "name": "剑光笔触出生时间",
+      "source": "assets/effects/metadata.json",
+      "formula": "angle / (pi*1.78) * .38*.69",
+      "variables": [
+        "angle"
+      ],
+      "output_range_s": [
+        0,
+        0.2622
+      ]
+    }
+  ],
+  "constants": [
+    {
+      "name": "重力 px/s²",
+      "source": "docs/technical/requirements.json:TR-freeze-001",
+      "value": "740",
+      "evidence": {
+        "file": "/Users/tianliang/Documents/Codex/2026-10-18/referenced-chatgpt-conversation-this-is-an/work/moon_v01/v33_original.html",
+        "line": 231,
+        "fragment": "hero.vy+=740*dt"
+      }
+    },
+    {
+      "name": "单次轻功/上限 px/s",
+      "source": "docs/technical/requirements.json:TR-freeze-002",
+      "value": "vy=max(-580,min(vy,0)-480)",
+      "evidence": {
+        "file": "/Users/tianliang/Documents/Codex/2026-10-18/referenced-chatgpt-conversation-this-is-an/work/moon_v01/v33_original.html",
+        "line": 38,
+        "fragment": "hero.vy=Math.max(-580,Math.min(hero.vy,0)-480)"
+      }
+    },
+    {
+      "name": "横向轻功 px/s",
+      "source": "docs/technical/requirements.json:TR-freeze-003",
+      "value": "±145",
+      "evidence": {
+        "file": "/Users/tianliang/Documents/Codex/2026-10-18/referenced-chatgpt-conversation-this-is-an/work/moon_v01/v33_original.html",
+        "line": 38,
+        "fragment": "hero.vx=d*145"
+      }
+    },
+    {
+      "name": "水平衰减 s⁻¹",
+      "source": "docs/technical/requirements.json:TR-freeze-004",
+      "value": "0.24",
+      "evidence": {
+        "file": "/Users/tianliang/Documents/Codex/2026-10-18/referenced-chatgpt-conversation-this-is-an/work/moon_v01/v33_original.html",
+        "line": 231,
+        "fragment": "hero.vx*=Math.exp(-.24*dt)"
+      }
+    },
+    {
+      "name": "左右/顶部边界 px",
+      "source": "docs/technical/requirements.json:TR-freeze-005",
+      "value": "25；W−25；82",
+      "evidence": {
+        "file": "/Users/tianliang/Documents/Codex/2026-10-18/referenced-chatgpt-conversation-this-is-an/work/moon_v01/v33_original.html",
+        "line": 231,
+        "fragment": "if(hero.y<82)"
+      }
+    },
+    {
+      "name": "地面基准",
+      "source": "docs/technical/requirements.json:TR-freeze-006",
+      "value": "G=H−max(116,102+safeBottom());safeBottom=0",
+      "evidence": {
+        "file": "/Users/tianliang/Documents/Codex/2026-10-18/referenced-chatgpt-conversation-this-is-an/work/moon_v01/v33_original.html",
+        "line": 15,
+        "fragment": "G=H-Math.max(116,102+safeBottom())"
+      }
+    },
+    {
+      "name": "圆月斩接近触发距离 px",
+      "source": "docs/technical/requirements.json:TR-freeze-007",
+      "value": "77；中心(hero.x,hero.y−20)",
+      "evidence": {
+        "file": "/Users/tianliang/Documents/Codex/2026-10-18/referenced-chatgpt-conversation-this-is-an/work/moon_v01/v33_original.html",
+        "line": 264,
+        "fragment": "<(58+19)"
+      }
+    },
+    {
+      "name": "圆月斩持续 s",
+      "source": "docs/technical/requirements.json:TR-freeze-008",
+      "value": "0.38",
+      "evidence": {
+        "file": "/Users/tianliang/Documents/Codex/2026-10-18/referenced-chatgpt-conversation-this-is-an/work/moon_v01/v33_original.html",
+        "line": 176,
+        "fragment": "const SLASH_DURATION=.38"
+      }
+    },
+    {
+      "name": "剑光有效半径 px",
+      "source": "docs/technical/requirements.json:TR-freeze-009",
+      "value": "76",
+      "evidence": {
+        "file": "/Users/tianliang/Documents/Codex/2026-10-18/referenced-chatgpt-conversation-this-is-an/work/moon_v01/v33_original.html",
+        "line": 176,
+        "fragment": "SLASH_RADIUS=76"
+      }
+    },
+    {
+      "name": "扫掠弧度/展开时间",
+      "source": "docs/technical/requirements.json:TR-freeze-010",
+      "value": "1.78π=320.4°；0.38×0.69=0.2622s",
+      "evidence": {
+        "file": "/Users/tianliang/Documents/Codex/2026-10-18/referenced-chatgpt-conversation-this-is-an/work/moon_v01/v33_original.html",
+        "line": 182,
+        "fragment": "Math.PI*1.78*sweep"
+      }
+    },
+    {
+      "name": "输入开放时刻 s",
+      "source": "docs/technical/requirements.json:TR-freeze-011",
+      "value": "0.17",
+      "evidence": {
+        "file": "/Users/tianliang/Documents/Codex/2026-10-18/referenced-chatgpt-conversation-this-is-an/work/moon_v01/v33_original.html",
+        "line": 36,
+        "fragment": "SLASH_CANCEL_AT=.17"
+      }
+    },
+    {
+      "name": "轻功输入缓冲 s",
+      "source": "docs/technical/requirements.json:TR-freeze-012",
+      "value": "0.17",
+      "evidence": {
+        "file": "/Users/tianliang/Documents/Codex/2026-10-18/referenced-chatgpt-conversation-this-is-an/work/moon_v01/v33_original.html",
+        "line": 36,
+        "fragment": "JUMP_BUFFER=.17"
+      }
+    },
+    {
+      "name": "双按识别 ms",
+      "source": "docs/technical/requirements.json:TR-freeze-013",
+      "value": "190 或另一侧仍按住",
+      "evidence": {
+        "file": "/Users/tianliang/Documents/Codex/2026-10-18/referenced-chatgpt-conversation-this-is-an/work/moon_v01/v33_original.html",
+        "line": 35,
+        "fragment": "const BOTH_WINDOW=190"
+      }
+    },
+    {
+      "name": "四档踏空阈值",
+      "source": "docs/technical/requirements.json:TR-freeze-014",
+      "value": "1→2:3次；2→3:7次；3→4:12次",
+      "evidence": {
+        "file": "/Users/tianliang/Documents/Codex/2026-10-18/referenced-chatgpt-conversation-this-is-an/work/moon_v01/v33_original.html",
+        "line": 38,
+        "fragment": "tier=kicks>=12?4:kicks>=7?3:kicks>=3?2:1"
+      }
+    },
+    {
+      "name": "斩中速度修正",
+      "source": "docs/technical/requirements.json:TR-freeze-015",
+      "value": "vx×0.88；向目标反向5.8",
+      "evidence": {
+        "file": "/Users/tianliang/Documents/Codex/2026-10-18/referenced-chatgpt-conversation-this-is-an/work/moon_v01/v33_original.html",
+        "line": 170,
+        "fragment": "slash=0; hero.vx*=.88"
+      }
+    },
+    {
+      "name": "飞镖伤害",
+      "source": "docs/technical/requirements.json:TR-freeze-016",
+      "value": "相对运动连续线段，3圆 offset/r=(33/12,17/13,5/9)",
+      "evidence": {
+        "file": "/Users/tianliang/Documents/Codex/2026-10-18/referenced-chatgpt-conversation-this-is-an/work/moon_v01/v33_original.html",
+        "line": 275,
+        "fragment": "if(near(33,12)||near(17,13)||near(5,9))"
+      }
+    },
+    {
+      "name": "受伤后免伤 s",
+      "source": "docs/technical/requirements.json:TR-freeze-017",
+      "value": "0.43",
+      "evidence": {
+        "file": "/Users/tianliang/Documents/Codex/2026-10-18/referenced-chatgpt-conversation-this-is-an/work/moon_v01/v33_original.html",
+        "line": 276,
+        "fragment": "hp--;hit=.43"
+      }
+    },
+    {
+      "name": "弹反有效区域",
+      "source": "docs/technical/requirements.json:TR-freeze-018",
+      "value": "飞镖更新后端点 swordHit(x,y,6)",
+      "evidence": {
+        "file": "/Users/tianliang/Documents/Codex/2026-10-18/referenced-chatgpt-conversation-this-is-an/work/moon_v01/v33_original.html",
+        "line": 265,
+        "fragment": "swordHit(s.x,s.y,6)"
+      }
+    },
+    {
+      "name": "弹反速度",
+      "source": "docs/technical/requirements.json:TR-freeze-019",
+      "value": "径向235+hero.v×0.25；外推12；life≤1.3",
+      "evidence": {
+        "file": "/Users/tianliang/Documents/Codex/2026-10-18/referenced-chatgpt-conversation-this-is-an/work/moon_v01/v33_original.html",
+        "line": 265,
+        "fragment": "s.vx=dx/m*235+hero.vx*.25"
+      }
+    },
+    {
+      "name": "绿色下降倍率",
+      "source": "docs/technical/requirements.json:TR-freeze-020",
+      "value": "3.1；初速25×3.1；目标速度R(70,108)×3.1",
+      "evidence": {
+        "file": "/Users/tianliang/Documents/Codex/2026-10-18/referenced-chatgpt-conversation-this-is-an/work/moon_v01/v33_original.html",
+        "line": 119,
+        "fragment": "type==='green'?3.1:1"
+      }
+    },
+    {
+      "name": "绿色落地优先投镖",
+      "source": "docs/technical/requirements.json:TR-freeze-021",
+      "value": "尚未投过时 warn=0.27",
+      "evidence": {
+        "file": "/Users/tianliang/Documents/Codex/2026-10-18/referenced-chatgpt-conversation-this-is-an/work/moon_v01/v33_original.html",
+        "line": 232,
+        "fragment": "if(n.type==='green'&&!n.firstShot){n.warn=.27;n.firstShot=true}"
+      }
+    },
+    {
+      "name": "红色双镖",
+      "source": "docs/technical/requirements.json:TR-freeze-022",
+      "value": "首发后burst=1，间隔0.19s",
+      "evidence": {
+        "file": "/Users/tianliang/Documents/Codex/2026-10-18/referenced-chatgpt-conversation-this-is-an/work/moon_v01/v33_original.html",
+        "line": 260,
+        "fragment": "if(n.type==='red'){n.burst=1;n.burstDelay=.19;}"
+      }
+    },
+    {
+      "name": "巡逻",
+      "source": "docs/technical/requirements.json:TR-freeze-023",
+      "value": "16..28 px/s；落地0.34s后行走；预警/连发时停止",
+      "evidence": {
+        "file": "/Users/tianliang/Documents/Codex/2026-10-18/referenced-chatgpt-conversation-this-is-an/work/moon_v01/v33_original.html",
+        "line": 238,
+        "fragment": "n.groundAge>.34"
+      }
+    },
+    {
+      "name": "出场与投镖难度",
+      "source": "docs/technical/requirements.json:TR-freeze-024",
+      "value": "最多23；spawn R(.65,1.1)×max(.65,1−clock/180)；攻击R(2.3,2.9)×(1−.57min(1,clock/270))",
+      "evidence": {
+        "file": "/Users/tianliang/Documents/Codex/2026-10-18/referenced-chatgpt-conversation-this-is-an/work/moon_v01/v33_original.html",
+        "line": 232,
+        "fragment": "foes.length<23"
+      }
+    },
+    {
+      "name": "尸体重力/清场",
+      "source": "docs/technical/requirements.json:TR-freeze-025",
+      "value": "正常740；clearOut430",
+      "evidence": {
+        "file": "/Users/tianliang/Documents/Codex/2026-10-18/referenced-chatgpt-conversation-this-is-an/work/moon_v01/v33_original.html",
+        "line": 226,
+        "fragment": "o.vy+=430*dt"
+      }
+    },
+    {
+      "name": "尸体支撑",
+      "source": "docs/technical/requirements.json:TR-freeze-026",
+      "value": "G+23−corpseBottomOffset(o)",
+      "evidence": {
+        "file": "/Users/tianliang/Documents/Codex/2026-10-18/referenced-chatgpt-conversation-this-is-an/work/moon_v01/v33_original.html",
+        "line": 280,
+        "fragment": "let floor=G+23-corpseBottomOffset(o)"
+      }
+    },
+    {
+      "name": "尸体休眠",
+      "source": "docs/technical/requirements.json:TR-freeze-027",
+      "value": "|vx|<8 & |vr|<.22 连续>.32s；速度归零",
+      "evidence": {
+        "file": "/Users/tianliang/Documents/Codex/2026-10-18/referenced-chatgpt-conversation-this-is-an/work/moon_v01/v33_original.html",
+        "line": 280,
+        "fragment": "if(o.settle>.32){o.sleep=true;o.vx=o.vr=0}"
+      }
+    },
+    {
+      "name": "尸体落地弹性",
+      "source": "docs/technical/requirements.json:TR-freeze-028",
+      "value": "|vy|>45 时 vy×−.2,vx×.7,vr×.6；低速摩擦exp(−9dt)",
+      "evidence": {
+        "file": "/Users/tianliang/Documents/Codex/2026-10-18/referenced-chatgpt-conversation-this-is-an/work/moon_v01/v33_original.html",
+        "line": 280,
+        "fragment": "if(Math.abs(o.vy)>45)"
+      }
+    },
+    {
+      "name": "尸体推移",
+      "source": "docs/technical/requirements.json:TR-freeze-029",
+      "value": "仅sleep尸体；近X<18近Y<5；最多22px/s",
+      "evidence": {
+        "file": "/Users/tianliang/Documents/Codex/2026-10-18/referenced-chatgpt-conversation-this-is-an/work/moon_v01/v33_original.html",
+        "line": 247,
+        "fragment": "if(nearX<18&&nearY<5)"
+      }
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+<!doctype html><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>白眉老头 · 交付与验收报告</title><style>body{max-width:1000px;margin:40px auto;padding:0 22px 50px;background:#f6f2e8;color:#242321;font:16px/1.8 system-ui}h1,h2{font-family:Songti SC,serif;font-weight:600}h1{font-size:36px}h2{margin-top:36px}a{color:#914935}table{border-collapse:collapse;width:100%}td,th{padding:10px;border-bottom:1px solid #cbc5b8;text-align:left}small{color:#68675f}code{font-size:12px;overflow-wrap:anywhere}img{max-width:100%}video{max-width:100%;max-height:560px}.links{display:flex;gap:18px;flex-wrap:wrap}.badge{color:#46644b;font-weight:bold}.note{border-left:3px solid #a54e3b;padding-left:15px}li{margin:7px 0}</style>
+<h1>白眉老头 · 忍者雨</h1><p>水墨 Studio 独立升级版 · 2026年10月19日</p>
+<p class="badge">完整可玩版本已交付。36项自动化测试 + 17项实际浏览器测试通过。</p>
+<p class="links"><a href="playtest.html">全屏试玩</a><a href="phone_preview.html">手机比例试玩</a><a href="animation_preview.html">交互动作预览</a><a href="docs/technical/physics_comparison.html">v33 参数对照表</a></p>
+<p>正式游戏未覆盖。173个冻结源文件校验值未变化；新工程直接复用已确认的上升、下落、持剑三帧及现有站立三帧。</p>
+<h2>本轮完成</h2><table><tr><th>项目</th><th>结果与证据</th></tr>
+<tr><td>Game Studios</td><td>找到并校验历史 Claude-Code-Game-Studios-Codex：73技能、49角色定义。实际执行 adopt、art-bible、asset-spec、asset-audit、consistency-check，并启动技术、美术、UI三个专业子任务；QA角色顺序执行。<a href="docs/studio-execution.md">执行记录</a>区分工作流、图像工具与代码，不声称调用独立Studio编辑器。</td></tr>
+<tr><td>水墨忍者</td><td>一个真实水墨母版、一次局部修正；同源像素拆分与变换，三色同结构。42张RGBA独立PNG、15张Sheet；空中、巡逻、空投、地投各3帧，死亡上下半身独立。新角色为内部候选，等待用户最终美感判断。</td></tr>
+<tr><td>圆月斩</td><td>真实毛笔栅格笔触的24帧局部生命周期：按角度出生，旧尾先稀释、断裂，前缘继续伸展。第19帧旧尾仅剩自身峰值2.1%，新前缘仍71.7%，不是整体Alpha淡出。半径76、持续0.38秒、旋转和判定不变。</td></tr>
+<tr><td>速度线</td><td>从真实墨迹纹理展开为短干笔；沿实际速度反方向，最多3条，上升0.29秒内消失，下落更淡。实际画面检查后将起点移到袍摆外侧，不改速度或重力。</td></tr>
+<tr><td>背景</td><td>暖白底与一侧极淡远山，山层93.53%完全透明；真实干笔地面锚在原碰撞线G+23。背景和地面分层，手机比例变化不移动碰撞。</td></tr>
+<tr><td>UI</td><td>题款标题、入江湖入口、90px下方信息带、大斩数、生命朱印、四档蓄势、瞬时称号、结算。隐形触控范围不变；保留原开场、燃目时序、16忍者入场与第一次绝杀教学。</td></tr>
+<tr><td>尸体接地</td><td>原物理支撑、重力、翻滚、休眠不变；绘制时用实际Alpha凸包补偿图片位置。30种朝向实测像素接地误差最大0.5px；三色6个半身均能稳定休眠。</td></tr></table>
+<h2>验收范围</h2><table><tr><th>检查</th><th>结果</th></tr>
+<tr><td>v33冻结核查</td><td>14个核心函数逐字节一致，29参数/规则片段一致。见<a href="docs/technical/physics_comparison.csv">CSV</a>与<a href="docs/technical/freeze_check_final.json">冻结校验</a>。</td></tr>
+<tr><td>自动化</td><td>36/36 PASS；包含跳跃/重力、170ms缓冲与取消、190ms双按边界、伤害CCD、弹反无全局无敌、红双投、绿3.1倍、教学、尸体、镜像、剑光局部寿命、速度线方向、390×844/375×812/430×932、90秒持续模拟、100尸体和23忍者场景。<a href="qa/vm_validation.json">原始报告</a></td></tr>
+<tr><td>实际浏览器</td><td>17/17 PASS，真实JavaScript与Canvas执行，最终HTML指纹一致。无控制台错误。浏览器测试视口1280×720；手机比例Game View另在390×844 iframe试玩，375×812与430×932检查排版。<a href="qa/browser_validation.json">原始结果</a></td></tr>
+<tr><td>Game View观察</td><td>正常速度开场→教学→双侧点击绝杀→游戏→17斩结算跑通；实际动态预览弹飞2镖、漏过剑光的镖造成1点伤害。三色巡逻/投镖、正常与慢动作、左右方向均提供可播放预览。手动检查修复了标题说明对比和速度线被袍摆遮挡。</td></tr>
+<tr><td>透明与对齐</td><td>102张RGBA游戏PNG/Sheet具有真实Alpha；透明外场为0，无烘焙纸色或棋盘格；1张RGB图片明确是浅深底QA预览。82项运行纹理引用完整。忍者三色Alpha同结构、头部锁定、Sheet逐像素对应。</td></tr>
+<tr><td>Studio审计</td><td><a href="qa/art/studio_asset_audit.md">资产审计</a>：结构与引用通过，内存预算WARNINGS。<a href="qa/art/studio_consistency_check.md">一致性</a>：9合同检查通过、0数值冲突；无正式多系统GDD，严格多GDD项标N/A。</td></tr></table>
+<h2>明确保留的原版行为</h2><p>v33飞镖<strong>伤害</strong>使用双方相对运动的连续轨迹检测；飞镖<strong>弹反</strong>使用更新后的端点接触检测。此次保留实际原代码，没有把弹反宣称为连续扫掠。0.17秒窗口允许再次轻功，原剑光计时继续；未擅自改变取消语义。</p>
+<h2>待人工确认与限制</h2><ul><li>新增忍者造型、剑光淡墨程度、速度感与整体UI审美尚待用户正常速度试玩确认；没有标成用户已验收。</li><li>没有真实手机GPU/触屏实机或刘海安全区测试。桌面浏览器点击和模拟指针通过，不能代替原生多指手感验收。</li><li>82项运行图片解码下限约63.12MiB，不含浏览器副本与Canvas；未设置硬内存预算。忍者运行图已缩至288²，导出的576²原件保留。低端手机峰值内存与帧率仍待测。</li><li>没有未解决的文件或网络授权阻塞。媒体保存一次耗时异常；已取得真实浏览器录像，其余用同游戏绘制管线离线导出并明确标注。</li></ul>
+<h2>动态预览</h2><p>browser_combat_normal 为实际浏览器Canvas录制（5.97秒，390×844，不含DOM HUD）；其余为60Hz确定性离线渲染。离线影片用于动作观感，不作为手机性能证据。最后速度线偏移修复已更新speed_lines，未改主体的其他影片在manifest中保留原构建来源。</p>
+<div class="links"><a href="previews/browser_combat_normal.mp4">浏览器正常速度实录</a><a href="previews/crescent_normal.mp4">圆月斩正常</a><a href="previews/crescent_quarter_speed.mp4">圆月斩慢放</a><a href="previews/speed_lines.mp4">左右轻功速度线</a><a href="previews/ninja_actions.mp4">三色忍者动作</a><a href="previews/ninja_waist_cut.mp4">腰斩接地</a></div>
+<video controls preload="metadata" src="previews/crescent_normal.mp4"></video>
+<h2>实际游戏截图</h2><img src="qa/browser_title_390x844.png" alt="真实浏览器手机尺寸标题画面"><img src="qa/browser_ninja_gameview.png" alt="真实浏览器忍者动作预览">
+<h2>文件与运行</h2><p>playtest.html为完整自包含游戏，约10.6MB，直接用现代浏览器打开即可，无外网依赖。phone_preview.html为手机尺寸试玩外框；animation_preview.html和qa/qa_browser.html访问子页面接口，建议通过本地HTTP打开。当前本机服务：<a href="http://127.0.0.1:8767/phone_preview.html">手机试玩</a>。</p>
+<p>assets/frozen 保留旧角色原像素；assets/ninja 为新忍者与Sheet；assets/effects 为24帧剑光、Sheet与速度纹理；assets/background 为透明山与地面。source保存新UI与游戏代码参考，完整运行代码及嵌入资源以playtest.html为准。</p>
+<p>胸腹旋转锚：持剑768²画布(401.148,373.589)，人物11FPS；忍者576²锚(288,376)，空中6FPS、巡逻8FPS，投掷由原AI警示/出手时序驱动；运行缓存288²锚(144,188)。水墨剑光512²锚(256,256)，原纹理半径170映射世界76，24帧覆盖0.38秒。</p>
+<p><small>最终HTML SHA256：<code>11b0cebe70e26ad5a39c5459b274fe76723811152d11317a7ab44ea8901aba47</code></small></p>

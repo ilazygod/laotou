@@ -1,0 +1,982 @@
+{
+  "date": "2026-10-18",
+  "verificationType": "static source comparison, not gameplay PASS",
+  "sources": {
+    "v33": {
+      "path": "/Users/tianliang/Documents/Codex/2026-10-18/referenced-chatgpt-conversation-this-is-an/work/moon_v01/v33_original.html",
+      "sha256": "057f866236b119615be1636dc1c323c02744842fa1c344fc20c67e6d862abbdd"
+    },
+    "stage2": {
+      "path": "/Users/tianliang/Documents/Codex/2026-10-18/referenced-chatgpt-conversation-this-is-an/outputs/baimei_ink_stage2/playtest.html",
+      "sha256": "76fe10a7499b5ef0add77ac889395d0c17c00309701dc152a8cf8ce90d919c96"
+    },
+    "upgrade": {
+      "path": "/Users/tianliang/Documents/Codex/2026-10-18/referenced-chatgpt-conversation-this-is-an/outputs/baimei_ink_studio_v1/playtest.html",
+      "sha256": "11b0cebe70e26ad5a39c5459b274fe76723811152d11317a7ab44ea8901aba47"
+    }
+  },
+  "functionChecks": {
+    "resize": {
+      "byteIdentical": true,
+      "v33Sha256": "fdfb43d6b022962c0553ed7a6c3ced43aa8796594f44d25986ecdf63fffbfbdd",
+      "stage2Sha256": "fdfb43d6b022962c0553ed7a6c3ced43aa8796594f44d25986ecdf63fffbfbdd",
+      "sourceLines": {
+        "v33": 15,
+        "stage2": 16,
+        "upgrade": 51
+      },
+      "upgradeByteIdentical": true,
+      "upgradeSha256": "fdfb43d6b022962c0553ed7a6c3ced43aa8796594f44d25986ecdf63fffbfbdd"
+    },
+    "reset": {
+      "byteIdentical": true,
+      "v33Sha256": "dccc8ec2b08dab59ebc93e423cc767301ce31f4c3c8a88e8bd5b5a2698b65841",
+      "stage2Sha256": "dccc8ec2b08dab59ebc93e423cc767301ce31f4c3c8a88e8bd5b5a2698b65841",
+      "sourceLines": {
+        "v33": 15,
+        "stage2": 16,
+        "upgrade": 51
+      },
+      "upgradeByteIdentical": true,
+      "upgradeSha256": "dccc8ec2b08dab59ebc93e423cc767301ce31f4c3c8a88e8bd5b5a2698b65841"
+    },
+    "performJump": {
+      "byteIdentical": true,
+      "v33Sha256": "816283208e351e3de154b16407f71b6f94f16796e5bb8135aa7352c187b91cfe",
+      "stage2Sha256": "816283208e351e3de154b16407f71b6f94f16796e5bb8135aa7352c187b91cfe",
+      "sourceLines": {
+        "v33": 38,
+        "stage2": 39,
+        "upgrade": 74
+      },
+      "upgradeByteIdentical": true,
+      "upgradeSha256": "816283208e351e3de154b16407f71b6f94f16796e5bb8135aa7352c187b91cfe"
+    },
+    "jump": {
+      "byteIdentical": true,
+      "v33Sha256": "20f8c0c9e4e0ad52591cd57e65d2bac7b1670718b3a485b018e2bfcc9d0c00c3",
+      "stage2Sha256": "20f8c0c9e4e0ad52591cd57e65d2bac7b1670718b3a485b018e2bfcc9d0c00c3",
+      "sourceLines": {
+        "v33": 39,
+        "stage2": 40,
+        "upgrade": 75
+      },
+      "upgradeByteIdentical": true,
+      "upgradeSha256": "20f8c0c9e4e0ad52591cd57e65d2bac7b1670718b3a485b018e2bfcc9d0c00c3"
+    },
+    "pressZone": {
+      "byteIdentical": true,
+      "v33Sha256": "de51280508699d77f9c93aef79d5a4474da04774c2d1a51a001de3b506e27e54",
+      "stage2Sha256": "de51280508699d77f9c93aef79d5a4474da04774c2d1a51a001de3b506e27e54",
+      "sourceLines": {
+        "v33": 40,
+        "stage2": 41,
+        "upgrade": 76
+      },
+      "upgradeByteIdentical": true,
+      "upgradeSha256": "de51280508699d77f9c93aef79d5a4474da04774c2d1a51a001de3b506e27e54"
+    },
+    "startUltimate": {
+      "byteIdentical": true,
+      "v33Sha256": "64bb7989e5643106265ff9421d1712602948c132187b71fe6c57efd24656b961",
+      "stage2Sha256": "64bb7989e5643106265ff9421d1712602948c132187b71fe6c57efd24656b961",
+      "sourceLines": {
+        "v33": 44,
+        "stage2": 45,
+        "upgrade": 80
+      },
+      "upgradeByteIdentical": true,
+      "upgradeSha256": "64bb7989e5643106265ff9421d1712602948c132187b71fe6c57efd24656b961"
+    },
+    "spawnNinja": {
+      "byteIdentical": true,
+      "v33Sha256": "058378f3480969e700aaf3c12deb9786b8af50e83fcefd434a37da9cce382975",
+      "stage2Sha256": "058378f3480969e700aaf3c12deb9786b8af50e83fcefd434a37da9cce382975",
+      "sourceLines": {
+        "v33": 114,
+        "stage2": 188,
+        "upgrade": 148
+      },
+      "upgradeByteIdentical": true,
+      "upgradeSha256": "058378f3480969e700aaf3c12deb9786b8af50e83fcefd434a37da9cce382975"
+    },
+    "fireNinjaShot": {
+      "byteIdentical": true,
+      "v33Sha256": "94b4bbf1fba9640cf3a92ed9db6b55d6f76212a9b96cb45ca849fa94f04071bf",
+      "stage2Sha256": "94b4bbf1fba9640cf3a92ed9db6b55d6f76212a9b96cb45ca849fa94f04071bf",
+      "sourceLines": {
+        "v33": 122,
+        "stage2": 196,
+        "upgrade": 156
+      },
+      "upgradeByteIdentical": true,
+      "upgradeSha256": "94b4bbf1fba9640cf3a92ed9db6b55d6f76212a9b96cb45ca849fa94f04071bf"
+    },
+    "scheduleAttack": {
+      "byteIdentical": true,
+      "v33Sha256": "240dffd5c18a010b239c22bd895d0dd98c77d7267941e08e404707a298e9e277",
+      "stage2Sha256": "240dffd5c18a010b239c22bd895d0dd98c77d7267941e08e404707a298e9e277",
+      "sourceLines": {
+        "v33": 126,
+        "stage2": 200,
+        "upgrade": 160
+      },
+      "upgradeByteIdentical": true,
+      "upgradeSha256": "240dffd5c18a010b239c22bd895d0dd98c77d7267941e08e404707a298e9e277"
+    },
+    "kill": {
+      "byteIdentical": true,
+      "v33Sha256": "878605e378ade8f1bad8328a570643d883aed4d0eca6daeb14d4592f3f8e145b",
+      "stage2Sha256": "878605e378ade8f1bad8328a570643d883aed4d0eca6daeb14d4592f3f8e145b",
+      "sourceLines": {
+        "v33": 140,
+        "stage2": 214,
+        "upgrade": 174
+      },
+      "upgradeByteIdentical": true,
+      "upgradeSha256": "878605e378ade8f1bad8328a570643d883aed4d0eca6daeb14d4592f3f8e145b"
+    },
+    "hitNinja": {
+      "byteIdentical": true,
+      "v33Sha256": "77931cfa5ef514d38aa9a07f8df9715ca563345a4a03d00a0d51d8d538b8af58",
+      "stage2Sha256": "77931cfa5ef514d38aa9a07f8df9715ca563345a4a03d00a0d51d8d538b8af58",
+      "sourceLines": {
+        "v33": 169,
+        "stage2": 215,
+        "upgrade": 175
+      },
+      "upgradeByteIdentical": true,
+      "upgradeSha256": "77931cfa5ef514d38aa9a07f8df9715ca563345a4a03d00a0d51d8d538b8af58"
+    },
+    "swordHit": {
+      "byteIdentical": true,
+      "v33Sha256": "3d8a1e3ed1148907baa3ed622d00d7a3d544f8996584031f02f976eef58e5beb",
+      "stage2Sha256": "3d8a1e3ed1148907baa3ed622d00d7a3d544f8996584031f02f976eef58e5beb",
+      "sourceLines": {
+        "v33": 177,
+        "stage2": 223,
+        "upgrade": 183
+      },
+      "upgradeByteIdentical": true,
+      "upgradeSha256": "3d8a1e3ed1148907baa3ed622d00d7a3d544f8996584031f02f976eef58e5beb"
+    },
+    "corpseBottomOffset": {
+      "byteIdentical": true,
+      "v33Sha256": "7d39512082973edcabe2303a4a00269c4ac8ebc66c7b7e757f3c148383a326b1",
+      "stage2Sha256": "7d39512082973edcabe2303a4a00269c4ac8ebc66c7b7e757f3c148383a326b1",
+      "sourceLines": {
+        "v33": 106,
+        "stage2": 181,
+        "upgrade": 141
+      },
+      "upgradeByteIdentical": true,
+      "upgradeSha256": "7d39512082973edcabe2303a4a00269c4ac8ebc66c7b7e757f3c148383a326b1"
+    },
+    "update": {
+      "byteIdentical": true,
+      "v33Sha256": "df45b61420ebe2b6e31887cf019e2cb638315eff2bb230936a861fd9b24b563c",
+      "stage2Sha256": "df45b61420ebe2b6e31887cf019e2cb638315eff2bb230936a861fd9b24b563c",
+      "sourceLines": {
+        "v33": 189,
+        "stage2": 235,
+        "upgrade": 195
+      },
+      "upgradeByteIdentical": true,
+      "upgradeSha256": "df45b61420ebe2b6e31887cf019e2cb638315eff2bb230936a861fd9b24b563c"
+    }
+  },
+  "rows": [
+    {
+      "key": "gravity",
+      "parameter": "重力 px/s²",
+      "v33": "740",
+      "stage2": "740",
+      "upgradeTarget": "740",
+      "status": "SOURCE_EQUAL_ALL_THREE",
+      "sources": {
+        "v33": {
+          "file": "/Users/tianliang/Documents/Codex/2026-10-18/referenced-chatgpt-conversation-this-is-an/work/moon_v01/v33_original.html",
+          "line": 231,
+          "fragment": "hero.vy+=740*dt"
+        },
+        "stage2": {
+          "file": "/Users/tianliang/Documents/Codex/2026-10-18/referenced-chatgpt-conversation-this-is-an/outputs/baimei_ink_stage2/playtest.html",
+          "line": 277,
+          "fragment": "hero.vy+=740*dt"
+        },
+        "upgrade": {
+          "file": "/Users/tianliang/Documents/Codex/2026-10-18/referenced-chatgpt-conversation-this-is-an/outputs/baimei_ink_studio_v1/playtest.html",
+          "line": 237,
+          "fragment": "hero.vy+=740*dt"
+        }
+      },
+      "note": "",
+      "upgradeActual": "740"
+    },
+    {
+      "key": "jump",
+      "parameter": "单次轻功/上限 px/s",
+      "v33": "vy=max(-580,min(vy,0)-480)",
+      "stage2": "vy=max(-580,min(vy,0)-480)",
+      "upgradeTarget": "vy=max(-580,min(vy,0)-480)",
+      "status": "SOURCE_EQUAL_ALL_THREE",
+      "sources": {
+        "v33": {
+          "file": "/Users/tianliang/Documents/Codex/2026-10-18/referenced-chatgpt-conversation-this-is-an/work/moon_v01/v33_original.html",
+          "line": 38,
+          "fragment": "hero.vy=Math.max(-580,Math.min(hero.vy,0)-480)"
+        },
+        "stage2": {
+          "file": "/Users/tianliang/Documents/Codex/2026-10-18/referenced-chatgpt-conversation-this-is-an/outputs/baimei_ink_stage2/playtest.html",
+          "line": 39,
+          "fragment": "hero.vy=Math.max(-580,Math.min(hero.vy,0)-480)"
+        },
+        "upgrade": {
+          "file": "/Users/tianliang/Documents/Codex/2026-10-18/referenced-chatgpt-conversation-this-is-an/outputs/baimei_ink_studio_v1/playtest.html",
+          "line": 74,
+          "fragment": "hero.vy=Math.max(-580,Math.min(hero.vy,0)-480)"
+        }
+      },
+      "note": "不是固定初速度；再次踏空叠加冲量并限幅。",
+      "upgradeActual": "vy=max(-580,min(vy,0)-480)"
+    },
+    {
+      "key": "vx",
+      "parameter": "横向轻功 px/s",
+      "v33": "±145",
+      "stage2": "±145",
+      "upgradeTarget": "±145",
+      "status": "SOURCE_EQUAL_ALL_THREE",
+      "sources": {
+        "v33": {
+          "file": "/Users/tianliang/Documents/Codex/2026-10-18/referenced-chatgpt-conversation-this-is-an/work/moon_v01/v33_original.html",
+          "line": 38,
+          "fragment": "hero.vx=d*145"
+        },
+        "stage2": {
+          "file": "/Users/tianliang/Documents/Codex/2026-10-18/referenced-chatgpt-conversation-this-is-an/outputs/baimei_ink_stage2/playtest.html",
+          "line": 39,
+          "fragment": "hero.vx=d*145"
+        },
+        "upgrade": {
+          "file": "/Users/tianliang/Documents/Codex/2026-10-18/referenced-chatgpt-conversation-this-is-an/outputs/baimei_ink_studio_v1/playtest.html",
+          "line": 74,
+          "fragment": "hero.vx=d*145"
+        }
+      },
+      "note": "",
+      "upgradeActual": "±145"
+    },
+    {
+      "key": "drag",
+      "parameter": "水平衰减 s⁻¹",
+      "v33": "0.24",
+      "stage2": "0.24",
+      "upgradeTarget": "0.24",
+      "status": "SOURCE_EQUAL_ALL_THREE",
+      "sources": {
+        "v33": {
+          "file": "/Users/tianliang/Documents/Codex/2026-10-18/referenced-chatgpt-conversation-this-is-an/work/moon_v01/v33_original.html",
+          "line": 231,
+          "fragment": "hero.vx*=Math.exp(-.24*dt)"
+        },
+        "stage2": {
+          "file": "/Users/tianliang/Documents/Codex/2026-10-18/referenced-chatgpt-conversation-this-is-an/outputs/baimei_ink_stage2/playtest.html",
+          "line": 277,
+          "fragment": "hero.vx*=Math.exp(-.24*dt)"
+        },
+        "upgrade": {
+          "file": "/Users/tianliang/Documents/Codex/2026-10-18/referenced-chatgpt-conversation-this-is-an/outputs/baimei_ink_studio_v1/playtest.html",
+          "line": 237,
+          "fragment": "hero.vx*=Math.exp(-.24*dt)"
+        }
+      },
+      "note": "",
+      "upgradeActual": "0.24"
+    },
+    {
+      "key": "bounds",
+      "parameter": "左右/顶部边界 px",
+      "v33": "25；W−25；82",
+      "stage2": "25；W−25；82",
+      "upgradeTarget": "25；W−25；82",
+      "status": "SOURCE_EQUAL_ALL_THREE",
+      "sources": {
+        "v33": {
+          "file": "/Users/tianliang/Documents/Codex/2026-10-18/referenced-chatgpt-conversation-this-is-an/work/moon_v01/v33_original.html",
+          "line": 231,
+          "fragment": "if(hero.y<82)"
+        },
+        "stage2": {
+          "file": "/Users/tianliang/Documents/Codex/2026-10-18/referenced-chatgpt-conversation-this-is-an/outputs/baimei_ink_stage2/playtest.html",
+          "line": 277,
+          "fragment": "if(hero.y<82)"
+        },
+        "upgrade": {
+          "file": "/Users/tianliang/Documents/Codex/2026-10-18/referenced-chatgpt-conversation-this-is-an/outputs/baimei_ink_studio_v1/playtest.html",
+          "line": 237,
+          "fragment": "if(hero.y<82)"
+        }
+      },
+      "note": "",
+      "upgradeActual": "25；W−25；82"
+    },
+    {
+      "key": "ground",
+      "parameter": "地面基准",
+      "v33": "G=H−max(116,102+safeBottom());safeBottom=0",
+      "stage2": "G=H−max(116,102+safeBottom());safeBottom=0",
+      "upgradeTarget": "G=H−max(116,102+safeBottom());safeBottom=0",
+      "status": "SOURCE_EQUAL_ALL_THREE",
+      "sources": {
+        "v33": {
+          "file": "/Users/tianliang/Documents/Codex/2026-10-18/referenced-chatgpt-conversation-this-is-an/work/moon_v01/v33_original.html",
+          "line": 15,
+          "fragment": "G=H-Math.max(116,102+safeBottom())"
+        },
+        "stage2": {
+          "file": "/Users/tianliang/Documents/Codex/2026-10-18/referenced-chatgpt-conversation-this-is-an/outputs/baimei_ink_stage2/playtest.html",
+          "line": 16,
+          "fragment": "G=H-Math.max(116,102+safeBottom())"
+        },
+        "upgrade": {
+          "file": "/Users/tianliang/Documents/Codex/2026-10-18/referenced-chatgpt-conversation-this-is-an/outputs/baimei_ink_studio_v1/playtest.html",
+          "line": 51,
+          "fragment": "G=H-Math.max(116,102+safeBottom())"
+        }
+      },
+      "note": "",
+      "upgradeActual": "G=H−max(116,102+safeBottom());safeBottom=0"
+    },
+    {
+      "key": "attackDistance",
+      "parameter": "圆月斩接近触发距离 px",
+      "v33": "77；中心(hero.x,hero.y−20)",
+      "stage2": "77；中心(hero.x,hero.y−20)",
+      "upgradeTarget": "77；中心(hero.x,hero.y−20)",
+      "status": "SOURCE_EQUAL_ALL_THREE",
+      "sources": {
+        "v33": {
+          "file": "/Users/tianliang/Documents/Codex/2026-10-18/referenced-chatgpt-conversation-this-is-an/work/moon_v01/v33_original.html",
+          "line": 264,
+          "fragment": "<(58+19)"
+        },
+        "stage2": {
+          "file": "/Users/tianliang/Documents/Codex/2026-10-18/referenced-chatgpt-conversation-this-is-an/outputs/baimei_ink_stage2/playtest.html",
+          "line": 310,
+          "fragment": "<(58+19)"
+        },
+        "upgrade": {
+          "file": "/Users/tianliang/Documents/Codex/2026-10-18/referenced-chatgpt-conversation-this-is-an/outputs/baimei_ink_studio_v1/playtest.html",
+          "line": 270,
+          "fragment": "<(58+19)"
+        }
+      },
+      "note": "",
+      "upgradeActual": "77；中心(hero.x,hero.y−20)"
+    },
+    {
+      "key": "slashDuration",
+      "parameter": "圆月斩持续 s",
+      "v33": "0.38",
+      "stage2": "0.38",
+      "upgradeTarget": "0.38",
+      "status": "SOURCE_EQUAL_ALL_THREE",
+      "sources": {
+        "v33": {
+          "file": "/Users/tianliang/Documents/Codex/2026-10-18/referenced-chatgpt-conversation-this-is-an/work/moon_v01/v33_original.html",
+          "line": 176,
+          "fragment": "const SLASH_DURATION=.38"
+        },
+        "stage2": {
+          "file": "/Users/tianliang/Documents/Codex/2026-10-18/referenced-chatgpt-conversation-this-is-an/outputs/baimei_ink_stage2/playtest.html",
+          "line": 222,
+          "fragment": "const SLASH_DURATION=.38"
+        },
+        "upgrade": {
+          "file": "/Users/tianliang/Documents/Codex/2026-10-18/referenced-chatgpt-conversation-this-is-an/outputs/baimei_ink_studio_v1/playtest.html",
+          "line": 182,
+          "fragment": "const SLASH_DURATION=.38"
+        }
+      },
+      "note": "",
+      "upgradeActual": "0.38"
+    },
+    {
+      "key": "slashRadius",
+      "parameter": "剑光有效半径 px",
+      "v33": "76",
+      "stage2": "76",
+      "upgradeTarget": "76",
+      "status": "SOURCE_EQUAL_ALL_THREE",
+      "sources": {
+        "v33": {
+          "file": "/Users/tianliang/Documents/Codex/2026-10-18/referenced-chatgpt-conversation-this-is-an/work/moon_v01/v33_original.html",
+          "line": 176,
+          "fragment": "SLASH_RADIUS=76"
+        },
+        "stage2": {
+          "file": "/Users/tianliang/Documents/Codex/2026-10-18/referenced-chatgpt-conversation-this-is-an/outputs/baimei_ink_stage2/playtest.html",
+          "line": 222,
+          "fragment": "SLASH_RADIUS=76"
+        },
+        "upgrade": {
+          "file": "/Users/tianliang/Documents/Codex/2026-10-18/referenced-chatgpt-conversation-this-is-an/outputs/baimei_ink_studio_v1/playtest.html",
+          "line": 182,
+          "fragment": "SLASH_RADIUS=76"
+        }
+      },
+      "note": "",
+      "upgradeActual": "76"
+    },
+    {
+      "key": "sweep",
+      "parameter": "扫掠弧度/展开时间",
+      "v33": "1.78π=320.4°；0.38×0.69=0.2622s",
+      "stage2": "1.78π=320.4°；0.38×0.69=0.2622s",
+      "upgradeTarget": "1.78π=320.4°；0.38×0.69=0.2622s",
+      "status": "SOURCE_EQUAL_ALL_THREE",
+      "sources": {
+        "v33": {
+          "file": "/Users/tianliang/Documents/Codex/2026-10-18/referenced-chatgpt-conversation-this-is-an/work/moon_v01/v33_original.html",
+          "line": 182,
+          "fragment": "Math.PI*1.78*sweep"
+        },
+        "stage2": {
+          "file": "/Users/tianliang/Documents/Codex/2026-10-18/referenced-chatgpt-conversation-this-is-an/outputs/baimei_ink_stage2/playtest.html",
+          "line": 228,
+          "fragment": "Math.PI*1.78*sweep"
+        },
+        "upgrade": {
+          "file": "/Users/tianliang/Documents/Codex/2026-10-18/referenced-chatgpt-conversation-this-is-an/outputs/baimei_ink_studio_v1/playtest.html",
+          "line": 188,
+          "fragment": "Math.PI*1.78*sweep"
+        }
+      },
+      "note": "",
+      "upgradeActual": "1.78π=320.4°；0.38×0.69=0.2622s"
+    },
+    {
+      "key": "cancel",
+      "parameter": "输入开放时刻 s",
+      "v33": "0.17",
+      "stage2": "0.17",
+      "upgradeTarget": "0.17",
+      "status": "SOURCE_EQUAL_ALL_THREE",
+      "sources": {
+        "v33": {
+          "file": "/Users/tianliang/Documents/Codex/2026-10-18/referenced-chatgpt-conversation-this-is-an/work/moon_v01/v33_original.html",
+          "line": 36,
+          "fragment": "SLASH_CANCEL_AT=.17"
+        },
+        "stage2": {
+          "file": "/Users/tianliang/Documents/Codex/2026-10-18/referenced-chatgpt-conversation-this-is-an/outputs/baimei_ink_stage2/playtest.html",
+          "line": 37,
+          "fragment": "SLASH_CANCEL_AT=.17"
+        },
+        "upgrade": {
+          "file": "/Users/tianliang/Documents/Codex/2026-10-18/referenced-chatgpt-conversation-this-is-an/outputs/baimei_ink_studio_v1/playtest.html",
+          "line": 72,
+          "fragment": "SLASH_CANCEL_AT=.17"
+        }
+      },
+      "note": "v33允许0.17秒后轻功输入，但 jump 不重置 slash；属移动提前恢复，不是强制销毁剑光。保持既有语义。",
+      "upgradeActual": "0.17"
+    },
+    {
+      "key": "buffer",
+      "parameter": "轻功输入缓冲 s",
+      "v33": "0.17",
+      "stage2": "0.17",
+      "upgradeTarget": "0.17",
+      "status": "SOURCE_EQUAL_ALL_THREE",
+      "sources": {
+        "v33": {
+          "file": "/Users/tianliang/Documents/Codex/2026-10-18/referenced-chatgpt-conversation-this-is-an/work/moon_v01/v33_original.html",
+          "line": 36,
+          "fragment": "JUMP_BUFFER=.17"
+        },
+        "stage2": {
+          "file": "/Users/tianliang/Documents/Codex/2026-10-18/referenced-chatgpt-conversation-this-is-an/outputs/baimei_ink_stage2/playtest.html",
+          "line": 37,
+          "fragment": "JUMP_BUFFER=.17"
+        },
+        "upgrade": {
+          "file": "/Users/tianliang/Documents/Codex/2026-10-18/referenced-chatgpt-conversation-this-is-an/outputs/baimei_ink_studio_v1/playtest.html",
+          "line": 72,
+          "fragment": "JUMP_BUFFER=.17"
+        }
+      },
+      "note": "performance.now 实时时钟；最后一次方向覆盖之前队列。",
+      "upgradeActual": "0.17"
+    },
+    {
+      "key": "double",
+      "parameter": "双按识别 ms",
+      "v33": "190 或另一侧仍按住",
+      "stage2": "190 或另一侧仍按住",
+      "upgradeTarget": "190 或另一侧仍按住",
+      "status": "SOURCE_EQUAL_ALL_THREE",
+      "sources": {
+        "v33": {
+          "file": "/Users/tianliang/Documents/Codex/2026-10-18/referenced-chatgpt-conversation-this-is-an/work/moon_v01/v33_original.html",
+          "line": 35,
+          "fragment": "const BOTH_WINDOW=190"
+        },
+        "stage2": {
+          "file": "/Users/tianliang/Documents/Codex/2026-10-18/referenced-chatgpt-conversation-this-is-an/outputs/baimei_ink_stage2/playtest.html",
+          "line": 36,
+          "fragment": "const BOTH_WINDOW=190"
+        },
+        "upgrade": {
+          "file": "/Users/tianliang/Documents/Codex/2026-10-18/referenced-chatgpt-conversation-this-is-an/outputs/baimei_ink_studio_v1/playtest.html",
+          "line": 71,
+          "fragment": "const BOTH_WINDOW=190"
+        }
+      },
+      "note": "",
+      "upgradeActual": "190 或另一侧仍按住"
+    },
+    {
+      "key": "tiers",
+      "parameter": "四档踏空阈值",
+      "v33": "1→2:3次；2→3:7次；3→4:12次",
+      "stage2": "1→2:3次；2→3:7次；3→4:12次",
+      "upgradeTarget": "1→2:3次；2→3:7次；3→4:12次",
+      "status": "SOURCE_EQUAL_ALL_THREE",
+      "sources": {
+        "v33": {
+          "file": "/Users/tianliang/Documents/Codex/2026-10-18/referenced-chatgpt-conversation-this-is-an/work/moon_v01/v33_original.html",
+          "line": 38,
+          "fragment": "tier=kicks>=12?4:kicks>=7?3:kicks>=3?2:1"
+        },
+        "stage2": {
+          "file": "/Users/tianliang/Documents/Codex/2026-10-18/referenced-chatgpt-conversation-this-is-an/outputs/baimei_ink_stage2/playtest.html",
+          "line": 39,
+          "fragment": "tier=kicks>=12?4:kicks>=7?3:kicks>=3?2:1"
+        },
+        "upgrade": {
+          "file": "/Users/tianliang/Documents/Codex/2026-10-18/referenced-chatgpt-conversation-this-is-an/outputs/baimei_ink_studio_v1/playtest.html",
+          "line": 74,
+          "fragment": "tier=kicks>=12?4:kicks>=7?3:kicks>=3?2:1"
+        }
+      },
+      "note": "",
+      "upgradeActual": "1→2:3次；2→3:7次；3→4:12次"
+    },
+    {
+      "key": "hitRecoil",
+      "parameter": "斩中速度修正",
+      "v33": "vx×0.88；向目标反向5.8",
+      "stage2": "vx×0.88；向目标反向5.8",
+      "upgradeTarget": "vx×0.88；向目标反向5.8",
+      "status": "SOURCE_EQUAL_ALL_THREE",
+      "sources": {
+        "v33": {
+          "file": "/Users/tianliang/Documents/Codex/2026-10-18/referenced-chatgpt-conversation-this-is-an/work/moon_v01/v33_original.html",
+          "line": 170,
+          "fragment": "slash=0; hero.vx*=.88"
+        },
+        "stage2": {
+          "file": "/Users/tianliang/Documents/Codex/2026-10-18/referenced-chatgpt-conversation-this-is-an/outputs/baimei_ink_stage2/playtest.html",
+          "line": 216,
+          "fragment": "slash=0; hero.vx*=.88"
+        },
+        "upgrade": {
+          "file": "/Users/tianliang/Documents/Codex/2026-10-18/referenced-chatgpt-conversation-this-is-an/outputs/baimei_ink_studio_v1/playtest.html",
+          "line": 176,
+          "fragment": "slash=0; hero.vx*=.88"
+        }
+      },
+      "note": "",
+      "upgradeActual": "vx×0.88；向目标反向5.8"
+    },
+    {
+      "key": "damageCCD",
+      "parameter": "飞镖伤害",
+      "v33": "相对运动连续线段，3圆 offset/r=(33/12,17/13,5/9)",
+      "stage2": "相对运动连续线段，3圆 offset/r=(33/12,17/13,5/9)",
+      "upgradeTarget": "相对运动连续线段，3圆 offset/r=(33/12,17/13,5/9)",
+      "status": "SOURCE_EQUAL_ALL_THREE",
+      "sources": {
+        "v33": {
+          "file": "/Users/tianliang/Documents/Codex/2026-10-18/referenced-chatgpt-conversation-this-is-an/work/moon_v01/v33_original.html",
+          "line": 275,
+          "fragment": "if(near(33,12)||near(17,13)||near(5,9))"
+        },
+        "stage2": {
+          "file": "/Users/tianliang/Documents/Codex/2026-10-18/referenced-chatgpt-conversation-this-is-an/outputs/baimei_ink_stage2/playtest.html",
+          "line": 321,
+          "fragment": "if(near(33,12)||near(17,13)||near(5,9))"
+        },
+        "upgrade": {
+          "file": "/Users/tianliang/Documents/Codex/2026-10-18/referenced-chatgpt-conversation-this-is-an/outputs/baimei_ink_studio_v1/playtest.html",
+          "line": 281,
+          "fragment": "if(near(33,12)||near(17,13)||near(5,9))"
+        }
+      },
+      "note": "对双方帧间运动做相对线段最近点；只检测飞镖中心。",
+      "upgradeActual": "相对运动连续线段，3圆 offset/r=(33/12,17/13,5/9)"
+    },
+    {
+      "key": "damageInvul",
+      "parameter": "受伤后免伤 s",
+      "v33": "0.43",
+      "stage2": "0.43",
+      "upgradeTarget": "0.43",
+      "status": "SOURCE_EQUAL_ALL_THREE",
+      "sources": {
+        "v33": {
+          "file": "/Users/tianliang/Documents/Codex/2026-10-18/referenced-chatgpt-conversation-this-is-an/work/moon_v01/v33_original.html",
+          "line": 276,
+          "fragment": "hp--;hit=.43"
+        },
+        "stage2": {
+          "file": "/Users/tianliang/Documents/Codex/2026-10-18/referenced-chatgpt-conversation-this-is-an/outputs/baimei_ink_stage2/playtest.html",
+          "line": 322,
+          "fragment": "hp--;hit=.43"
+        },
+        "upgrade": {
+          "file": "/Users/tianliang/Documents/Codex/2026-10-18/referenced-chatgpt-conversation-this-is-an/outputs/baimei_ink_studio_v1/playtest.html",
+          "line": 282,
+          "fragment": "hp--;hit=.43"
+        }
+      },
+      "note": "仅受伤后短暂免伤；圆月斩没有全程无敌。",
+      "upgradeActual": "0.43"
+    },
+    {
+      "key": "reflect",
+      "parameter": "弹反有效区域",
+      "v33": "飞镖更新后端点 swordHit(x,y,6)",
+      "stage2": "飞镖更新后端点 swordHit(x,y,6)",
+      "upgradeTarget": "飞镖更新后端点 swordHit(x,y,6)",
+      "status": "SOURCE_EQUAL_ALL_THREE",
+      "sources": {
+        "v33": {
+          "file": "/Users/tianliang/Documents/Codex/2026-10-18/referenced-chatgpt-conversation-this-is-an/work/moon_v01/v33_original.html",
+          "line": 265,
+          "fragment": "swordHit(s.x,s.y,6)"
+        },
+        "stage2": {
+          "file": "/Users/tianliang/Documents/Codex/2026-10-18/referenced-chatgpt-conversation-this-is-an/outputs/baimei_ink_stage2/playtest.html",
+          "line": 311,
+          "fragment": "swordHit(s.x,s.y,6)"
+        },
+        "upgrade": {
+          "file": "/Users/tianliang/Documents/Codex/2026-10-18/referenced-chatgpt-conversation-this-is-an/outputs/baimei_ink_studio_v1/playtest.html",
+          "line": 271,
+          "fragment": "swordHit(s.x,s.y,6)"
+        }
+      },
+      "note": "v33不是扫掠弹反CCD。保留原判定；不能称为连续弹反检测。",
+      "upgradeActual": "飞镖更新后端点 swordHit(x,y,6)"
+    },
+    {
+      "key": "reflectSpeed",
+      "parameter": "弹反速度",
+      "v33": "径向235+hero.v×0.25；外推12；life≤1.3",
+      "stage2": "径向235+hero.v×0.25；外推12；life≤1.3",
+      "upgradeTarget": "径向235+hero.v×0.25；外推12；life≤1.3",
+      "status": "SOURCE_EQUAL_ALL_THREE",
+      "sources": {
+        "v33": {
+          "file": "/Users/tianliang/Documents/Codex/2026-10-18/referenced-chatgpt-conversation-this-is-an/work/moon_v01/v33_original.html",
+          "line": 265,
+          "fragment": "s.vx=dx/m*235+hero.vx*.25"
+        },
+        "stage2": {
+          "file": "/Users/tianliang/Documents/Codex/2026-10-18/referenced-chatgpt-conversation-this-is-an/outputs/baimei_ink_stage2/playtest.html",
+          "line": 311,
+          "fragment": "s.vx=dx/m*235+hero.vx*.25"
+        },
+        "upgrade": {
+          "file": "/Users/tianliang/Documents/Codex/2026-10-18/referenced-chatgpt-conversation-this-is-an/outputs/baimei_ink_studio_v1/playtest.html",
+          "line": 271,
+          "fragment": "s.vx=dx/m*235+hero.vx*.25"
+        }
+      },
+      "note": "",
+      "upgradeActual": "径向235+hero.v×0.25；外推12；life≤1.3"
+    },
+    {
+      "key": "green",
+      "parameter": "绿色下降倍率",
+      "v33": "3.1；初速25×3.1；目标速度R(70,108)×3.1",
+      "stage2": "3.1；初速25×3.1；目标速度R(70,108)×3.1",
+      "upgradeTarget": "3.1；初速25×3.1；目标速度R(70,108)×3.1",
+      "status": "SOURCE_EQUAL_ALL_THREE",
+      "sources": {
+        "v33": {
+          "file": "/Users/tianliang/Documents/Codex/2026-10-18/referenced-chatgpt-conversation-this-is-an/work/moon_v01/v33_original.html",
+          "line": 119,
+          "fragment": "type==='green'?3.1:1"
+        },
+        "stage2": {
+          "file": "/Users/tianliang/Documents/Codex/2026-10-18/referenced-chatgpt-conversation-this-is-an/outputs/baimei_ink_stage2/playtest.html",
+          "line": 193,
+          "fragment": "type==='green'?3.1:1"
+        },
+        "upgrade": {
+          "file": "/Users/tianliang/Documents/Codex/2026-10-18/referenced-chatgpt-conversation-this-is-an/outputs/baimei_ink_studio_v1/playtest.html",
+          "line": 153,
+          "fragment": "type==='green'?3.1:1"
+        }
+      },
+      "note": "",
+      "upgradeActual": "3.1；初速25×3.1；目标速度R(70,108)×3.1"
+    },
+    {
+      "key": "greenThrow",
+      "parameter": "绿色落地优先投镖",
+      "v33": "尚未投过时 warn=0.27",
+      "stage2": "尚未投过时 warn=0.27",
+      "upgradeTarget": "尚未投过时 warn=0.27",
+      "status": "SOURCE_EQUAL_ALL_THREE",
+      "sources": {
+        "v33": {
+          "file": "/Users/tianliang/Documents/Codex/2026-10-18/referenced-chatgpt-conversation-this-is-an/work/moon_v01/v33_original.html",
+          "line": 232,
+          "fragment": "if(n.type==='green'&&!n.firstShot){n.warn=.27;n.firstShot=true}"
+        },
+        "stage2": {
+          "file": "/Users/tianliang/Documents/Codex/2026-10-18/referenced-chatgpt-conversation-this-is-an/outputs/baimei_ink_stage2/playtest.html",
+          "line": 278,
+          "fragment": "if(n.type==='green'&&!n.firstShot){n.warn=.27;n.firstShot=true}"
+        },
+        "upgrade": {
+          "file": "/Users/tianliang/Documents/Codex/2026-10-18/referenced-chatgpt-conversation-this-is-an/outputs/baimei_ink_studio_v1/playtest.html",
+          "line": 238,
+          "fragment": "if(n.type==='green'&&!n.firstShot){n.warn=.27;n.firstShot=true}"
+        }
+      },
+      "note": "现有语义：仅 firstShot=false 时落地优先；不会覆盖已完成首次投镖的绿色忍者。",
+      "upgradeActual": "尚未投过时 warn=0.27"
+    },
+    {
+      "key": "red",
+      "parameter": "红色双镖",
+      "v33": "首发后burst=1，间隔0.19s",
+      "stage2": "首发后burst=1，间隔0.19s",
+      "upgradeTarget": "首发后burst=1，间隔0.19s",
+      "status": "SOURCE_EQUAL_ALL_THREE",
+      "sources": {
+        "v33": {
+          "file": "/Users/tianliang/Documents/Codex/2026-10-18/referenced-chatgpt-conversation-this-is-an/work/moon_v01/v33_original.html",
+          "line": 260,
+          "fragment": "if(n.type==='red'){n.burst=1;n.burstDelay=.19;}"
+        },
+        "stage2": {
+          "file": "/Users/tianliang/Documents/Codex/2026-10-18/referenced-chatgpt-conversation-this-is-an/outputs/baimei_ink_stage2/playtest.html",
+          "line": 306,
+          "fragment": "if(n.type==='red'){n.burst=1;n.burstDelay=.19;}"
+        },
+        "upgrade": {
+          "file": "/Users/tianliang/Documents/Codex/2026-10-18/referenced-chatgpt-conversation-this-is-an/outputs/baimei_ink_studio_v1/playtest.html",
+          "line": 266,
+          "fragment": "if(n.type==='red'){n.burst=1;n.burstDelay=.19;}"
+        }
+      },
+      "note": "",
+      "upgradeActual": "首发后burst=1，间隔0.19s"
+    },
+    {
+      "key": "patrol",
+      "parameter": "巡逻",
+      "v33": "16..28 px/s；落地0.34s后行走；预警/连发时停止",
+      "stage2": "16..28 px/s；落地0.34s后行走；预警/连发时停止",
+      "upgradeTarget": "16..28 px/s；落地0.34s后行走；预警/连发时停止",
+      "status": "SOURCE_EQUAL_ALL_THREE",
+      "sources": {
+        "v33": {
+          "file": "/Users/tianliang/Documents/Codex/2026-10-18/referenced-chatgpt-conversation-this-is-an/work/moon_v01/v33_original.html",
+          "line": 238,
+          "fragment": "n.groundAge>.34"
+        },
+        "stage2": {
+          "file": "/Users/tianliang/Documents/Codex/2026-10-18/referenced-chatgpt-conversation-this-is-an/outputs/baimei_ink_stage2/playtest.html",
+          "line": 284,
+          "fragment": "n.groundAge>.34"
+        },
+        "upgrade": {
+          "file": "/Users/tianliang/Documents/Codex/2026-10-18/referenced-chatgpt-conversation-this-is-an/outputs/baimei_ink_studio_v1/playtest.html",
+          "line": 244,
+          "fragment": "n.groundAge>.34"
+        }
+      },
+      "note": "",
+      "upgradeActual": "16..28 px/s；落地0.34s后行走；预警/连发时停止"
+    },
+    {
+      "key": "difficulty",
+      "parameter": "出场与投镖难度",
+      "v33": "最多23；spawn R(.65,1.1)×max(.65,1−clock/180)；攻击R(2.3,2.9)×(1−.57min(1,clock/270))",
+      "stage2": "最多23；spawn R(.65,1.1)×max(.65,1−clock/180)；攻击R(2.3,2.9)×(1−.57min(1,clock/270))",
+      "upgradeTarget": "最多23；spawn R(.65,1.1)×max(.65,1−clock/180)；攻击R(2.3,2.9)×(1−.57min(1,clock/270))",
+      "status": "SOURCE_EQUAL_ALL_THREE",
+      "sources": {
+        "v33": {
+          "file": "/Users/tianliang/Documents/Codex/2026-10-18/referenced-chatgpt-conversation-this-is-an/work/moon_v01/v33_original.html",
+          "line": 232,
+          "fragment": "foes.length<23"
+        },
+        "stage2": {
+          "file": "/Users/tianliang/Documents/Codex/2026-10-18/referenced-chatgpt-conversation-this-is-an/outputs/baimei_ink_stage2/playtest.html",
+          "line": 278,
+          "fragment": "foes.length<23"
+        },
+        "upgrade": {
+          "file": "/Users/tianliang/Documents/Codex/2026-10-18/referenced-chatgpt-conversation-this-is-an/outputs/baimei_ink_studio_v1/playtest.html",
+          "line": 238,
+          "fragment": "foes.length<23"
+        }
+      },
+      "note": "",
+      "upgradeActual": "最多23；spawn R(.65,1.1)×max(.65,1−clock/180)；攻击R(2.3,2.9)×(1−.57min(1,clock/270))"
+    },
+    {
+      "key": "corpseGravity",
+      "parameter": "尸体重力/清场",
+      "v33": "正常740；clearOut430",
+      "stage2": "正常740；clearOut430",
+      "upgradeTarget": "正常740；clearOut430",
+      "status": "SOURCE_EQUAL_ALL_THREE",
+      "sources": {
+        "v33": {
+          "file": "/Users/tianliang/Documents/Codex/2026-10-18/referenced-chatgpt-conversation-this-is-an/work/moon_v01/v33_original.html",
+          "line": 226,
+          "fragment": "o.vy+=430*dt"
+        },
+        "stage2": {
+          "file": "/Users/tianliang/Documents/Codex/2026-10-18/referenced-chatgpt-conversation-this-is-an/outputs/baimei_ink_stage2/playtest.html",
+          "line": 272,
+          "fragment": "o.vy+=430*dt"
+        },
+        "upgrade": {
+          "file": "/Users/tianliang/Documents/Codex/2026-10-18/referenced-chatgpt-conversation-this-is-an/outputs/baimei_ink_studio_v1/playtest.html",
+          "line": 232,
+          "fragment": "o.vy+=430*dt"
+        }
+      },
+      "note": "",
+      "upgradeActual": "正常740；clearOut430"
+    },
+    {
+      "key": "corpseFloor",
+      "parameter": "尸体支撑",
+      "v33": "G+23−corpseBottomOffset(o)",
+      "stage2": "G+23−corpseBottomOffset(o)",
+      "upgradeTarget": "G+23−corpseBottomOffset(o)",
+      "status": "SOURCE_EQUAL_ALL_THREE",
+      "sources": {
+        "v33": {
+          "file": "/Users/tianliang/Documents/Codex/2026-10-18/referenced-chatgpt-conversation-this-is-an/work/moon_v01/v33_original.html",
+          "line": 280,
+          "fragment": "let floor=G+23-corpseBottomOffset(o)"
+        },
+        "stage2": {
+          "file": "/Users/tianliang/Documents/Codex/2026-10-18/referenced-chatgpt-conversation-this-is-an/outputs/baimei_ink_stage2/playtest.html",
+          "line": 326,
+          "fragment": "let floor=G+23-corpseBottomOffset(o)"
+        },
+        "upgrade": {
+          "file": "/Users/tianliang/Documents/Codex/2026-10-18/referenced-chatgpt-conversation-this-is-an/outputs/baimei_ink_studio_v1/playtest.html",
+          "line": 286,
+          "fragment": "let floor=G+23-corpseBottomOffset(o)"
+        }
+      },
+      "note": "",
+      "upgradeActual": "G+23−corpseBottomOffset(o)"
+    },
+    {
+      "key": "corpseSleep",
+      "parameter": "尸体休眠",
+      "v33": "|vx|<8 & |vr|<.22 连续>.32s；速度归零",
+      "stage2": "|vx|<8 & |vr|<.22 连续>.32s；速度归零",
+      "upgradeTarget": "|vx|<8 & |vr|<.22 连续>.32s；速度归零",
+      "status": "SOURCE_EQUAL_ALL_THREE",
+      "sources": {
+        "v33": {
+          "file": "/Users/tianliang/Documents/Codex/2026-10-18/referenced-chatgpt-conversation-this-is-an/work/moon_v01/v33_original.html",
+          "line": 280,
+          "fragment": "if(o.settle>.32){o.sleep=true;o.vx=o.vr=0}"
+        },
+        "stage2": {
+          "file": "/Users/tianliang/Documents/Codex/2026-10-18/referenced-chatgpt-conversation-this-is-an/outputs/baimei_ink_stage2/playtest.html",
+          "line": 326,
+          "fragment": "if(o.settle>.32){o.sleep=true;o.vx=o.vr=0}"
+        },
+        "upgrade": {
+          "file": "/Users/tianliang/Documents/Codex/2026-10-18/referenced-chatgpt-conversation-this-is-an/outputs/baimei_ink_studio_v1/playtest.html",
+          "line": 286,
+          "fragment": "if(o.settle>.32){o.sleep=true;o.vx=o.vr=0}"
+        }
+      },
+      "note": "休眠分支仍按支撑函数校正y并清零速度，不继续重力/转动；允许巡逻忍者轻推。",
+      "upgradeActual": "|vx|<8 & |vr|<.22 连续>.32s；速度归零"
+    },
+    {
+      "key": "corpseBounce",
+      "parameter": "尸体落地弹性",
+      "v33": "|vy|>45 时 vy×−.2,vx×.7,vr×.6；低速摩擦exp(−9dt)",
+      "stage2": "|vy|>45 时 vy×−.2,vx×.7,vr×.6；低速摩擦exp(−9dt)",
+      "upgradeTarget": "|vy|>45 时 vy×−.2,vx×.7,vr×.6；低速摩擦exp(−9dt)",
+      "status": "SOURCE_EQUAL_ALL_THREE",
+      "sources": {
+        "v33": {
+          "file": "/Users/tianliang/Documents/Codex/2026-10-18/referenced-chatgpt-conversation-this-is-an/work/moon_v01/v33_original.html",
+          "line": 280,
+          "fragment": "if(Math.abs(o.vy)>45)"
+        },
+        "stage2": {
+          "file": "/Users/tianliang/Documents/Codex/2026-10-18/referenced-chatgpt-conversation-this-is-an/outputs/baimei_ink_stage2/playtest.html",
+          "line": 326,
+          "fragment": "if(Math.abs(o.vy)>45)"
+        },
+        "upgrade": {
+          "file": "/Users/tianliang/Documents/Codex/2026-10-18/referenced-chatgpt-conversation-this-is-an/outputs/baimei_ink_studio_v1/playtest.html",
+          "line": 286,
+          "fragment": "if(Math.abs(o.vy)>45)"
+        }
+      },
+      "note": "",
+      "upgradeActual": "|vy|>45 时 vy×−.2,vx×.7,vr×.6；低速摩擦exp(−9dt)"
+    },
+    {
+      "key": "corpsePush",
+      "parameter": "尸体推移",
+      "v33": "仅sleep尸体；近X<18近Y<5；最多22px/s",
+      "stage2": "仅sleep尸体；近X<18近Y<5；最多22px/s",
+      "upgradeTarget": "仅sleep尸体；近X<18近Y<5；最多22px/s",
+      "status": "SOURCE_EQUAL_ALL_THREE",
+      "sources": {
+        "v33": {
+          "file": "/Users/tianliang/Documents/Codex/2026-10-18/referenced-chatgpt-conversation-this-is-an/work/moon_v01/v33_original.html",
+          "line": 247,
+          "fragment": "if(nearX<18&&nearY<5)"
+        },
+        "stage2": {
+          "file": "/Users/tianliang/Documents/Codex/2026-10-18/referenced-chatgpt-conversation-this-is-an/outputs/baimei_ink_stage2/playtest.html",
+          "line": 293,
+          "fragment": "if(nearX<18&&nearY<5)"
+        },
+        "upgrade": {
+          "file": "/Users/tianliang/Documents/Codex/2026-10-18/referenced-chatgpt-conversation-this-is-an/outputs/baimei_ink_studio_v1/playtest.html",
+          "line": 253,
+          "fragment": "if(nearX<18&&nearY<5)"
+        }
+      },
+      "note": "",
+      "upgradeActual": "仅sleep尸体；近X<18近Y<5；最多22px/s"
+    }
+  ],
+  "unapprovedPhysicsDifferences": [],
+  "upgradeVerification": "Completed static source comparison of final integrated HTML; browser/gameplay tests reported separately",
+  "presentationOnlyDifferences": [
+    "Grounded idle draws at hero.y+22, original idle pixel data retained",
+    "Grounded ninjas use alpha foot support aligned to G+23 without moving logical n.y",
+    "Corpse drawing uses proxy-minus-actual alpha support; original corpseBottomOffset and update byte-identical",
+    "Bottom HUD visual height 90px, original G formula unchanged",
+    "Ultimate character presentation now reuses frozen sword sprite; original startUltimate/update logic preserved"
+  ]
+}

@@ -1,0 +1,78 @@
+{
+  "date": "2026-10-18",
+  "productionMethod": "Two built-in image_gen calls; native RGBA retained. Sparse mountain pigment isolation removes generated white haze; ground cropped and padded. No procedural geometry used as final art.",
+  "sourceFiles": {
+    "mountains": {
+      "path": "/Users/tianliang/Documents/Codex/2026-10-18/referenced-chatgpt-conversation-this-is-an/work/studio_v1/background/mountains_generated.png",
+      "sha256": "2235db32d10a96d6779b42f5ff5ac00094be478830727f08276cdef5ff0b2c14"
+    },
+    "ground": {
+      "path": "/Users/tianliang/Documents/Codex/2026-10-18/referenced-chatgpt-conversation-this-is-an/work/studio_v1/background/ground_generated.png",
+      "sha256": "0f8a297895afe9bd5f275b56f14029d8268d850a37d6f0850262fcff4ea4c347"
+    }
+  },
+  "mountains": {
+    "asset": "mountains.png",
+    "anchor": [
+      0,
+      0
+    ],
+    "draw": "drawImage at (0,0), width W, height W*2; optionally cap width at 480 on landscape. Overlay sparse left ink on #f6f2e8. Existing PNG already diluted, default alpha 1.",
+    "whiteHazeRemoved": true
+  },
+  "ground": {
+    "asset": "ground.png",
+    "anchor": [
+      512,
+      64
+    ],
+    "draw": "draw at x=0, y=G+23−drawHeight/2, width=W, height=34..40 CSS px. Main ink band centered on actual corpse contact line G+23.",
+    "sourceCrop": [
+      17,
+      325,
+      2157,
+      465
+    ]
+  },
+  "checks": {
+    "mountains": {
+      "mode": "RGBA",
+      "size": [
+        512,
+        1024
+      ],
+      "alphaMin": 0,
+      "alphaMax": 182,
+      "transparentFraction": 0.9352664947509766,
+      "partialAlphaPixels": 33939,
+      "fullyTransparentRgbZero": true,
+      "nonzeroBounds": [
+        0,
+        169,
+        236,
+        376
+      ],
+      "sha256": "54fc9391d674c6cd7b8723251da33f869b33379e2b6617c3f82a8b16cb39bf41"
+    },
+    "ground": {
+      "mode": "RGBA",
+      "size": [
+        1024,
+        128
+      ],
+      "alphaMin": 0,
+      "alphaMax": 255,
+      "transparentFraction": 0.5792388916015625,
+      "partialAlphaPixels": 54891,
+      "fullyTransparentRgbZero": true,
+      "nonzeroBounds": [
+        0,
+        22,
+        1024,
+        106
+      ],
+      "sha256": "cf9169865c968b9ee84ee1213bc7b07c6bf78a922b26427777589bb7432ee043"
+    }
+  },
+  "status": "internally inspected, Game View and final user art acceptance pending"
+}

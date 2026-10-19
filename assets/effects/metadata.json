@@ -1,0 +1,279 @@
+{
+  "duration": 0.38,
+  "frames": 24,
+  "pivot": [
+    256,
+    256
+  ],
+  "radius": 170,
+  "world_radius": 76,
+  "birth_by_angle": "angle / (pi*1.78) * .38*.69",
+  "dissolution": "local texel age, density-dependent dilution plus independently growing bristle erosion; no whole-image fade",
+  "source": "existing actual ink brush raster from stage2, new temporal material animation; preserved collision envelope",
+  "stats": [
+    {
+      "frame": 1,
+      "seconds": 0.007916666666666666,
+      "angular_alpha_mass": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "nonzero": 0
+    },
+    {
+      "frame": 2,
+      "seconds": 0.02375,
+      "angular_alpha_mass": [
+        4818.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "nonzero": 113
+    },
+    {
+      "frame": 3,
+      "seconds": 0.03958333333333334,
+      "angular_alpha_mass": [
+        59555.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "nonzero": 1067
+    },
+    {
+      "frame": 4,
+      "seconds": 0.05541666666666667,
+      "angular_alpha_mass": [
+        59824.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "nonzero": 3071
+    },
+    {
+      "frame": 5,
+      "seconds": 0.07125000000000001,
+      "angular_alpha_mass": [
+        57733.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "nonzero": 5779
+    },
+    {
+      "frame": 6,
+      "seconds": 0.08708333333333333,
+      "angular_alpha_mass": [
+        53500.0,
+        66385.0,
+        0.0,
+        0.0
+      ],
+      "nonzero": 9042
+    },
+    {
+      "frame": 7,
+      "seconds": 0.10291666666666666,
+      "angular_alpha_mass": [
+        49364.0,
+        343139.0,
+        0.0,
+        0.0
+      ],
+      "nonzero": 12415
+    },
+    {
+      "frame": 8,
+      "seconds": 0.11875,
+      "angular_alpha_mass": [
+        45344.0,
+        384542.0,
+        0.0,
+        0.0
+      ],
+      "nonzero": 16475
+    },
+    {
+      "frame": 9,
+      "seconds": 0.13458333333333333,
+      "angular_alpha_mass": [
+        41436.0,
+        368619.0,
+        0.0,
+        0.0
+      ],
+      "nonzero": 21031
+    },
+    {
+      "frame": 10,
+      "seconds": 0.15041666666666667,
+      "angular_alpha_mass": [
+        37648.0,
+        330739.0,
+        3.0,
+        0.0
+      ],
+      "nonzero": 25801
+    },
+    {
+      "frame": 11,
+      "seconds": 0.16625,
+      "angular_alpha_mass": [
+        33963.0,
+        294300.0,
+        157017.0,
+        0.0
+      ],
+      "nonzero": 31035
+    },
+    {
+      "frame": 12,
+      "seconds": 0.18208333333333335,
+      "angular_alpha_mass": [
+        30231.0,
+        259533.0,
+        574211.0,
+        0.0
+      ],
+      "nonzero": 36167
+    },
+    {
+      "frame": 13,
+      "seconds": 0.19791666666666669,
+      "angular_alpha_mass": [
+        26205.0,
+        226517.0,
+        603871.0,
+        0.0
+      ],
+      "nonzero": 40825
+    },
+    {
+      "frame": 14,
+      "seconds": 0.21375,
+      "angular_alpha_mass": [
+        21743.0,
+        194981.0,
+        548860.0,
+        0.0
+      ],
+      "nonzero": 44208
+    },
+    {
+      "frame": 15,
+      "seconds": 0.22958333333333333,
+      "angular_alpha_mass": [
+        16748.0,
+        158991.0,
+        466663.0,
+        15179.0
+      ],
+      "nonzero": 45713
+    },
+    {
+      "frame": 16,
+      "seconds": 0.24541666666666667,
+      "angular_alpha_mass": [
+        11365.0,
+        114241.0,
+        389831.0,
+        117145.0
+      ],
+      "nonzero": 46343
+    },
+    {
+      "frame": 17,
+      "seconds": 0.26125,
+      "angular_alpha_mass": [
+        6754.0,
+        68808.0,
+        318217.0,
+        138259.0
+      ],
+      "nonzero": 45509
+    },
+    {
+      "frame": 18,
+      "seconds": 0.27708333333333335,
+      "angular_alpha_mass": [
+        3435.0,
+        32529.0,
+        238628.0,
+        128940.0
+      ],
+      "nonzero": 42519
+    },
+    {
+      "frame": 19,
+      "seconds": 0.29291666666666666,
+      "angular_alpha_mass": [
+        1240.0,
+        10176.0,
+        137534.0,
+        99078.0
+      ],
+      "nonzero": 34374
+    },
+    {
+      "frame": 20,
+      "seconds": 0.30875,
+      "angular_alpha_mass": [
+        141.0,
+        1175.0,
+        51635.0,
+        71133.0
+      ],
+      "nonzero": 22259
+    },
+    {
+      "frame": 21,
+      "seconds": 0.32458333333333333,
+      "angular_alpha_mass": [
+        0.0,
+        0.0,
+        8269.0,
+        36331.0
+      ],
+      "nonzero": 10259
+    },
+    {
+      "frame": 22,
+      "seconds": 0.3404166666666667,
+      "angular_alpha_mass": [
+        0.0,
+        0.0,
+        16.0,
+        6548.0
+      ],
+      "nonzero": 2055
+    },
+    {
+      "frame": 23,
+      "seconds": 0.35625,
+      "angular_alpha_mass": [
+        0.0,
+        0.0,
+        0.0,
+        17.0
+      ],
+      "nonzero": 19
+    },
+    {
+      "frame": 24,
+      "seconds": 0.3720833333333333,
+      "angular_alpha_mass": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "nonzero": 0
+    }
+  ]
+}

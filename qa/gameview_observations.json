@@ -1,0 +1,23 @@
+{
+  "source_sha256": "11b0cebe70e26ad5a39c5459b274fe76723811152d11317a7ab44ea8901aba47",
+  "browser": "Codex in-app Chrome 155 / macOS",
+  "observed": [
+    "390x844 title, original ignition/zoom, 16-ninja tutorial",
+    "Native two-side mouse clicks triggered tutorial ultimate; play and 17-kill result reached",
+    "Real browser animation preview: two reflected darts and one damage, no global invulnerability",
+    "Three-color patrol and throw at normal speed; death separate halves",
+    "Final 375x812,390x844,430x932 title layouts; note contrast corrected and cache-versioned iframe verified"
+  ],
+  "automatic_browser": "17/17, see browser_validation.json",
+  "not_claimed": [
+    "physical phone multitouch feel",
+    "mobile GPU FPS / peak memory",
+    "user aesthetic approval"
+  ],
+  "screenshots": [
+    "browser_title_375x812.png",
+    "browser_title_390x844.png",
+    "browser_title_430x932.png",
+    "browser_ninja_gameview.png"
+  ]
+}

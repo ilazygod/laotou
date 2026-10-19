@@ -1,0 +1,30 @@
+参数,v33,stage2,最终升级版,v33行,stage2行,升级版行,静态结果,说明
+重力 px/s²,740,740,740,231,277,237,SOURCE_EQUAL_ALL_THREE,
+单次轻功/上限 px/s,"vy=max(-580,min(vy,0)-480)","vy=max(-580,min(vy,0)-480)","vy=max(-580,min(vy,0)-480)",38,39,74,SOURCE_EQUAL_ALL_THREE,不是固定初速度；再次踏空叠加冲量并限幅。
+横向轻功 px/s,±145,±145,±145,38,39,74,SOURCE_EQUAL_ALL_THREE,
+水平衰减 s⁻¹,0.24,0.24,0.24,231,277,237,SOURCE_EQUAL_ALL_THREE,
+左右/顶部边界 px,25；W−25；82,25；W−25；82,25；W−25；82,231,277,237,SOURCE_EQUAL_ALL_THREE,
+地面基准,"G=H−max(116,102+safeBottom());safeBottom=0","G=H−max(116,102+safeBottom());safeBottom=0","G=H−max(116,102+safeBottom());safeBottom=0",15,16,51,SOURCE_EQUAL_ALL_THREE,
+圆月斩接近触发距离 px,"77；中心(hero.x,hero.y−20)","77；中心(hero.x,hero.y−20)","77；中心(hero.x,hero.y−20)",264,310,270,SOURCE_EQUAL_ALL_THREE,
+圆月斩持续 s,0.38,0.38,0.38,176,222,182,SOURCE_EQUAL_ALL_THREE,
+剑光有效半径 px,76,76,76,176,222,182,SOURCE_EQUAL_ALL_THREE,
+扫掠弧度/展开时间,1.78π=320.4°；0.38×0.69=0.2622s,1.78π=320.4°；0.38×0.69=0.2622s,1.78π=320.4°；0.38×0.69=0.2622s,182,228,188,SOURCE_EQUAL_ALL_THREE,
+输入开放时刻 s,0.17,0.17,0.17,36,37,72,SOURCE_EQUAL_ALL_THREE,v33允许0.17秒后轻功输入，但 jump 不重置 slash；属移动提前恢复，不是强制销毁剑光。保持既有语义。
+轻功输入缓冲 s,0.17,0.17,0.17,36,37,72,SOURCE_EQUAL_ALL_THREE,performance.now 实时时钟；最后一次方向覆盖之前队列。
+双按识别 ms,190 或另一侧仍按住,190 或另一侧仍按住,190 或另一侧仍按住,35,36,71,SOURCE_EQUAL_ALL_THREE,
+四档踏空阈值,1→2:3次；2→3:7次；3→4:12次,1→2:3次；2→3:7次；3→4:12次,1→2:3次；2→3:7次；3→4:12次,38,39,74,SOURCE_EQUAL_ALL_THREE,
+斩中速度修正,vx×0.88；向目标反向5.8,vx×0.88；向目标反向5.8,vx×0.88；向目标反向5.8,170,216,176,SOURCE_EQUAL_ALL_THREE,
+飞镖伤害,"相对运动连续线段，3圆 offset/r=(33/12,17/13,5/9)","相对运动连续线段，3圆 offset/r=(33/12,17/13,5/9)","相对运动连续线段，3圆 offset/r=(33/12,17/13,5/9)",275,321,281,SOURCE_EQUAL_ALL_THREE,对双方帧间运动做相对线段最近点；只检测飞镖中心。
+受伤后免伤 s,0.43,0.43,0.43,276,322,282,SOURCE_EQUAL_ALL_THREE,仅受伤后短暂免伤；圆月斩没有全程无敌。
+弹反有效区域,"飞镖更新后端点 swordHit(x,y,6)","飞镖更新后端点 swordHit(x,y,6)","飞镖更新后端点 swordHit(x,y,6)",265,311,271,SOURCE_EQUAL_ALL_THREE,v33不是扫掠弹反CCD。保留原判定；不能称为连续弹反检测。
+弹反速度,径向235+hero.v×0.25；外推12；life≤1.3,径向235+hero.v×0.25；外推12；life≤1.3,径向235+hero.v×0.25；外推12；life≤1.3,265,311,271,SOURCE_EQUAL_ALL_THREE,
+绿色下降倍率,"3.1；初速25×3.1；目标速度R(70,108)×3.1","3.1；初速25×3.1；目标速度R(70,108)×3.1","3.1；初速25×3.1；目标速度R(70,108)×3.1",119,193,153,SOURCE_EQUAL_ALL_THREE,
+绿色落地优先投镖,尚未投过时 warn=0.27,尚未投过时 warn=0.27,尚未投过时 warn=0.27,232,278,238,SOURCE_EQUAL_ALL_THREE,现有语义：仅 firstShot=false 时落地优先；不会覆盖已完成首次投镖的绿色忍者。
+红色双镖,首发后burst=1，间隔0.19s,首发后burst=1，间隔0.19s,首发后burst=1，间隔0.19s,260,306,266,SOURCE_EQUAL_ALL_THREE,
+巡逻,16..28 px/s；落地0.34s后行走；预警/连发时停止,16..28 px/s；落地0.34s后行走；预警/连发时停止,16..28 px/s；落地0.34s后行走；预警/连发时停止,238,284,244,SOURCE_EQUAL_ALL_THREE,
+出场与投镖难度,"最多23；spawn R(.65,1.1)×max(.65,1−clock/180)；攻击R(2.3,2.9)×(1−.57min(1,clock/270))","最多23；spawn R(.65,1.1)×max(.65,1−clock/180)；攻击R(2.3,2.9)×(1−.57min(1,clock/270))","最多23；spawn R(.65,1.1)×max(.65,1−clock/180)；攻击R(2.3,2.9)×(1−.57min(1,clock/270))",232,278,238,SOURCE_EQUAL_ALL_THREE,
+尸体重力/清场,正常740；clearOut430,正常740；clearOut430,正常740；clearOut430,226,272,232,SOURCE_EQUAL_ALL_THREE,
+尸体支撑,G+23−corpseBottomOffset(o),G+23−corpseBottomOffset(o),G+23−corpseBottomOffset(o),280,326,286,SOURCE_EQUAL_ALL_THREE,
+尸体休眠,|vx|<8 & |vr|<.22 连续>.32s；速度归零,|vx|<8 & |vr|<.22 连续>.32s；速度归零,|vx|<8 & |vr|<.22 连续>.32s；速度归零,280,326,286,SOURCE_EQUAL_ALL_THREE,休眠分支仍按支撑函数校正y并清零速度，不继续重力/转动；允许巡逻忍者轻推。
+尸体落地弹性,"|vy|>45 时 vy×−.2,vx×.7,vr×.6；低速摩擦exp(−9dt)","|vy|>45 时 vy×−.2,vx×.7,vr×.6；低速摩擦exp(−9dt)","|vy|>45 时 vy×−.2,vx×.7,vr×.6；低速摩擦exp(−9dt)",280,326,286,SOURCE_EQUAL_ALL_THREE,
+尸体推移,仅sleep尸体；近X<18近Y<5；最多22px/s,仅sleep尸体；近X<18近Y<5；最多22px/s,仅sleep尸体；近X<18近Y<5；最多22px/s,247,293,253,SOURCE_EQUAL_ALL_THREE,

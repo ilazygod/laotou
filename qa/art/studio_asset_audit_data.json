@@ -1,0 +1,3551 @@
+{
+  "html_sha256": "4fb5371c7b031311608e6a5c0abaadefb7c86193dce28b0bf31c60a354d7231a",
+  "total_files": 110,
+  "png_count": 103,
+  "json_count": 6,
+  "issues": [],
+  "missing": [],
+  "runtime": [
+    {
+      "key": "jump1",
+      "path": "assets/frozen/jump/jump_01.png",
+      "size": [
+        768,
+        768
+      ],
+      "decoded_bytes": 2359296,
+      "byte_identical": true,
+      "source_size": [
+        768,
+        768
+      ]
+    },
+    {
+      "key": "jump2",
+      "path": "assets/frozen/jump/jump_02.png",
+      "size": [
+        768,
+        768
+      ],
+      "decoded_bytes": 2359296,
+      "byte_identical": true,
+      "source_size": [
+        768,
+        768
+      ]
+    },
+    {
+      "key": "jump3",
+      "path": "assets/frozen/jump/jump_03.png",
+      "size": [
+        768,
+        768
+      ],
+      "decoded_bytes": 2359296,
+      "byte_identical": true,
+      "source_size": [
+        768,
+        768
+      ]
+    },
+    {
+      "key": "fall1",
+      "path": "assets/frozen/fall/fall_01.png",
+      "size": [
+        768,
+        768
+      ],
+      "decoded_bytes": 2359296,
+      "byte_identical": true,
+      "source_size": [
+        768,
+        768
+      ]
+    },
+    {
+      "key": "fall2",
+      "path": "assets/frozen/fall/fall_02.png",
+      "size": [
+        768,
+        768
+      ],
+      "decoded_bytes": 2359296,
+      "byte_identical": true,
+      "source_size": [
+        768,
+        768
+      ]
+    },
+    {
+      "key": "fall3",
+      "path": "assets/frozen/fall/fall_03.png",
+      "size": [
+        768,
+        768
+      ],
+      "decoded_bytes": 2359296,
+      "byte_identical": true,
+      "source_size": [
+        768,
+        768
+      ]
+    },
+    {
+      "key": "moon1",
+      "path": "assets/frozen/moon/moon_01.png",
+      "size": [
+        768,
+        768
+      ],
+      "decoded_bytes": 2359296,
+      "byte_identical": true,
+      "source_size": [
+        768,
+        768
+      ]
+    },
+    {
+      "key": "moon2",
+      "path": "assets/frozen/moon/moon_02.png",
+      "size": [
+        768,
+        768
+      ],
+      "decoded_bytes": 2359296,
+      "byte_identical": true,
+      "source_size": [
+        768,
+        768
+      ]
+    },
+    {
+      "key": "moon3",
+      "path": "assets/frozen/moon/moon_03.png",
+      "size": [
+        768,
+        768
+      ],
+      "decoded_bytes": 2359296,
+      "byte_identical": true,
+      "source_size": [
+        768,
+        768
+      ]
+    },
+    {
+      "key": "idle1",
+      "path": "assets/frozen/idle/idle_01.png",
+      "size": [
+        512,
+        512
+      ],
+      "decoded_bytes": 1048576,
+      "byte_identical": true,
+      "source_size": [
+        512,
+        512
+      ]
+    },
+    {
+      "key": "idle2",
+      "path": "assets/frozen/idle/idle_02.png",
+      "size": [
+        512,
+        512
+      ],
+      "decoded_bytes": 1048576,
+      "byte_identical": true,
+      "source_size": [
+        512,
+        512
+      ]
+    },
+    {
+      "key": "idle3",
+      "path": "assets/frozen/idle/idle_03.png",
+      "size": [
+        512,
+        512
+      ],
+      "decoded_bytes": 1048576,
+      "byte_identical": true,
+      "source_size": [
+        512,
+        512
+      ]
+    },
+    {
+      "key": "ninja_black_air_1",
+      "path": "assets/ninja/black/air_01.png",
+      "size": [
+        288,
+        288
+      ],
+      "decoded_bytes": 331776,
+      "byte_identical": false,
+      "source_size": [
+        576,
+        576
+      ]
+    },
+    {
+      "key": "ninja_black_air_2",
+      "path": "assets/ninja/black/air_02.png",
+      "size": [
+        288,
+        288
+      ],
+      "decoded_bytes": 331776,
+      "byte_identical": false,
+      "source_size": [
+        576,
+        576
+      ]
+    },
+    {
+      "key": "ninja_black_air_3",
+      "path": "assets/ninja/black/air_03.png",
+      "size": [
+        288,
+        288
+      ],
+      "decoded_bytes": 331776,
+      "byte_identical": false,
+      "source_size": [
+        576,
+        576
+      ]
+    },
+    {
+      "key": "ninja_black_patrol_1",
+      "path": "assets/ninja/black/patrol_01.png",
+      "size": [
+        288,
+        288
+      ],
+      "decoded_bytes": 331776,
+      "byte_identical": false,
+      "source_size": [
+        576,
+        576
+      ]
+    },
+    {
+      "key": "ninja_black_patrol_2",
+      "path": "assets/ninja/black/patrol_02.png",
+      "size": [
+        288,
+        288
+      ],
+      "decoded_bytes": 331776,
+      "byte_identical": false,
+      "source_size": [
+        576,
+        576
+      ]
+    },
+    {
+      "key": "ninja_black_patrol_3",
+      "path": "assets/ninja/black/patrol_03.png",
+      "size": [
+        288,
+        288
+      ],
+      "decoded_bytes": 331776,
+      "byte_identical": false,
+      "source_size": [
+        576,
+        576
+      ]
+    },
+    {
+      "key": "ninja_black_throw_air_1",
+      "path": "assets/ninja/black/throw_air_01.png",
+      "size": [
+        288,
+        288
+      ],
+      "decoded_bytes": 331776,
+      "byte_identical": false,
+      "source_size": [
+        576,
+        576
+      ]
+    },
+    {
+      "key": "ninja_black_throw_air_2",
+      "path": "assets/ninja/black/throw_air_02.png",
+      "size": [
+        288,
+        288
+      ],
+      "decoded_bytes": 331776,
+      "byte_identical": false,
+      "source_size": [
+        576,
+        576
+      ]
+    },
+    {
+      "key": "ninja_black_throw_air_3",
+      "path": "assets/ninja/black/throw_air_03.png",
+      "size": [
+        288,
+        288
+      ],
+      "decoded_bytes": 331776,
+      "byte_identical": false,
+      "source_size": [
+        576,
+        576
+      ]
+    },
+    {
+      "key": "ninja_black_throw_ground_1",
+      "path": "assets/ninja/black/throw_ground_01.png",
+      "size": [
+        288,
+        288
+      ],
+      "decoded_bytes": 331776,
+      "byte_identical": false,
+      "source_size": [
+        576,
+        576
+      ]
+    },
+    {
+      "key": "ninja_black_throw_ground_2",
+      "path": "assets/ninja/black/throw_ground_02.png",
+      "size": [
+        288,
+        288
+      ],
+      "decoded_bytes": 331776,
+      "byte_identical": false,
+      "source_size": [
+        576,
+        576
+      ]
+    },
+    {
+      "key": "ninja_black_throw_ground_3",
+      "path": "assets/ninja/black/throw_ground_03.png",
+      "size": [
+        288,
+        288
+      ],
+      "decoded_bytes": 331776,
+      "byte_identical": false,
+      "source_size": [
+        576,
+        576
+      ]
+    },
+    {
+      "key": "ninja_black_death_upper",
+      "path": "assets/ninja/black/death_upper.png",
+      "size": [
+        288,
+        288
+      ],
+      "decoded_bytes": 331776,
+      "byte_identical": false,
+      "source_size": [
+        576,
+        576
+      ]
+    },
+    {
+      "key": "ninja_black_death_lower",
+      "path": "assets/ninja/black/death_lower.png",
+      "size": [
+        288,
+        288
+      ],
+      "decoded_bytes": 331776,
+      "byte_identical": false,
+      "source_size": [
+        576,
+        576
+      ]
+    },
+    {
+      "key": "ninja_red_air_1",
+      "path": "assets/ninja/red/air_01.png",
+      "size": [
+        288,
+        288
+      ],
+      "decoded_bytes": 331776,
+      "byte_identical": false,
+      "source_size": [
+        576,
+        576
+      ]
+    },
+    {
+      "key": "ninja_red_air_2",
+      "path": "assets/ninja/red/air_02.png",
+      "size": [
+        288,
+        288
+      ],
+      "decoded_bytes": 331776,
+      "byte_identical": false,
+      "source_size": [
+        576,
+        576
+      ]
+    },
+    {
+      "key": "ninja_red_air_3",
+      "path": "assets/ninja/red/air_03.png",
+      "size": [
+        288,
+        288
+      ],
+      "decoded_bytes": 331776,
+      "byte_identical": false,
+      "source_size": [
+        576,
+        576
+      ]
+    },
+    {
+      "key": "ninja_red_patrol_1",
+      "path": "assets/ninja/red/patrol_01.png",
+      "size": [
+        288,
+        288
+      ],
+      "decoded_bytes": 331776,
+      "byte_identical": false,
+      "source_size": [
+        576,
+        576
+      ]
+    },
+    {
+      "key": "ninja_red_patrol_2",
+      "path": "assets/ninja/red/patrol_02.png",
+      "size": [
+        288,
+        288
+      ],
+      "decoded_bytes": 331776,
+      "byte_identical": false,
+      "source_size": [
+        576,
+        576
+      ]
+    },
+    {
+      "key": "ninja_red_patrol_3",
+      "path": "assets/ninja/red/patrol_03.png",
+      "size": [
+        288,
+        288
+      ],
+      "decoded_bytes": 331776,
+      "byte_identical": false,
+      "source_size": [
+        576,
+        576
+      ]
+    },
+    {
+      "key": "ninja_red_throw_air_1",
+      "path": "assets/ninja/red/throw_air_01.png",
+      "size": [
+        288,
+        288
+      ],
+      "decoded_bytes": 331776,
+      "byte_identical": false,
+      "source_size": [
+        576,
+        576
+      ]
+    },
+    {
+      "key": "ninja_red_throw_air_2",
+      "path": "assets/ninja/red/throw_air_02.png",
+      "size": [
+        288,
+        288
+      ],
+      "decoded_bytes": 331776,
+      "byte_identical": false,
+      "source_size": [
+        576,
+        576
+      ]
+    },
+    {
+      "key": "ninja_red_throw_air_3",
+      "path": "assets/ninja/red/throw_air_03.png",
+      "size": [
+        288,
+        288
+      ],
+      "decoded_bytes": 331776,
+      "byte_identical": false,
+      "source_size": [
+        576,
+        576
+      ]
+    },
+    {
+      "key": "ninja_red_throw_ground_1",
+      "path": "assets/ninja/red/throw_ground_01.png",
+      "size": [
+        288,
+        288
+      ],
+      "decoded_bytes": 331776,
+      "byte_identical": false,
+      "source_size": [
+        576,
+        576
+      ]
+    },
+    {
+      "key": "ninja_red_throw_ground_2",
+      "path": "assets/ninja/red/throw_ground_02.png",
+      "size": [
+        288,
+        288
+      ],
+      "decoded_bytes": 331776,
+      "byte_identical": false,
+      "source_size": [
+        576,
+        576
+      ]
+    },
+    {
+      "key": "ninja_red_throw_ground_3",
+      "path": "assets/ninja/red/throw_ground_03.png",
+      "size": [
+        288,
+        288
+      ],
+      "decoded_bytes": 331776,
+      "byte_identical": false,
+      "source_size": [
+        576,
+        576
+      ]
+    },
+    {
+      "key": "ninja_red_death_upper",
+      "path": "assets/ninja/red/death_upper.png",
+      "size": [
+        288,
+        288
+      ],
+      "decoded_bytes": 331776,
+      "byte_identical": false,
+      "source_size": [
+        576,
+        576
+      ]
+    },
+    {
+      "key": "ninja_red_death_lower",
+      "path": "assets/ninja/red/death_lower.png",
+      "size": [
+        288,
+        288
+      ],
+      "decoded_bytes": 331776,
+      "byte_identical": false,
+      "source_size": [
+        576,
+        576
+      ]
+    },
+    {
+      "key": "ninja_green_air_1",
+      "path": "assets/ninja/green/air_01.png",
+      "size": [
+        288,
+        288
+      ],
+      "decoded_bytes": 331776,
+      "byte_identical": false,
+      "source_size": [
+        576,
+        576
+      ]
+    },
+    {
+      "key": "ninja_green_air_2",
+      "path": "assets/ninja/green/air_02.png",
+      "size": [
+        288,
+        288
+      ],
+      "decoded_bytes": 331776,
+      "byte_identical": false,
+      "source_size": [
+        576,
+        576
+      ]
+    },
+    {
+      "key": "ninja_green_air_3",
+      "path": "assets/ninja/green/air_03.png",
+      "size": [
+        288,
+        288
+      ],
+      "decoded_bytes": 331776,
+      "byte_identical": false,
+      "source_size": [
+        576,
+        576
+      ]
+    },
+    {
+      "key": "ninja_green_patrol_1",
+      "path": "assets/ninja/green/patrol_01.png",
+      "size": [
+        288,
+        288
+      ],
+      "decoded_bytes": 331776,
+      "byte_identical": false,
+      "source_size": [
+        576,
+        576
+      ]
+    },
+    {
+      "key": "ninja_green_patrol_2",
+      "path": "assets/ninja/green/patrol_02.png",
+      "size": [
+        288,
+        288
+      ],
+      "decoded_bytes": 331776,
+      "byte_identical": false,
+      "source_size": [
+        576,
+        576
+      ]
+    },
+    {
+      "key": "ninja_green_patrol_3",
+      "path": "assets/ninja/green/patrol_03.png",
+      "size": [
+        288,
+        288
+      ],
+      "decoded_bytes": 331776,
+      "byte_identical": false,
+      "source_size": [
+        576,
+        576
+      ]
+    },
+    {
+      "key": "ninja_green_throw_air_1",
+      "path": "assets/ninja/green/throw_air_01.png",
+      "size": [
+        288,
+        288
+      ],
+      "decoded_bytes": 331776,
+      "byte_identical": false,
+      "source_size": [
+        576,
+        576
+      ]
+    },
+    {
+      "key": "ninja_green_throw_air_2",
+      "path": "assets/ninja/green/throw_air_02.png",
+      "size": [
+        288,
+        288
+      ],
+      "decoded_bytes": 331776,
+      "byte_identical": false,
+      "source_size": [
+        576,
+        576
+      ]
+    },
+    {
+      "key": "ninja_green_throw_air_3",
+      "path": "assets/ninja/green/throw_air_03.png",
+      "size": [
+        288,
+        288
+      ],
+      "decoded_bytes": 331776,
+      "byte_identical": false,
+      "source_size": [
+        576,
+        576
+      ]
+    },
+    {
+      "key": "ninja_green_throw_ground_1",
+      "path": "assets/ninja/green/throw_ground_01.png",
+      "size": [
+        288,
+        288
+      ],
+      "decoded_bytes": 331776,
+      "byte_identical": false,
+      "source_size": [
+        576,
+        576
+      ]
+    },
+    {
+      "key": "ninja_green_throw_ground_2",
+      "path": "assets/ninja/green/throw_ground_02.png",
+      "size": [
+        288,
+        288
+      ],
+      "decoded_bytes": 331776,
+      "byte_identical": false,
+      "source_size": [
+        576,
+        576
+      ]
+    },
+    {
+      "key": "ninja_green_throw_ground_3",
+      "path": "assets/ninja/green/throw_ground_03.png",
+      "size": [
+        288,
+        288
+      ],
+      "decoded_bytes": 331776,
+      "byte_identical": false,
+      "source_size": [
+        576,
+        576
+      ]
+    },
+    {
+      "key": "ninja_green_death_upper",
+      "path": "assets/ninja/green/death_upper.png",
+      "size": [
+        288,
+        288
+      ],
+      "decoded_bytes": 331776,
+      "byte_identical": false,
+      "source_size": [
+        576,
+        576
+      ]
+    },
+    {
+      "key": "ninja_green_death_lower",
+      "path": "assets/ninja/green/death_lower.png",
+      "size": [
+        288,
+        288
+      ],
+      "decoded_bytes": 331776,
+      "byte_identical": false,
+      "source_size": [
+        576,
+        576
+      ]
+    },
+    {
+      "key": "ink1",
+      "path": "assets/effects/crescent_01.png",
+      "size": [
+        512,
+        512
+      ],
+      "decoded_bytes": 1048576,
+      "byte_identical": true,
+      "source_size": [
+        512,
+        512
+      ]
+    },
+    {
+      "key": "ink2",
+      "path": "assets/effects/crescent_02.png",
+      "size": [
+        512,
+        512
+      ],
+      "decoded_bytes": 1048576,
+      "byte_identical": true,
+      "source_size": [
+        512,
+        512
+      ]
+    },
+    {
+      "key": "ink3",
+      "path": "assets/effects/crescent_03.png",
+      "size": [
+        512,
+        512
+      ],
+      "decoded_bytes": 1048576,
+      "byte_identical": true,
+      "source_size": [
+        512,
+        512
+      ]
+    },
+    {
+      "key": "ink4",
+      "path": "assets/effects/crescent_04.png",
+      "size": [
+        512,
+        512
+      ],
+      "decoded_bytes": 1048576,
+      "byte_identical": true,
+      "source_size": [
+        512,
+        512
+      ]
+    },
+    {
+      "key": "ink5",
+      "path": "assets/effects/crescent_05.png",
+      "size": [
+        512,
+        512
+      ],
+      "decoded_bytes": 1048576,
+      "byte_identical": true,
+      "source_size": [
+        512,
+        512
+      ]
+    },
+    {
+      "key": "ink6",
+      "path": "assets/effects/crescent_06.png",
+      "size": [
+        512,
+        512
+      ],
+      "decoded_bytes": 1048576,
+      "byte_identical": true,
+      "source_size": [
+        512,
+        512
+      ]
+    },
+    {
+      "key": "ink7",
+      "path": "assets/effects/crescent_07.png",
+      "size": [
+        512,
+        512
+      ],
+      "decoded_bytes": 1048576,
+      "byte_identical": true,
+      "source_size": [
+        512,
+        512
+      ]
+    },
+    {
+      "key": "ink8",
+      "path": "assets/effects/crescent_08.png",
+      "size": [
+        512,
+        512
+      ],
+      "decoded_bytes": 1048576,
+      "byte_identical": true,
+      "source_size": [
+        512,
+        512
+      ]
+    },
+    {
+      "key": "ink9",
+      "path": "assets/effects/crescent_09.png",
+      "size": [
+        512,
+        512
+      ],
+      "decoded_bytes": 1048576,
+      "byte_identical": true,
+      "source_size": [
+        512,
+        512
+      ]
+    },
+    {
+      "key": "ink10",
+      "path": "assets/effects/crescent_10.png",
+      "size": [
+        512,
+        512
+      ],
+      "decoded_bytes": 1048576,
+      "byte_identical": true,
+      "source_size": [
+        512,
+        512
+      ]
+    },
+    {
+      "key": "ink11",
+      "path": "assets/effects/crescent_11.png",
+      "size": [
+        512,
+        512
+      ],
+      "decoded_bytes": 1048576,
+      "byte_identical": true,
+      "source_size": [
+        512,
+        512
+      ]
+    },
+    {
+      "key": "ink12",
+      "path": "assets/effects/crescent_12.png",
+      "size": [
+        512,
+        512
+      ],
+      "decoded_bytes": 1048576,
+      "byte_identical": true,
+      "source_size": [
+        512,
+        512
+      ]
+    },
+    {
+      "key": "ink13",
+      "path": "assets/effects/crescent_13.png",
+      "size": [
+        512,
+        512
+      ],
+      "decoded_bytes": 1048576,
+      "byte_identical": true,
+      "source_size": [
+        512,
+        512
+      ]
+    },
+    {
+      "key": "ink14",
+      "path": "assets/effects/crescent_14.png",
+      "size": [
+        512,
+        512
+      ],
+      "decoded_bytes": 1048576,
+      "byte_identical": true,
+      "source_size": [
+        512,
+        512
+      ]
+    },
+    {
+      "key": "ink15",
+      "path": "assets/effects/crescent_15.png",
+      "size": [
+        512,
+        512
+      ],
+      "decoded_bytes": 1048576,
+      "byte_identical": true,
+      "source_size": [
+        512,
+        512
+      ]
+    },
+    {
+      "key": "ink16",
+      "path": "assets/effects/crescent_16.png",
+      "size": [
+        512,
+        512
+      ],
+      "decoded_bytes": 1048576,
+      "byte_identical": true,
+      "source_size": [
+        512,
+        512
+      ]
+    },
+    {
+      "key": "ink17",
+      "path": "assets/effects/crescent_17.png",
+      "size": [
+        512,
+        512
+      ],
+      "decoded_bytes": 1048576,
+      "byte_identical": true,
+      "source_size": [
+        512,
+        512
+      ]
+    },
+    {
+      "key": "ink18",
+      "path": "assets/effects/crescent_18.png",
+      "size": [
+        512,
+        512
+      ],
+      "decoded_bytes": 1048576,
+      "byte_identical": true,
+      "source_size": [
+        512,
+        512
+      ]
+    },
+    {
+      "key": "ink19",
+      "path": "assets/effects/crescent_19.png",
+      "size": [
+        512,
+        512
+      ],
+      "decoded_bytes": 1048576,
+      "byte_identical": true,
+      "source_size": [
+        512,
+        512
+      ]
+    },
+    {
+      "key": "ink20",
+      "path": "assets/effects/crescent_20.png",
+      "size": [
+        512,
+        512
+      ],
+      "decoded_bytes": 1048576,
+      "byte_identical": true,
+      "source_size": [
+        512,
+        512
+      ]
+    },
+    {
+      "key": "ink21",
+      "path": "assets/effects/crescent_21.png",
+      "size": [
+        512,
+        512
+      ],
+      "decoded_bytes": 1048576,
+      "byte_identical": true,
+      "source_size": [
+        512,
+        512
+      ]
+    },
+    {
+      "key": "ink22",
+      "path": "assets/effects/crescent_22.png",
+      "size": [
+        512,
+        512
+      ],
+      "decoded_bytes": 1048576,
+      "byte_identical": true,
+      "source_size": [
+        512,
+        512
+      ]
+    },
+    {
+      "key": "ink23",
+      "path": "assets/effects/crescent_23.png",
+      "size": [
+        512,
+        512
+      ],
+      "decoded_bytes": 1048576,
+      "byte_identical": true,
+      "source_size": [
+        512,
+        512
+      ]
+    },
+    {
+      "key": "ink24",
+      "path": "assets/effects/crescent_24.png",
+      "size": [
+        512,
+        512
+      ],
+      "decoded_bytes": 1048576,
+      "byte_identical": true,
+      "source_size": [
+        512,
+        512
+      ]
+    },
+    {
+      "key": "inkDrops",
+      "path": "assets/effects/ink_drops.png",
+      "size": [
+        64,
+        64
+      ],
+      "decoded_bytes": 16384,
+      "byte_identical": true,
+      "source_size": [
+        64,
+        64
+      ]
+    },
+    {
+      "key": "speedBrush",
+      "path": "assets/effects/speed_brush.png",
+      "size": [
+        256,
+        64
+      ],
+      "decoded_bytes": 65536,
+      "byte_identical": true,
+      "source_size": [
+        256,
+        64
+      ]
+    },
+    {
+      "key": "mountains",
+      "path": "assets/background/mountains.png",
+      "size": [
+        512,
+        1024
+      ],
+      "decoded_bytes": 2097152,
+      "byte_identical": true,
+      "source_size": [
+        512,
+        1024
+      ]
+    },
+    {
+      "key": "ground",
+      "path": "assets/background/ground.png",
+      "size": [
+        1024,
+        128
+      ],
+      "decoded_bytes": 524288,
+      "byte_identical": true,
+      "source_size": [
+        1024,
+        128
+      ]
+    }
+  ],
+  "runtime_decoded_bytes": 66183168,
+  "all_png_decoded_bytes": 215903808,
+  "asset_disk_bytes": 26827046,
+  "png": [
+    {
+      "path": "assets/background/mountains.png",
+      "size": [
+        512,
+        1024
+      ],
+      "mode": "RGBA",
+      "disk_bytes": 65418,
+      "rgba_decoded_bytes": 2097152,
+      "power_of_two": true,
+      "empty": false,
+      "alpha_min": 0,
+      "alpha_max": 182,
+      "alpha_zero": 490349,
+      "partial_alpha": 33939,
+      "zero_rgb_clean": true,
+      "runtime_keys": [
+        "mountains"
+      ]
+    },
+    {
+      "path": "assets/background/ground.png",
+      "size": [
+        1024,
+        128
+      ],
+      "mode": "RGBA",
+      "disk_bytes": 131944,
+      "rgba_decoded_bytes": 524288,
+      "power_of_two": true,
+      "empty": false,
+      "alpha_min": 0,
+      "alpha_max": 255,
+      "alpha_zero": 75922,
+      "partial_alpha": 54891,
+      "zero_rgb_clean": true,
+      "runtime_keys": [
+        "ground"
+      ]
+    },
+    {
+      "path": "assets/background/light_dark_preview.png",
+      "size": [
+        780,
+        844
+      ],
+      "mode": "RGB",
+      "disk_bytes": 67915,
+      "rgba_decoded_bytes": 2633280,
+      "power_of_two": false,
+      "empty": false,
+      "runtime_keys": []
+    },
+    {
+      "path": "assets/effects/crescent_19.png",
+      "size": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "disk_bytes": 103009,
+      "rgba_decoded_bytes": 1048576,
+      "power_of_two": true,
+      "empty": false,
+      "alpha_min": 0,
+      "alpha_max": 141,
+      "alpha_zero": 227770,
+      "partial_alpha": 34374,
+      "zero_rgb_clean": true,
+      "runtime_keys": [
+        "ink19"
+      ]
+    },
+    {
+      "path": "assets/effects/crescent_18.png",
+      "size": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "disk_bytes": 121490,
+      "rgba_decoded_bytes": 1048576,
+      "power_of_two": true,
+      "empty": false,
+      "alpha_min": 0,
+      "alpha_max": 144,
+      "alpha_zero": 219625,
+      "partial_alpha": 42519,
+      "zero_rgb_clean": true,
+      "runtime_keys": [
+        "ink18"
+      ]
+    },
+    {
+      "path": "assets/effects/crescent_24.png",
+      "size": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "disk_bytes": 1097,
+      "rgba_decoded_bytes": 1048576,
+      "power_of_two": true,
+      "empty": true,
+      "alpha_min": 0,
+      "alpha_max": 0,
+      "alpha_zero": 262144,
+      "partial_alpha": 0,
+      "zero_rgb_clean": true,
+      "runtime_keys": [
+        "ink24"
+      ]
+    },
+    {
+      "path": "assets/effects/crescent_23.png",
+      "size": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "disk_bytes": 1246,
+      "rgba_decoded_bytes": 1048576,
+      "power_of_two": true,
+      "empty": false,
+      "alpha_min": 0,
+      "alpha_max": 6,
+      "alpha_zero": 262125,
+      "partial_alpha": 19,
+      "zero_rgb_clean": true,
+      "runtime_keys": [
+        "ink23"
+      ]
+    },
+    {
+      "path": "assets/effects/crescent_22.png",
+      "size": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "disk_bytes": 11581,
+      "rgba_decoded_bytes": 1048576,
+      "power_of_two": true,
+      "empty": false,
+      "alpha_min": 0,
+      "alpha_max": 46,
+      "alpha_zero": 260089,
+      "partial_alpha": 2055,
+      "zero_rgb_clean": true,
+      "runtime_keys": [
+        "ink22"
+      ]
+    },
+    {
+      "path": "assets/effects/ink_drops.png",
+      "size": [
+        64,
+        64
+      ],
+      "mode": "RGBA",
+      "disk_bytes": 1711,
+      "rgba_decoded_bytes": 16384,
+      "power_of_two": true,
+      "empty": false,
+      "alpha_min": 0,
+      "alpha_max": 255,
+      "alpha_zero": 3704,
+      "partial_alpha": 389,
+      "zero_rgb_clean": true,
+      "runtime_keys": [
+        "inkDrops"
+      ]
+    },
+    {
+      "path": "assets/effects/crescent_08.png",
+      "size": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "disk_bytes": 50543,
+      "rgba_decoded_bytes": 1048576,
+      "power_of_two": true,
+      "empty": false,
+      "alpha_min": 0,
+      "alpha_max": 155,
+      "alpha_zero": 245669,
+      "partial_alpha": 16475,
+      "zero_rgb_clean": true,
+      "runtime_keys": [
+        "ink8"
+      ]
+    },
+    {
+      "path": "assets/effects/crescent_20.png",
+      "size": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "disk_bytes": 71598,
+      "rgba_decoded_bytes": 1048576,
+      "power_of_two": true,
+      "empty": false,
+      "alpha_min": 0,
+      "alpha_max": 108,
+      "alpha_zero": 239885,
+      "partial_alpha": 22259,
+      "zero_rgb_clean": true,
+      "runtime_keys": [
+        "ink20"
+      ]
+    },
+    {
+      "path": "assets/effects/crescent_21.png",
+      "size": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "disk_bytes": 38943,
+      "rgba_decoded_bytes": 1048576,
+      "power_of_two": true,
+      "empty": false,
+      "alpha_min": 0,
+      "alpha_max": 78,
+      "alpha_zero": 251885,
+      "partial_alpha": 10259,
+      "zero_rgb_clean": true,
+      "runtime_keys": [
+        "ink21"
+      ]
+    },
+    {
+      "path": "assets/effects/crescent_09.png",
+      "size": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "disk_bytes": 63064,
+      "rgba_decoded_bytes": 1048576,
+      "power_of_two": true,
+      "empty": false,
+      "alpha_min": 0,
+      "alpha_max": 155,
+      "alpha_zero": 241113,
+      "partial_alpha": 21031,
+      "zero_rgb_clean": true,
+      "runtime_keys": [
+        "ink9"
+      ]
+    },
+    {
+      "path": "assets/effects/crescent_04.png",
+      "size": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "disk_bytes": 13367,
+      "rgba_decoded_bytes": 1048576,
+      "power_of_two": true,
+      "empty": false,
+      "alpha_min": 0,
+      "alpha_max": 154,
+      "alpha_zero": 259073,
+      "partial_alpha": 3071,
+      "zero_rgb_clean": true,
+      "runtime_keys": [
+        "ink4"
+      ]
+    },
+    {
+      "path": "assets/effects/crescent_10.png",
+      "size": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "disk_bytes": 75099,
+      "rgba_decoded_bytes": 1048576,
+      "power_of_two": true,
+      "empty": false,
+      "alpha_min": 0,
+      "alpha_max": 155,
+      "alpha_zero": 236343,
+      "partial_alpha": 25801,
+      "zero_rgb_clean": true,
+      "runtime_keys": [
+        "ink10"
+      ]
+    },
+    {
+      "path": "assets/effects/crescent_11.png",
+      "size": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "disk_bytes": 88140,
+      "rgba_decoded_bytes": 1048576,
+      "power_of_two": true,
+      "empty": false,
+      "alpha_min": 0,
+      "alpha_max": 155,
+      "alpha_zero": 231109,
+      "partial_alpha": 31035,
+      "zero_rgb_clean": true,
+      "runtime_keys": [
+        "ink11"
+      ]
+    },
+    {
+      "path": "assets/effects/crescent_05.png",
+      "size": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "disk_bytes": 21664,
+      "rgba_decoded_bytes": 1048576,
+      "power_of_two": true,
+      "empty": false,
+      "alpha_min": 0,
+      "alpha_max": 154,
+      "alpha_zero": 256365,
+      "partial_alpha": 5779,
+      "zero_rgb_clean": true,
+      "runtime_keys": [
+        "ink5"
+      ]
+    },
+    {
+      "path": "assets/effects/crescent_sheet.png",
+      "size": [
+        3072,
+        2048
+      ],
+      "mode": "RGBA",
+      "disk_bytes": 969634,
+      "rgba_decoded_bytes": 25165824,
+      "power_of_two": false,
+      "empty": false,
+      "alpha_min": 0,
+      "alpha_max": 157,
+      "alpha_zero": 5795377,
+      "partial_alpha": 496079,
+      "zero_rgb_clean": true,
+      "runtime_keys": []
+    },
+    {
+      "path": "assets/effects/crescent_13.png",
+      "size": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "disk_bytes": 114532,
+      "rgba_decoded_bytes": 1048576,
+      "power_of_two": true,
+      "empty": false,
+      "alpha_min": 0,
+      "alpha_max": 153,
+      "alpha_zero": 221319,
+      "partial_alpha": 40825,
+      "zero_rgb_clean": true,
+      "runtime_keys": [
+        "ink13"
+      ]
+    },
+    {
+      "path": "assets/effects/crescent_07.png",
+      "size": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "disk_bytes": 40160,
+      "rgba_decoded_bytes": 1048576,
+      "power_of_two": true,
+      "empty": false,
+      "alpha_min": 0,
+      "alpha_max": 151,
+      "alpha_zero": 249729,
+      "partial_alpha": 12415,
+      "zero_rgb_clean": true,
+      "runtime_keys": [
+        "ink7"
+      ]
+    },
+    {
+      "path": "assets/effects/crescent_06.png",
+      "size": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "disk_bytes": 30564,
+      "rgba_decoded_bytes": 1048576,
+      "power_of_two": true,
+      "empty": false,
+      "alpha_min": 0,
+      "alpha_max": 151,
+      "alpha_zero": 253102,
+      "partial_alpha": 9042,
+      "zero_rgb_clean": true,
+      "runtime_keys": [
+        "ink6"
+      ]
+    },
+    {
+      "path": "assets/effects/crescent_12.png",
+      "size": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "disk_bytes": 102479,
+      "rgba_decoded_bytes": 1048576,
+      "power_of_two": true,
+      "empty": false,
+      "alpha_min": 0,
+      "alpha_max": 155,
+      "alpha_zero": 225977,
+      "partial_alpha": 36167,
+      "zero_rgb_clean": true,
+      "runtime_keys": [
+        "ink12"
+      ]
+    },
+    {
+      "path": "assets/effects/crescent_16.png",
+      "size": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "disk_bytes": 130479,
+      "rgba_decoded_bytes": 1048576,
+      "power_of_two": true,
+      "empty": false,
+      "alpha_min": 0,
+      "alpha_max": 157,
+      "alpha_zero": 215801,
+      "partial_alpha": 46343,
+      "zero_rgb_clean": true,
+      "runtime_keys": [
+        "ink16"
+      ]
+    },
+    {
+      "path": "assets/effects/crescent_02.png",
+      "size": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "disk_bytes": 1812,
+      "rgba_decoded_bytes": 1048576,
+      "power_of_two": true,
+      "empty": false,
+      "alpha_min": 0,
+      "alpha_max": 127,
+      "alpha_zero": 262031,
+      "partial_alpha": 113,
+      "zero_rgb_clean": true,
+      "runtime_keys": [
+        "ink2"
+      ]
+    },
+    {
+      "path": "assets/effects/crescent_03.png",
+      "size": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "disk_bytes": 6328,
+      "rgba_decoded_bytes": 1048576,
+      "power_of_two": true,
+      "empty": false,
+      "alpha_min": 0,
+      "alpha_max": 153,
+      "alpha_zero": 261077,
+      "partial_alpha": 1067,
+      "zero_rgb_clean": true,
+      "runtime_keys": [
+        "ink3"
+      ]
+    },
+    {
+      "path": "assets/effects/crescent_17.png",
+      "size": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "disk_bytes": 130203,
+      "rgba_decoded_bytes": 1048576,
+      "power_of_two": true,
+      "empty": false,
+      "alpha_min": 0,
+      "alpha_max": 157,
+      "alpha_zero": 216635,
+      "partial_alpha": 45509,
+      "zero_rgb_clean": true,
+      "runtime_keys": [
+        "ink17"
+      ]
+    },
+    {
+      "path": "assets/effects/crescent_01.png",
+      "size": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "disk_bytes": 1097,
+      "rgba_decoded_bytes": 1048576,
+      "power_of_two": true,
+      "empty": true,
+      "alpha_min": 0,
+      "alpha_max": 0,
+      "alpha_zero": 262144,
+      "partial_alpha": 0,
+      "zero_rgb_clean": true,
+      "runtime_keys": [
+        "ink1"
+      ]
+    },
+    {
+      "path": "assets/effects/crescent_15.png",
+      "size": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "disk_bytes": 127765,
+      "rgba_decoded_bytes": 1048576,
+      "power_of_two": true,
+      "empty": false,
+      "alpha_min": 0,
+      "alpha_max": 157,
+      "alpha_zero": 216431,
+      "partial_alpha": 45713,
+      "zero_rgb_clean": true,
+      "runtime_keys": [
+        "ink15"
+      ]
+    },
+    {
+      "path": "assets/effects/crescent_14.png",
+      "size": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "disk_bytes": 123102,
+      "rgba_decoded_bytes": 1048576,
+      "power_of_two": true,
+      "empty": false,
+      "alpha_min": 0,
+      "alpha_max": 153,
+      "alpha_zero": 217936,
+      "partial_alpha": 44208,
+      "zero_rgb_clean": true,
+      "runtime_keys": [
+        "ink14"
+      ]
+    },
+    {
+      "path": "assets/effects/speed_brush.png",
+      "size": [
+        256,
+        64
+      ],
+      "mode": "RGBA",
+      "disk_bytes": 31924,
+      "rgba_decoded_bytes": 65536,
+      "power_of_two": true,
+      "empty": false,
+      "alpha_min": 0,
+      "alpha_max": 139,
+      "alpha_zero": 4637,
+      "partial_alpha": 11747,
+      "zero_rgb_clean": true,
+      "runtime_keys": [
+        "speedBrush"
+      ]
+    },
+    {
+      "path": "assets/ninja/green/throw_air_01.png",
+      "size": [
+        576,
+        576
+      ],
+      "mode": "RGBA",
+      "disk_bytes": 259528,
+      "rgba_decoded_bytes": 1327104,
+      "power_of_two": false,
+      "empty": false,
+      "alpha_min": 0,
+      "alpha_max": 255,
+      "alpha_zero": 227179,
+      "partial_alpha": 93467,
+      "zero_rgb_clean": true,
+      "runtime_keys": [
+        "ninja_green_throw_air_1"
+      ]
+    },
+    {
+      "path": "assets/ninja/green/throw_air_sheet.png",
+      "size": [
+        1728,
+        576
+      ],
+      "mode": "RGBA",
+      "disk_bytes": 528819,
+      "rgba_decoded_bytes": 3981312,
+      "power_of_two": false,
+      "empty": false,
+      "alpha_min": 0,
+      "alpha_max": 255,
+      "alpha_zero": 679583,
+      "partial_alpha": 284544,
+      "zero_rgb_clean": true,
+      "runtime_keys": []
+    },
+    {
+      "path": "assets/ninja/green/throw_air_02.png",
+      "size": [
+        576,
+        576
+      ],
+      "mode": "RGBA",
+      "disk_bytes": 264566,
+      "rgba_decoded_bytes": 1327104,
+      "power_of_two": false,
+      "empty": false,
+      "alpha_min": 0,
+      "alpha_max": 255,
+      "alpha_zero": 226167,
+      "partial_alpha": 95602,
+      "zero_rgb_clean": true,
+      "runtime_keys": [
+        "ninja_green_throw_air_2"
+      ]
+    },
+    {
+      "path": "assets/ninja/green/throw_air_03.png",
+      "size": [
+        576,
+        576
+      ],
+      "mode": "RGBA",
+      "disk_bytes": 264472,
+      "rgba_decoded_bytes": 1327104,
+      "power_of_two": false,
+      "empty": false,
+      "alpha_min": 0,
+      "alpha_max": 255,
+      "alpha_zero": 226237,
+      "partial_alpha": 95475,
+      "zero_rgb_clean": true,
+      "runtime_keys": [
+        "ninja_green_throw_air_3"
+      ]
+    },
+    {
+      "path": "assets/ninja/green/throw_ground_sheet.png",
+      "size": [
+        1728,
+        576
+      ],
+      "mode": "RGBA",
+      "disk_bytes": 539076,
+      "rgba_decoded_bytes": 3981312,
+      "power_of_two": false,
+      "empty": false,
+      "alpha_min": 0,
+      "alpha_max": 255,
+      "alpha_zero": 673001,
+      "partial_alpha": 293069,
+      "zero_rgb_clean": true,
+      "runtime_keys": []
+    },
+    {
+      "path": "assets/ninja/green/throw_ground_03.png",
+      "size": [
+        576,
+        576
+      ],
+      "mode": "RGBA",
+      "disk_bytes": 270862,
+      "rgba_decoded_bytes": 1327104,
+      "power_of_two": false,
+      "empty": false,
+      "alpha_min": 0,
+      "alpha_max": 255,
+      "alpha_zero": 224194,
+      "partial_alpha": 98172,
+      "zero_rgb_clean": true,
+      "runtime_keys": [
+        "ninja_green_throw_ground_3"
+      ]
+    },
+    {
+      "path": "assets/ninja/green/air_sheet.png",
+      "size": [
+        1728,
+        576
+      ],
+      "mode": "RGBA",
+      "disk_bytes": 507955,
+      "rgba_decoded_bytes": 3981312,
+      "power_of_two": false,
+      "empty": false,
+      "alpha_min": 0,
+      "alpha_max": 255,
+      "alpha_zero": 678719,
+      "partial_alpha": 286888,
+      "zero_rgb_clean": true,
+      "runtime_keys": []
+    },
+    {
+      "path": "assets/ninja/green/throw_ground_02.png",
+      "size": [
+        576,
+        576
+      ],
+      "mode": "RGBA",
+      "disk_bytes": 271264,
+      "rgba_decoded_bytes": 1327104,
+      "power_of_two": false,
+      "empty": false,
+      "alpha_min": 0,
+      "alpha_max": 255,
+      "alpha_zero": 224099,
+      "partial_alpha": 98347,
+      "zero_rgb_clean": true,
+      "runtime_keys": [
+        "ninja_green_throw_ground_2"
+      ]
+    },
+    {
+      "path": "assets/ninja/green/patrol_01.png",
+      "size": [
+        576,
+        576
+      ],
+      "mode": "RGBA",
+      "disk_bytes": 262825,
+      "rgba_decoded_bytes": 1327104,
+      "power_of_two": false,
+      "empty": false,
+      "alpha_min": 0,
+      "alpha_max": 255,
+      "alpha_zero": 223850,
+      "partial_alpha": 98849,
+      "zero_rgb_clean": true,
+      "runtime_keys": [
+        "ninja_green_patrol_1"
+      ]
+    },
+    {
+      "path": "assets/ninja/green/patrol_03.png",
+      "size": [
+        576,
+        576
+      ],
+      "mode": "RGBA",
+      "disk_bytes": 266979,
+      "rgba_decoded_bytes": 1327104,
+      "power_of_two": false,
+      "empty": false,
+      "alpha_min": 0,
+      "alpha_max": 255,
+      "alpha_zero": 224149,
+      "partial_alpha": 98279,
+      "zero_rgb_clean": true,
+      "runtime_keys": [
+        "ninja_green_patrol_3"
+      ]
+    },
+    {
+      "path": "assets/ninja/green/throw_ground_01.png",
+      "size": [
+        576,
+        576
+      ],
+      "mode": "RGBA",
+      "disk_bytes": 265650,
+      "rgba_decoded_bytes": 1327104,
+      "power_of_two": false,
+      "empty": false,
+      "alpha_min": 0,
+      "alpha_max": 255,
+      "alpha_zero": 224708,
+      "partial_alpha": 96550,
+      "zero_rgb_clean": true,
+      "runtime_keys": [
+        "ninja_green_throw_ground_1"
+      ]
+    },
+    {
+      "path": "assets/ninja/green/patrol_02.png",
+      "size": [
+        576,
+        576
+      ],
+      "mode": "RGBA",
+      "disk_bytes": 266810,
+      "rgba_decoded_bytes": 1327104,
+      "power_of_two": false,
+      "empty": false,
+      "alpha_min": 0,
+      "alpha_max": 255,
+      "alpha_zero": 224138,
+      "partial_alpha": 98285,
+      "zero_rgb_clean": true,
+      "runtime_keys": [
+        "ninja_green_patrol_2"
+      ]
+    },
+    {
+      "path": "assets/ninja/green/patrol_sheet.png",
+      "size": [
+        1728,
+        576
+      ],
+      "mode": "RGBA",
+      "disk_bytes": 519036,
+      "rgba_decoded_bytes": 3981312,
+      "power_of_two": false,
+      "empty": false,
+      "alpha_min": 0,
+      "alpha_max": 255,
+      "alpha_zero": 672137,
+      "partial_alpha": 295413,
+      "zero_rgb_clean": true,
+      "runtime_keys": []
+    },
+    {
+      "path": "assets/ninja/green/death_sheet.png",
+      "size": [
+        1152,
+        576
+      ],
+      "mode": "RGBA",
+      "disk_bytes": 267795,
+      "rgba_decoded_bytes": 2654208,
+      "power_of_two": false,
+      "empty": false,
+      "alpha_min": 0,
+      "alpha_max": 255,
+      "alpha_zero": 558280,
+      "partial_alpha": 91700,
+      "zero_rgb_clean": true,
+      "runtime_keys": []
+    },
+    {
+      "path": "assets/ninja/green/death_lower.png",
+      "size": [
+        576,
+        576
+      ],
+      "mode": "RGBA",
+      "disk_bytes": 50030,
+      "rgba_decoded_bytes": 1327104,
+      "power_of_two": false,
+      "empty": false,
+      "alpha_min": 0,
+      "alpha_max": 255,
+      "alpha_zero": 313236,
+      "partial_alpha": 16341,
+      "zero_rgb_clean": true,
+      "runtime_keys": [
+        "ninja_green_death_lower"
+      ]
+    },
+    {
+      "path": "assets/ninja/green/air_01.png",
+      "size": [
+        576,
+        576
+      ],
+      "mode": "RGBA",
+      "disk_bytes": 256642,
+      "rgba_decoded_bytes": 1327104,
+      "power_of_two": false,
+      "empty": false,
+      "alpha_min": 0,
+      "alpha_max": 255,
+      "alpha_zero": 226321,
+      "partial_alpha": 95766,
+      "zero_rgb_clean": true,
+      "runtime_keys": [
+        "ninja_green_air_1"
+      ]
+    },
+    {
+      "path": "assets/ninja/green/air_03.png",
+      "size": [
+        576,
+        576
+      ],
+      "mode": "RGBA",
+      "disk_bytes": 260384,
+      "rgba_decoded_bytes": 1327104,
+      "power_of_two": false,
+      "empty": false,
+      "alpha_min": 0,
+      "alpha_max": 255,
+      "alpha_zero": 226192,
+      "partial_alpha": 95582,
+      "zero_rgb_clean": true,
+      "runtime_keys": [
+        "ninja_green_air_3"
+      ]
+    },
+    {
+      "path": "assets/ninja/green/air_02.png",
+      "size": [
+        576,
+        576
+      ],
+      "mode": "RGBA",
+      "disk_bytes": 259910,
+      "rgba_decoded_bytes": 1327104,
+      "power_of_two": false,
+      "empty": false,
+      "alpha_min": 0,
+      "alpha_max": 255,
+      "alpha_zero": 226206,
+      "partial_alpha": 95540,
+      "zero_rgb_clean": true,
+      "runtime_keys": [
+        "ninja_green_air_2"
+      ]
+    },
+    {
+      "path": "assets/ninja/green/death_upper.png",
+      "size": [
+        576,
+        576
+      ],
+      "mode": "RGBA",
+      "disk_bytes": 210593,
+      "rgba_decoded_bytes": 1327104,
+      "power_of_two": false,
+      "empty": false,
+      "alpha_min": 0,
+      "alpha_max": 255,
+      "alpha_zero": 245044,
+      "partial_alpha": 75359,
+      "zero_rgb_clean": true,
+      "runtime_keys": [
+        "ninja_green_death_upper"
+      ]
+    },
+    {
+      "path": "assets/ninja/red/throw_air_01.png",
+      "size": [
+        576,
+        576
+      ],
+      "mode": "RGBA",
+      "disk_bytes": 261224,
+      "rgba_decoded_bytes": 1327104,
+      "power_of_two": false,
+      "empty": false,
+      "alpha_min": 0,
+      "alpha_max": 255,
+      "alpha_zero": 227179,
+      "partial_alpha": 93467,
+      "zero_rgb_clean": true,
+      "runtime_keys": [
+        "ninja_red_throw_air_1"
+      ]
+    },
+    {
+      "path": "assets/ninja/red/throw_air_sheet.png",
+      "size": [
+        1728,
+        576
+      ],
+      "mode": "RGBA",
+      "disk_bytes": 530318,
+      "rgba_decoded_bytes": 3981312,
+      "power_of_two": false,
+      "empty": false,
+      "alpha_min": 0,
+      "alpha_max": 255,
+      "alpha_zero": 679583,
+      "partial_alpha": 284544,
+      "zero_rgb_clean": true,
+      "runtime_keys": []
+    },
+    {
+      "path": "assets/ninja/red/throw_air_02.png",
+      "size": [
+        576,
+        576
+      ],
+      "mode": "RGBA",
+      "disk_bytes": 266088,
+      "rgba_decoded_bytes": 1327104,
+      "power_of_two": false,
+      "empty": false,
+      "alpha_min": 0,
+      "alpha_max": 255,
+      "alpha_zero": 226167,
+      "partial_alpha": 95602,
+      "zero_rgb_clean": true,
+      "runtime_keys": [
+        "ninja_red_throw_air_2"
+      ]
+    },
+    {
+      "path": "assets/ninja/red/throw_air_03.png",
+      "size": [
+        576,
+        576
+      ],
+      "mode": "RGBA",
+      "disk_bytes": 265880,
+      "rgba_decoded_bytes": 1327104,
+      "power_of_two": false,
+      "empty": false,
+      "alpha_min": 0,
+      "alpha_max": 255,
+      "alpha_zero": 226237,
+      "partial_alpha": 95475,
+      "zero_rgb_clean": true,
+      "runtime_keys": [
+        "ninja_red_throw_air_3"
+      ]
+    },
+    {
+      "path": "assets/ninja/red/throw_ground_sheet.png",
+      "size": [
+        1728,
+        576
+      ],
+      "mode": "RGBA",
+      "disk_bytes": 541665,
+      "rgba_decoded_bytes": 3981312,
+      "power_of_two": false,
+      "empty": false,
+      "alpha_min": 0,
+      "alpha_max": 255,
+      "alpha_zero": 673001,
+      "partial_alpha": 293069,
+      "zero_rgb_clean": true,
+      "runtime_keys": []
+    },
+    {
+      "path": "assets/ninja/red/throw_ground_03.png",
+      "size": [
+        576,
+        576
+      ],
+      "mode": "RGBA",
+      "disk_bytes": 272831,
+      "rgba_decoded_bytes": 1327104,
+      "power_of_two": false,
+      "empty": false,
+      "alpha_min": 0,
+      "alpha_max": 255,
+      "alpha_zero": 224194,
+      "partial_alpha": 98172,
+      "zero_rgb_clean": true,
+      "runtime_keys": [
+        "ninja_red_throw_ground_3"
+      ]
+    },
+    {
+      "path": "assets/ninja/red/air_sheet.png",
+      "size": [
+        1728,
+        576
+      ],
+      "mode": "RGBA",
+      "disk_bytes": 510219,
+      "rgba_decoded_bytes": 3981312,
+      "power_of_two": false,
+      "empty": false,
+      "alpha_min": 0,
+      "alpha_max": 255,
+      "alpha_zero": 678719,
+      "partial_alpha": 286888,
+      "zero_rgb_clean": true,
+      "runtime_keys": []
+    },
+    {
+      "path": "assets/ninja/red/throw_ground_02.png",
+      "size": [
+        576,
+        576
+      ],
+      "mode": "RGBA",
+      "disk_bytes": 273316,
+      "rgba_decoded_bytes": 1327104,
+      "power_of_two": false,
+      "empty": false,
+      "alpha_min": 0,
+      "alpha_max": 255,
+      "alpha_zero": 224099,
+      "partial_alpha": 98347,
+      "zero_rgb_clean": true,
+      "runtime_keys": [
+        "ninja_red_throw_ground_2"
+      ]
+    },
+    {
+      "path": "assets/ninja/red/patrol_01.png",
+      "size": [
+        576,
+        576
+      ],
+      "mode": "RGBA",
+      "disk_bytes": 263581,
+      "rgba_decoded_bytes": 1327104,
+      "power_of_two": false,
+      "empty": false,
+      "alpha_min": 0,
+      "alpha_max": 255,
+      "alpha_zero": 223850,
+      "partial_alpha": 98849,
+      "zero_rgb_clean": true,
+      "runtime_keys": [
+        "ninja_red_patrol_1"
+      ]
+    },
+    {
+      "path": "assets/ninja/red/patrol_03.png",
+      "size": [
+        576,
+        576
+      ],
+      "mode": "RGBA",
+      "disk_bytes": 268191,
+      "rgba_decoded_bytes": 1327104,
+      "power_of_two": false,
+      "empty": false,
+      "alpha_min": 0,
+      "alpha_max": 255,
+      "alpha_zero": 224149,
+      "partial_alpha": 98279,
+      "zero_rgb_clean": true,
+      "runtime_keys": [
+        "ninja_red_patrol_3"
+      ]
+    },
+    {
+      "path": "assets/ninja/red/throw_ground_01.png",
+      "size": [
+        576,
+        576
+      ],
+      "mode": "RGBA",
+      "disk_bytes": 266766,
+      "rgba_decoded_bytes": 1327104,
+      "power_of_two": false,
+      "empty": false,
+      "alpha_min": 0,
+      "alpha_max": 255,
+      "alpha_zero": 224708,
+      "partial_alpha": 96550,
+      "zero_rgb_clean": true,
+      "runtime_keys": [
+        "ninja_red_throw_ground_1"
+      ]
+    },
+    {
+      "path": "assets/ninja/red/patrol_02.png",
+      "size": [
+        576,
+        576
+      ],
+      "mode": "RGBA",
+      "disk_bytes": 268325,
+      "rgba_decoded_bytes": 1327104,
+      "power_of_two": false,
+      "empty": false,
+      "alpha_min": 0,
+      "alpha_max": 255,
+      "alpha_zero": 224138,
+      "partial_alpha": 98285,
+      "zero_rgb_clean": true,
+      "runtime_keys": [
+        "ninja_red_patrol_2"
+      ]
+    },
+    {
+      "path": "assets/ninja/red/patrol_sheet.png",
+      "size": [
+        1728,
+        576
+      ],
+      "mode": "RGBA",
+      "disk_bytes": 521149,
+      "rgba_decoded_bytes": 3981312,
+      "power_of_two": false,
+      "empty": false,
+      "alpha_min": 0,
+      "alpha_max": 255,
+      "alpha_zero": 672137,
+      "partial_alpha": 295413,
+      "zero_rgb_clean": true,
+      "runtime_keys": []
+    },
+    {
+      "path": "assets/ninja/red/death_sheet.png",
+      "size": [
+        1152,
+        576
+      ],
+      "mode": "RGBA",
+      "disk_bytes": 269152,
+      "rgba_decoded_bytes": 2654208,
+      "power_of_two": false,
+      "empty": false,
+      "alpha_min": 0,
+      "alpha_max": 255,
+      "alpha_zero": 558280,
+      "partial_alpha": 91700,
+      "zero_rgb_clean": true,
+      "runtime_keys": []
+    },
+    {
+      "path": "assets/ninja/red/death_lower.png",
+      "size": [
+        576,
+        576
+      ],
+      "mode": "RGBA",
+      "disk_bytes": 49691,
+      "rgba_decoded_bytes": 1327104,
+      "power_of_two": false,
+      "empty": false,
+      "alpha_min": 0,
+      "alpha_max": 255,
+      "alpha_zero": 313236,
+      "partial_alpha": 16341,
+      "zero_rgb_clean": true,
+      "runtime_keys": [
+        "ninja_red_death_lower"
+      ]
+    },
+    {
+      "path": "assets/ninja/red/air_01.png",
+      "size": [
+        576,
+        576
+      ],
+      "mode": "RGBA",
+      "disk_bytes": 258004,
+      "rgba_decoded_bytes": 1327104,
+      "power_of_two": false,
+      "empty": false,
+      "alpha_min": 0,
+      "alpha_max": 255,
+      "alpha_zero": 226321,
+      "partial_alpha": 95766,
+      "zero_rgb_clean": true,
+      "runtime_keys": [
+        "ninja_red_air_1"
+      ]
+    },
+    {
+      "path": "assets/ninja/red/air_03.png",
+      "size": [
+        576,
+        576
+      ],
+      "mode": "RGBA",
+      "disk_bytes": 261744,
+      "rgba_decoded_bytes": 1327104,
+      "power_of_two": false,
+      "empty": false,
+      "alpha_min": 0,
+      "alpha_max": 255,
+      "alpha_zero": 226192,
+      "partial_alpha": 95582,
+      "zero_rgb_clean": true,
+      "runtime_keys": [
+        "ninja_red_air_3"
+      ]
+    },
+    {
+      "path": "assets/ninja/red/air_02.png",
+      "size": [
+        576,
+        576
+      ],
+      "mode": "RGBA",
+      "disk_bytes": 261342,
+      "rgba_decoded_bytes": 1327104,
+      "power_of_two": false,
+      "empty": false,
+      "alpha_min": 0,
+      "alpha_max": 255,
+      "alpha_zero": 226206,
+      "partial_alpha": 95540,
+      "zero_rgb_clean": true,
+      "runtime_keys": [
+        "ninja_red_air_2"
+      ]
+    },
+    {
+      "path": "assets/ninja/red/death_upper.png",
+      "size": [
+        576,
+        576
+      ],
+      "mode": "RGBA",
+      "disk_bytes": 212233,
+      "rgba_decoded_bytes": 1327104,
+      "power_of_two": false,
+      "empty": false,
+      "alpha_min": 0,
+      "alpha_max": 255,
+      "alpha_zero": 245044,
+      "partial_alpha": 75359,
+      "zero_rgb_clean": true,
+      "runtime_keys": [
+        "ninja_red_death_upper"
+      ]
+    },
+    {
+      "path": "assets/ninja/black/throw_air_01.png",
+      "size": [
+        576,
+        576
+      ],
+      "mode": "RGBA",
+      "disk_bytes": 305938,
+      "rgba_decoded_bytes": 1327104,
+      "power_of_two": false,
+      "empty": false,
+      "alpha_min": 0,
+      "alpha_max": 255,
+      "alpha_zero": 227179,
+      "partial_alpha": 93467,
+      "zero_rgb_clean": true,
+      "runtime_keys": [
+        "ninja_black_throw_air_1"
+      ]
+    },
+    {
+      "path": "assets/ninja/black/throw_air_sheet.png",
+      "size": [
+        1728,
+        576
+      ],
+      "mode": "RGBA",
+      "disk_bytes": 616049,
+      "rgba_decoded_bytes": 3981312,
+      "power_of_two": false,
+      "empty": false,
+      "alpha_min": 0,
+      "alpha_max": 255,
+      "alpha_zero": 679583,
+      "partial_alpha": 284544,
+      "zero_rgb_clean": true,
+      "runtime_keys": []
+    },
+    {
+      "path": "assets/ninja/black/throw_air_02.png",
+      "size": [
+        576,
+        576
+      ],
+      "mode": "RGBA",
+      "disk_bytes": 313270,
+      "rgba_decoded_bytes": 1327104,
+      "power_of_two": false,
+      "empty": false,
+      "alpha_min": 0,
+      "alpha_max": 255,
+      "alpha_zero": 226167,
+      "partial_alpha": 95602,
+      "zero_rgb_clean": true,
+      "runtime_keys": [
+        "ninja_black_throw_air_2"
+      ]
+    },
+    {
+      "path": "assets/ninja/black/throw_air_03.png",
+      "size": [
+        576,
+        576
+      ],
+      "mode": "RGBA",
+      "disk_bytes": 312838,
+      "rgba_decoded_bytes": 1327104,
+      "power_of_two": false,
+      "empty": false,
+      "alpha_min": 0,
+      "alpha_max": 255,
+      "alpha_zero": 226237,
+      "partial_alpha": 95475,
+      "zero_rgb_clean": true,
+      "runtime_keys": [
+        "ninja_black_throw_air_3"
+      ]
+    },
+    {
+      "path": "assets/ninja/black/throw_ground_sheet.png",
+      "size": [
+        1728,
+        576
+      ],
+      "mode": "RGBA",
+      "disk_bytes": 624054,
+      "rgba_decoded_bytes": 3981312,
+      "power_of_two": false,
+      "empty": false,
+      "alpha_min": 0,
+      "alpha_max": 255,
+      "alpha_zero": 673001,
+      "partial_alpha": 293069,
+      "zero_rgb_clean": true,
+      "runtime_keys": []
+    },
+    {
+      "path": "assets/ninja/black/throw_ground_03.png",
+      "size": [
+        576,
+        576
+      ],
+      "mode": "RGBA",
+      "disk_bytes": 319942,
+      "rgba_decoded_bytes": 1327104,
+      "power_of_two": false,
+      "empty": false,
+      "alpha_min": 0,
+      "alpha_max": 255,
+      "alpha_zero": 224194,
+      "partial_alpha": 98172,
+      "zero_rgb_clean": true,
+      "runtime_keys": [
+        "ninja_black_throw_ground_3"
+      ]
+    },
+    {
+      "path": "assets/ninja/black/air_sheet.png",
+      "size": [
+        1728,
+        576
+      ],
+      "mode": "RGBA",
+      "disk_bytes": 592031,
+      "rgba_decoded_bytes": 3981312,
+      "power_of_two": false,
+      "empty": false,
+      "alpha_min": 0,
+      "alpha_max": 255,
+      "alpha_zero": 678719,
+      "partial_alpha": 286888,
+      "zero_rgb_clean": true,
+      "runtime_keys": []
+    },
+    {
+      "path": "assets/ninja/black/throw_ground_02.png",
+      "size": [
+        576,
+        576
+      ],
+      "mode": "RGBA",
+      "disk_bytes": 320637,
+      "rgba_decoded_bytes": 1327104,
+      "power_of_two": false,
+      "empty": false,
+      "alpha_min": 0,
+      "alpha_max": 255,
+      "alpha_zero": 224099,
+      "partial_alpha": 98347,
+      "zero_rgb_clean": true,
+      "runtime_keys": [
+        "ninja_black_throw_ground_2"
+      ]
+    },
+    {
+      "path": "assets/ninja/black/patrol_01.png",
+      "size": [
+        576,
+        576
+      ],
+      "mode": "RGBA",
+      "disk_bytes": 308246,
+      "rgba_decoded_bytes": 1327104,
+      "power_of_two": false,
+      "empty": false,
+      "alpha_min": 0,
+      "alpha_max": 255,
+      "alpha_zero": 223850,
+      "partial_alpha": 98849,
+      "zero_rgb_clean": true,
+      "runtime_keys": [
+        "ninja_black_patrol_1"
+      ]
+    },
+    {
+      "path": "assets/ninja/black/patrol_03.png",
+      "size": [
+        576,
+        576
+      ],
+      "mode": "RGBA",
+      "disk_bytes": 314243,
+      "rgba_decoded_bytes": 1327104,
+      "power_of_two": false,
+      "empty": false,
+      "alpha_min": 0,
+      "alpha_max": 255,
+      "alpha_zero": 224149,
+      "partial_alpha": 98279,
+      "zero_rgb_clean": true,
+      "runtime_keys": [
+        "ninja_black_patrol_3"
+      ]
+    },
+    {
+      "path": "assets/ninja/black/throw_ground_01.png",
+      "size": [
+        576,
+        576
+      ],
+      "mode": "RGBA",
+      "disk_bytes": 311621,
+      "rgba_decoded_bytes": 1327104,
+      "power_of_two": false,
+      "empty": false,
+      "alpha_min": 0,
+      "alpha_max": 255,
+      "alpha_zero": 224708,
+      "partial_alpha": 96550,
+      "zero_rgb_clean": true,
+      "runtime_keys": [
+        "ninja_black_throw_ground_1"
+      ]
+    },
+    {
+      "path": "assets/ninja/black/patrol_02.png",
+      "size": [
+        576,
+        576
+      ],
+      "mode": "RGBA",
+      "disk_bytes": 314117,
+      "rgba_decoded_bytes": 1327104,
+      "power_of_two": false,
+      "empty": false,
+      "alpha_min": 0,
+      "alpha_max": 255,
+      "alpha_zero": 224138,
+      "partial_alpha": 98285,
+      "zero_rgb_clean": true,
+      "runtime_keys": [
+        "ninja_black_patrol_2"
+      ]
+    },
+    {
+      "path": "assets/ninja/black/patrol_sheet.png",
+      "size": [
+        1728,
+        576
+      ],
+      "mode": "RGBA",
+      "disk_bytes": 599795,
+      "rgba_decoded_bytes": 3981312,
+      "power_of_two": false,
+      "empty": false,
+      "alpha_min": 0,
+      "alpha_max": 255,
+      "alpha_zero": 672137,
+      "partial_alpha": 295413,
+      "zero_rgb_clean": true,
+      "runtime_keys": []
+    },
+    {
+      "path": "assets/ninja/black/death_sheet.png",
+      "size": [
+        1152,
+        576
+      ],
+      "mode": "RGBA",
+      "disk_bytes": 308803,
+      "rgba_decoded_bytes": 2654208,
+      "power_of_two": false,
+      "empty": false,
+      "alpha_min": 0,
+      "alpha_max": 255,
+      "alpha_zero": 558280,
+      "partial_alpha": 91700,
+      "zero_rgb_clean": true,
+      "runtime_keys": []
+    },
+    {
+      "path": "assets/ninja/black/death_lower.png",
+      "size": [
+        576,
+        576
+      ],
+      "mode": "RGBA",
+      "disk_bytes": 56208,
+      "rgba_decoded_bytes": 1327104,
+      "power_of_two": false,
+      "empty": false,
+      "alpha_min": 0,
+      "alpha_max": 255,
+      "alpha_zero": 313236,
+      "partial_alpha": 16341,
+      "zero_rgb_clean": true,
+      "runtime_keys": [
+        "ninja_black_death_lower"
+      ]
+    },
+    {
+      "path": "assets/ninja/black/air_01.png",
+      "size": [
+        576,
+        576
+      ],
+      "mode": "RGBA",
+      "disk_bytes": 302788,
+      "rgba_decoded_bytes": 1327104,
+      "power_of_two": false,
+      "empty": false,
+      "alpha_min": 0,
+      "alpha_max": 255,
+      "alpha_zero": 226321,
+      "partial_alpha": 95766,
+      "zero_rgb_clean": true,
+      "runtime_keys": [
+        "ninja_black_air_1"
+      ]
+    },
+    {
+      "path": "assets/ninja/black/air_03.png",
+      "size": [
+        576,
+        576
+      ],
+      "mode": "RGBA",
+      "disk_bytes": 307119,
+      "rgba_decoded_bytes": 1327104,
+      "power_of_two": false,
+      "empty": false,
+      "alpha_min": 0,
+      "alpha_max": 255,
+      "alpha_zero": 226192,
+      "partial_alpha": 95582,
+      "zero_rgb_clean": true,
+      "runtime_keys": [
+        "ninja_black_air_3"
+      ]
+    },
+    {
+      "path": "assets/ninja/black/air_02.png",
+      "size": [
+        576,
+        576
+      ],
+      "mode": "RGBA",
+      "disk_bytes": 306707,
+      "rgba_decoded_bytes": 1327104,
+      "power_of_two": false,
+      "empty": false,
+      "alpha_min": 0,
+      "alpha_max": 255,
+      "alpha_zero": 226206,
+      "partial_alpha": 95540,
+      "zero_rgb_clean": true,
+      "runtime_keys": [
+        "ninja_black_air_2"
+      ]
+    },
+    {
+      "path": "assets/ninja/black/death_upper.png",
+      "size": [
+        576,
+        576
+      ],
+      "mode": "RGBA",
+      "disk_bytes": 247994,
+      "rgba_decoded_bytes": 1327104,
+      "power_of_two": false,
+      "empty": false,
+      "alpha_min": 0,
+      "alpha_max": 255,
+      "alpha_zero": 245044,
+      "partial_alpha": 75359,
+      "zero_rgb_clean": true,
+      "runtime_keys": [
+        "ninja_black_death_upper"
+      ]
+    },
+    {
+      "path": "assets/frozen/idle/idle_01.png",
+      "size": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "disk_bytes": 204225,
+      "rgba_decoded_bytes": 1048576,
+      "power_of_two": true,
+      "empty": false,
+      "alpha_min": 0,
+      "alpha_max": 255,
+      "alpha_zero": 186021,
+      "partial_alpha": 15175,
+      "zero_rgb_clean": true,
+      "runtime_keys": [
+        "idle1"
+      ]
+    },
+    {
+      "path": "assets/frozen/idle/idle_03.png",
+      "size": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "disk_bytes": 195221,
+      "rgba_decoded_bytes": 1048576,
+      "power_of_two": true,
+      "empty": false,
+      "alpha_min": 0,
+      "alpha_max": 255,
+      "alpha_zero": 185579,
+      "partial_alpha": 16232,
+      "zero_rgb_clean": true,
+      "runtime_keys": [
+        "idle3"
+      ]
+    },
+    {
+      "path": "assets/frozen/idle/idle_02.png",
+      "size": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "disk_bytes": 196070,
+      "rgba_decoded_bytes": 1048576,
+      "power_of_two": true,
+      "empty": false,
+      "alpha_min": 0,
+      "alpha_max": 255,
+      "alpha_zero": 185813,
+      "partial_alpha": 16109,
+      "zero_rgb_clean": true,
+      "runtime_keys": [
+        "idle2"
+      ]
+    },
+    {
+      "path": "assets/frozen/idle/idle_sheet.png",
+      "size": [
+        1536,
+        512
+      ],
+      "mode": "RGBA",
+      "disk_bytes": 482174,
+      "rgba_decoded_bytes": 3145728,
+      "power_of_two": false,
+      "empty": false,
+      "alpha_min": 0,
+      "alpha_max": 255,
+      "alpha_zero": 557413,
+      "partial_alpha": 47516,
+      "zero_rgb_clean": true,
+      "runtime_keys": []
+    },
+    {
+      "path": "assets/frozen/moon/moon_sheet.png",
+      "size": [
+        2304,
+        768
+      ],
+      "mode": "RGBA",
+      "disk_bytes": 748679,
+      "rgba_decoded_bytes": 7077888,
+      "power_of_two": false,
+      "empty": false,
+      "alpha_min": 0,
+      "alpha_max": 255,
+      "alpha_zero": 1498074,
+      "partial_alpha": 65735,
+      "zero_rgb_clean": true,
+      "runtime_keys": []
+    },
+    {
+      "path": "assets/frozen/moon/moon_01.png",
+      "size": [
+        768,
+        768
+      ],
+      "mode": "RGBA",
+      "disk_bytes": 289937,
+      "rgba_decoded_bytes": 2359296,
+      "power_of_two": false,
+      "empty": false,
+      "alpha_min": 0,
+      "alpha_max": 255,
+      "alpha_zero": 500026,
+      "partial_alpha": 21720,
+      "zero_rgb_clean": true,
+      "runtime_keys": [
+        "moon1"
+      ]
+    },
+    {
+      "path": "assets/frozen/moon/moon_03.png",
+      "size": [
+        768,
+        768
+      ],
+      "mode": "RGBA",
+      "disk_bytes": 283576,
+      "rgba_decoded_bytes": 2359296,
+      "power_of_two": false,
+      "empty": false,
+      "alpha_min": 0,
+      "alpha_max": 255,
+      "alpha_zero": 499596,
+      "partial_alpha": 21892,
+      "zero_rgb_clean": true,
+      "runtime_keys": [
+        "moon3"
+      ]
+    },
+    {
+      "path": "assets/frozen/moon/moon_02.png",
+      "size": [
+        768,
+        768
+      ],
+      "mode": "RGBA",
+      "disk_bytes": 287493,
+      "rgba_decoded_bytes": 2359296,
+      "power_of_two": false,
+      "empty": false,
+      "alpha_min": 0,
+      "alpha_max": 255,
+      "alpha_zero": 498452,
+      "partial_alpha": 22123,
+      "zero_rgb_clean": true,
+      "runtime_keys": [
+        "moon2"
+      ]
+    },
+    {
+      "path": "assets/frozen/jump/jump_sheet.png",
+      "size": [
+        2304,
+        768
+      ],
+      "mode": "RGBA",
+      "disk_bytes": 674572,
+      "rgba_decoded_bytes": 7077888,
+      "power_of_two": false,
+      "empty": false,
+      "alpha_min": 0,
+      "alpha_max": 255,
+      "alpha_zero": 1473387,
+      "partial_alpha": 61693,
+      "zero_rgb_clean": true,
+      "runtime_keys": []
+    },
+    {
+      "path": "assets/frozen/jump/jump_03.png",
+      "size": [
+        768,
+        768
+      ],
+      "mode": "RGBA",
+      "disk_bytes": 235762,
+      "rgba_decoded_bytes": 2359296,
+      "power_of_two": false,
+      "empty": false,
+      "alpha_min": 0,
+      "alpha_max": 255,
+      "alpha_zero": 491309,
+      "partial_alpha": 20891,
+      "zero_rgb_clean": true,
+      "runtime_keys": [
+        "jump3"
+      ]
+    },
+    {
+      "path": "assets/frozen/jump/jump_02.png",
+      "size": [
+        768,
+        768
+      ],
+      "mode": "RGBA",
+      "disk_bytes": 236721,
+      "rgba_decoded_bytes": 2359296,
+      "power_of_two": false,
+      "empty": false,
+      "alpha_min": 0,
+      "alpha_max": 255,
+      "alpha_zero": 488961,
+      "partial_alpha": 21435,
+      "zero_rgb_clean": true,
+      "runtime_keys": [
+        "jump2"
+      ]
+    },
+    {
+      "path": "assets/frozen/jump/jump_01.png",
+      "size": [
+        768,
+        768
+      ],
+      "mode": "RGBA",
+      "disk_bytes": 252609,
+      "rgba_decoded_bytes": 2359296,
+      "power_of_two": false,
+      "empty": false,
+      "alpha_min": 0,
+      "alpha_max": 255,
+      "alpha_zero": 493117,
+      "partial_alpha": 19367,
+      "zero_rgb_clean": true,
+      "runtime_keys": [
+        "jump1"
+      ]
+    },
+    {
+      "path": "assets/frozen/fall/fall_sheet.png",
+      "size": [
+        2304,
+        768
+      ],
+      "mode": "RGBA",
+      "disk_bytes": 736940,
+      "rgba_decoded_bytes": 7077888,
+      "power_of_two": false,
+      "empty": false,
+      "alpha_min": 0,
+      "alpha_max": 255,
+      "alpha_zero": 1487001,
+      "partial_alpha": 86822,
+      "zero_rgb_clean": true,
+      "runtime_keys": []
+    },
+    {
+      "path": "assets/frozen/fall/fall_02.png",
+      "size": [
+        768,
+        768
+      ],
+      "mode": "RGBA",
+      "disk_bytes": 266083,
+      "rgba_decoded_bytes": 2359296,
+      "power_of_two": false,
+      "empty": false,
+      "alpha_min": 0,
+      "alpha_max": 255,
+      "alpha_zero": 495608,
+      "partial_alpha": 29579,
+      "zero_rgb_clean": true,
+      "runtime_keys": [
+        "fall2"
+      ]
+    },
+    {
+      "path": "assets/frozen/fall/fall_03.png",
+      "size": [
+        768,
+        768
+      ],
+      "mode": "RGBA",
+      "disk_bytes": 267007,
+      "rgba_decoded_bytes": 2359296,
+      "power_of_two": false,
+      "empty": false,
+      "alpha_min": 0,
+      "alpha_max": 255,
+      "alpha_zero": 495377,
+      "partial_alpha": 29733,
+      "zero_rgb_clean": true,
+      "runtime_keys": [
+        "fall3"
+      ]
+    },
+    {
+      "path": "assets/frozen/fall/fall_01.png",
+      "size": [
+        768,
+        768
+      ],
+      "mode": "RGBA",
+      "disk_bytes": 281879,
+      "rgba_decoded_bytes": 2359296,
+      "power_of_two": false,
+      "empty": false,
+      "alpha_min": 0,
+      "alpha_max": 255,
+      "alpha_zero": 496016,
+      "partial_alpha": 27510,
+      "zero_rgb_clean": true,
+      "runtime_keys": [
+        "fall1"
+      ]
+    }
+  ],
+  "unreferenced": [
+    {
+      "path": "assets/background/light_dark_preview.png",
+      "size": [
+        780,
+        844
+      ],
+      "mode": "RGB",
+      "disk_bytes": 67915,
+      "rgba_decoded_bytes": 2633280,
+      "power_of_two": false,
+      "empty": false,
+      "runtime_keys": []
+    },
+    {
+      "path": "assets/effects/crescent_sheet.png",
+      "size": [
+        3072,
+        2048
+      ],
+      "mode": "RGBA",
+      "disk_bytes": 969634,
+      "rgba_decoded_bytes": 25165824,
+      "power_of_two": false,
+      "empty": false,
+      "alpha_min": 0,
+      "alpha_max": 157,
+      "alpha_zero": 5795377,
+      "partial_alpha": 496079,
+      "zero_rgb_clean": true,
+      "runtime_keys": []
+    },
+    {
+      "path": "assets/ninja/green/throw_air_sheet.png",
+      "size": [
+        1728,
+        576
+      ],
+      "mode": "RGBA",
+      "disk_bytes": 528819,
+      "rgba_decoded_bytes": 3981312,
+      "power_of_two": false,
+      "empty": false,
+      "alpha_min": 0,
+      "alpha_max": 255,
+      "alpha_zero": 679583,
+      "partial_alpha": 284544,
+      "zero_rgb_clean": true,
+      "runtime_keys": []
+    },
+    {
+      "path": "assets/ninja/green/throw_ground_sheet.png",
+      "size": [
+        1728,
+        576
+      ],
+      "mode": "RGBA",
+      "disk_bytes": 539076,
+      "rgba_decoded_bytes": 3981312,
+      "power_of_two": false,
+      "empty": false,
+      "alpha_min": 0,
+      "alpha_max": 255,
+      "alpha_zero": 673001,
+      "partial_alpha": 293069,
+      "zero_rgb_clean": true,
+      "runtime_keys": []
+    },
+    {
+      "path": "assets/ninja/green/air_sheet.png",
+      "size": [
+        1728,
+        576
+      ],
+      "mode": "RGBA",
+      "disk_bytes": 507955,
+      "rgba_decoded_bytes": 3981312,
+      "power_of_two": false,
+      "empty": false,
+      "alpha_min": 0,
+      "alpha_max": 255,
+      "alpha_zero": 678719,
+      "partial_alpha": 286888,
+      "zero_rgb_clean": true,
+      "runtime_keys": []
+    },
+    {
+      "path": "assets/ninja/green/patrol_sheet.png",
+      "size": [
+        1728,
+        576
+      ],
+      "mode": "RGBA",
+      "disk_bytes": 519036,
+      "rgba_decoded_bytes": 3981312,
+      "power_of_two": false,
+      "empty": false,
+      "alpha_min": 0,
+      "alpha_max": 255,
+      "alpha_zero": 672137,
+      "partial_alpha": 295413,
+      "zero_rgb_clean": true,
+      "runtime_keys": []
+    },
+    {
+      "path": "assets/ninja/green/death_sheet.png",
+      "size": [
+        1152,
+        576
+      ],
+      "mode": "RGBA",
+      "disk_bytes": 267795,
+      "rgba_decoded_bytes": 2654208,
+      "power_of_two": false,
+      "empty": false,
+      "alpha_min": 0,
+      "alpha_max": 255,
+      "alpha_zero": 558280,
+      "partial_alpha": 91700,
+      "zero_rgb_clean": true,
+      "runtime_keys": []
+    },
+    {
+      "path": "assets/ninja/red/throw_air_sheet.png",
+      "size": [
+        1728,
+        576
+      ],
+      "mode": "RGBA",
+      "disk_bytes": 530318,
+      "rgba_decoded_bytes": 3981312,
+      "power_of_two": false,
+      "empty": false,
+      "alpha_min": 0,
+      "alpha_max": 255,
+      "alpha_zero": 679583,
+      "partial_alpha": 284544,
+      "zero_rgb_clean": true,
+      "runtime_keys": []
+    },
+    {
+      "path": "assets/ninja/red/throw_ground_sheet.png",
+      "size": [
+        1728,
+        576
+      ],
+      "mode": "RGBA",
+      "disk_bytes": 541665,
+      "rgba_decoded_bytes": 3981312,
+      "power_of_two": false,
+      "empty": false,
+      "alpha_min": 0,
+      "alpha_max": 255,
+      "alpha_zero": 673001,
+      "partial_alpha": 293069,
+      "zero_rgb_clean": true,
+      "runtime_keys": []
+    },
+    {
+      "path": "assets/ninja/red/air_sheet.png",
+      "size": [
+        1728,
+        576
+      ],
+      "mode": "RGBA",
+      "disk_bytes": 510219,
+      "rgba_decoded_bytes": 3981312,
+      "power_of_two": false,
+      "empty": false,
+      "alpha_min": 0,
+      "alpha_max": 255,
+      "alpha_zero": 678719,
+      "partial_alpha": 286888,
+      "zero_rgb_clean": true,
+      "runtime_keys": []
+    },
+    {
+      "path": "assets/ninja/red/patrol_sheet.png",
+      "size": [
+        1728,
+        576
+      ],
+      "mode": "RGBA",
+      "disk_bytes": 521149,
+      "rgba_decoded_bytes": 3981312,
+      "power_of_two": false,
+      "empty": false,
+      "alpha_min": 0,
+      "alpha_max": 255,
+      "alpha_zero": 672137,
+      "partial_alpha": 295413,
+      "zero_rgb_clean": true,
+      "runtime_keys": []
+    },
+    {
+      "path": "assets/ninja/red/death_sheet.png",
+      "size": [
+        1152,
+        576
+      ],
+      "mode": "RGBA",
+      "disk_bytes": 269152,
+      "rgba_decoded_bytes": 2654208,
+      "power_of_two": false,
+      "empty": false,
+      "alpha_min": 0,
+      "alpha_max": 255,
+      "alpha_zero": 558280,
+      "partial_alpha": 91700,
+      "zero_rgb_clean": true,
+      "runtime_keys": []
+    },
+    {
+      "path": "assets/ninja/black/throw_air_sheet.png",
+      "size": [
+        1728,
+        576
+      ],
+      "mode": "RGBA",
+      "disk_bytes": 616049,
+      "rgba_decoded_bytes": 3981312,
+      "power_of_two": false,
+      "empty": false,
+      "alpha_min": 0,
+      "alpha_max": 255,
+      "alpha_zero": 679583,
+      "partial_alpha": 284544,
+      "zero_rgb_clean": true,
+      "runtime_keys": []
+    },
+    {
+      "path": "assets/ninja/black/throw_ground_sheet.png",
+      "size": [
+        1728,
+        576
+      ],
+      "mode": "RGBA",
+      "disk_bytes": 624054,
+      "rgba_decoded_bytes": 3981312,
+      "power_of_two": false,
+      "empty": false,
+      "alpha_min": 0,
+      "alpha_max": 255,
+      "alpha_zero": 673001,
+      "partial_alpha": 293069,
+      "zero_rgb_clean": true,
+      "runtime_keys": []
+    },
+    {
+      "path": "assets/ninja/black/air_sheet.png",
+      "size": [
+        1728,
+        576
+      ],
+      "mode": "RGBA",
+      "disk_bytes": 592031,
+      "rgba_decoded_bytes": 3981312,
+      "power_of_two": false,
+      "empty": false,
+      "alpha_min": 0,
+      "alpha_max": 255,
+      "alpha_zero": 678719,
+      "partial_alpha": 286888,
+      "zero_rgb_clean": true,
+      "runtime_keys": []
+    },
+    {
+      "path": "assets/ninja/black/patrol_sheet.png",
+      "size": [
+        1728,
+        576
+      ],
+      "mode": "RGBA",
+      "disk_bytes": 599795,
+      "rgba_decoded_bytes": 3981312,
+      "power_of_two": false,
+      "empty": false,
+      "alpha_min": 0,
+      "alpha_max": 255,
+      "alpha_zero": 672137,
+      "partial_alpha": 295413,
+      "zero_rgb_clean": true,
+      "runtime_keys": []
+    },
+    {
+      "path": "assets/ninja/black/death_sheet.png",
+      "size": [
+        1152,
+        576
+      ],
+      "mode": "RGBA",
+      "disk_bytes": 308803,
+      "rgba_decoded_bytes": 2654208,
+      "power_of_two": false,
+      "empty": false,
+      "alpha_min": 0,
+      "alpha_max": 255,
+      "alpha_zero": 558280,
+      "partial_alpha": 91700,
+      "zero_rgb_clean": true,
+      "runtime_keys": []
+    },
+    {
+      "path": "assets/frozen/idle/idle_sheet.png",
+      "size": [
+        1536,
+        512
+      ],
+      "mode": "RGBA",
+      "disk_bytes": 482174,
+      "rgba_decoded_bytes": 3145728,
+      "power_of_two": false,
+      "empty": false,
+      "alpha_min": 0,
+      "alpha_max": 255,
+      "alpha_zero": 557413,
+      "partial_alpha": 47516,
+      "zero_rgb_clean": true,
+      "runtime_keys": []
+    },
+    {
+      "path": "assets/frozen/moon/moon_sheet.png",
+      "size": [
+        2304,
+        768
+      ],
+      "mode": "RGBA",
+      "disk_bytes": 748679,
+      "rgba_decoded_bytes": 7077888,
+      "power_of_two": false,
+      "empty": false,
+      "alpha_min": 0,
+      "alpha_max": 255,
+      "alpha_zero": 1498074,
+      "partial_alpha": 65735,
+      "zero_rgb_clean": true,
+      "runtime_keys": []
+    },
+    {
+      "path": "assets/frozen/jump/jump_sheet.png",
+      "size": [
+        2304,
+        768
+      ],
+      "mode": "RGBA",
+      "disk_bytes": 674572,
+      "rgba_decoded_bytes": 7077888,
+      "power_of_two": false,
+      "empty": false,
+      "alpha_min": 0,
+      "alpha_max": 255,
+      "alpha_zero": 1473387,
+      "partial_alpha": 61693,
+      "zero_rgb_clean": true,
+      "runtime_keys": []
+    },
+    {
+      "path": "assets/frozen/fall/fall_sheet.png",
+      "size": [
+        2304,
+        768
+      ],
+      "mode": "RGBA",
+      "disk_bytes": 736940,
+      "rgba_decoded_bytes": 7077888,
+      "power_of_two": false,
+      "empty": false,
+      "alpha_min": 0,
+      "alpha_max": 255,
+      "alpha_zero": 1487001,
+      "partial_alpha": 86822,
+      "zero_rgb_clean": true,
+      "runtime_keys": []
+    }
+  ]
+}

@@ -1,0 +1,702 @@
+{
+  "schemaVersion": 1,
+  "note": "Scoped task requirement map, not native Studio tr-registry.yaml",
+  "requirements": [
+    {
+      "id": "TR-freeze-001",
+      "requirement": "重力 px/s²",
+      "value": "740",
+      "evidence": {
+        "v33": {
+          "file": "/Users/tianliang/Documents/Codex/2026-10-18/referenced-chatgpt-conversation-this-is-an/work/moon_v01/v33_original.html",
+          "line": 231,
+          "fragment": "hero.vy+=740*dt"
+        },
+        "stage2": {
+          "file": "/Users/tianliang/Documents/Codex/2026-10-18/referenced-chatgpt-conversation-this-is-an/outputs/baimei_ink_stage2/playtest.html",
+          "line": 277,
+          "fragment": "hero.vy+=740*dt"
+        },
+        "upgrade": {
+          "file": "/Users/tianliang/Documents/Codex/2026-10-18/referenced-chatgpt-conversation-this-is-an/outputs/baimei_ink_studio_v1/playtest.html",
+          "line": 237,
+          "fragment": "hero.vy+=740*dt"
+        }
+      },
+      "verification": "Final integrated source comparison completed; behavioral tests reported separately",
+      "status": "Frozen"
+    },
+    {
+      "id": "TR-freeze-002",
+      "requirement": "单次轻功/上限 px/s",
+      "value": "vy=max(-580,min(vy,0)-480)",
+      "evidence": {
+        "v33": {
+          "file": "/Users/tianliang/Documents/Codex/2026-10-18/referenced-chatgpt-conversation-this-is-an/work/moon_v01/v33_original.html",
+          "line": 38,
+          "fragment": "hero.vy=Math.max(-580,Math.min(hero.vy,0)-480)"
+        },
+        "stage2": {
+          "file": "/Users/tianliang/Documents/Codex/2026-10-18/referenced-chatgpt-conversation-this-is-an/outputs/baimei_ink_stage2/playtest.html",
+          "line": 39,
+          "fragment": "hero.vy=Math.max(-580,Math.min(hero.vy,0)-480)"
+        },
+        "upgrade": {
+          "file": "/Users/tianliang/Documents/Codex/2026-10-18/referenced-chatgpt-conversation-this-is-an/outputs/baimei_ink_studio_v1/playtest.html",
+          "line": 74,
+          "fragment": "hero.vy=Math.max(-580,Math.min(hero.vy,0)-480)"
+        }
+      },
+      "verification": "Final integrated source comparison completed; behavioral tests reported separately",
+      "status": "Frozen"
+    },
+    {
+      "id": "TR-freeze-003",
+      "requirement": "横向轻功 px/s",
+      "value": "±145",
+      "evidence": {
+        "v33": {
+          "file": "/Users/tianliang/Documents/Codex/2026-10-18/referenced-chatgpt-conversation-this-is-an/work/moon_v01/v33_original.html",
+          "line": 38,
+          "fragment": "hero.vx=d*145"
+        },
+        "stage2": {
+          "file": "/Users/tianliang/Documents/Codex/2026-10-18/referenced-chatgpt-conversation-this-is-an/outputs/baimei_ink_stage2/playtest.html",
+          "line": 39,
+          "fragment": "hero.vx=d*145"
+        },
+        "upgrade": {
+          "file": "/Users/tianliang/Documents/Codex/2026-10-18/referenced-chatgpt-conversation-this-is-an/outputs/baimei_ink_studio_v1/playtest.html",
+          "line": 74,
+          "fragment": "hero.vx=d*145"
+        }
+      },
+      "verification": "Final integrated source comparison completed; behavioral tests reported separately",
+      "status": "Frozen"
+    },
+    {
+      "id": "TR-freeze-004",
+      "requirement": "水平衰减 s⁻¹",
+      "value": "0.24",
+      "evidence": {
+        "v33": {
+          "file": "/Users/tianliang/Documents/Codex/2026-10-18/referenced-chatgpt-conversation-this-is-an/work/moon_v01/v33_original.html",
+          "line": 231,
+          "fragment": "hero.vx*=Math.exp(-.24*dt)"
+        },
+        "stage2": {
+          "file": "/Users/tianliang/Documents/Codex/2026-10-18/referenced-chatgpt-conversation-this-is-an/outputs/baimei_ink_stage2/playtest.html",
+          "line": 277,
+          "fragment": "hero.vx*=Math.exp(-.24*dt)"
+        },
+        "upgrade": {
+          "file": "/Users/tianliang/Documents/Codex/2026-10-18/referenced-chatgpt-conversation-this-is-an/outputs/baimei_ink_studio_v1/playtest.html",
+          "line": 237,
+          "fragment": "hero.vx*=Math.exp(-.24*dt)"
+        }
+      },
+      "verification": "Final integrated source comparison completed; behavioral tests reported separately",
+      "status": "Frozen"
+    },
+    {
+      "id": "TR-freeze-005",
+      "requirement": "左右/顶部边界 px",
+      "value": "25；W−25；82",
+      "evidence": {
+        "v33": {
+          "file": "/Users/tianliang/Documents/Codex/2026-10-18/referenced-chatgpt-conversation-this-is-an/work/moon_v01/v33_original.html",
+          "line": 231,
+          "fragment": "if(hero.y<82)"
+        },
+        "stage2": {
+          "file": "/Users/tianliang/Documents/Codex/2026-10-18/referenced-chatgpt-conversation-this-is-an/outputs/baimei_ink_stage2/playtest.html",
+          "line": 277,
+          "fragment": "if(hero.y<82)"
+        },
+        "upgrade": {
+          "file": "/Users/tianliang/Documents/Codex/2026-10-18/referenced-chatgpt-conversation-this-is-an/outputs/baimei_ink_studio_v1/playtest.html",
+          "line": 237,
+          "fragment": "if(hero.y<82)"
+        }
+      },
+      "verification": "Final integrated source comparison completed; behavioral tests reported separately",
+      "status": "Frozen"
+    },
+    {
+      "id": "TR-freeze-006",
+      "requirement": "地面基准",
+      "value": "G=H−max(116,102+safeBottom());safeBottom=0",
+      "evidence": {
+        "v33": {
+          "file": "/Users/tianliang/Documents/Codex/2026-10-18/referenced-chatgpt-conversation-this-is-an/work/moon_v01/v33_original.html",
+          "line": 15,
+          "fragment": "G=H-Math.max(116,102+safeBottom())"
+        },
+        "stage2": {
+          "file": "/Users/tianliang/Documents/Codex/2026-10-18/referenced-chatgpt-conversation-this-is-an/outputs/baimei_ink_stage2/playtest.html",
+          "line": 16,
+          "fragment": "G=H-Math.max(116,102+safeBottom())"
+        },
+        "upgrade": {
+          "file": "/Users/tianliang/Documents/Codex/2026-10-18/referenced-chatgpt-conversation-this-is-an/outputs/baimei_ink_studio_v1/playtest.html",
+          "line": 51,
+          "fragment": "G=H-Math.max(116,102+safeBottom())"
+        }
+      },
+      "verification": "Final integrated source comparison completed; behavioral tests reported separately",
+      "status": "Frozen"
+    },
+    {
+      "id": "TR-freeze-007",
+      "requirement": "圆月斩接近触发距离 px",
+      "value": "77；中心(hero.x,hero.y−20)",
+      "evidence": {
+        "v33": {
+          "file": "/Users/tianliang/Documents/Codex/2026-10-18/referenced-chatgpt-conversation-this-is-an/work/moon_v01/v33_original.html",
+          "line": 264,
+          "fragment": "<(58+19)"
+        },
+        "stage2": {
+          "file": "/Users/tianliang/Documents/Codex/2026-10-18/referenced-chatgpt-conversation-this-is-an/outputs/baimei_ink_stage2/playtest.html",
+          "line": 310,
+          "fragment": "<(58+19)"
+        },
+        "upgrade": {
+          "file": "/Users/tianliang/Documents/Codex/2026-10-18/referenced-chatgpt-conversation-this-is-an/outputs/baimei_ink_studio_v1/playtest.html",
+          "line": 270,
+          "fragment": "<(58+19)"
+        }
+      },
+      "verification": "Final integrated source comparison completed; behavioral tests reported separately",
+      "status": "Frozen"
+    },
+    {
+      "id": "TR-freeze-008",
+      "requirement": "圆月斩持续 s",
+      "value": "0.38",
+      "evidence": {
+        "v33": {
+          "file": "/Users/tianliang/Documents/Codex/2026-10-18/referenced-chatgpt-conversation-this-is-an/work/moon_v01/v33_original.html",
+          "line": 176,
+          "fragment": "const SLASH_DURATION=.38"
+        },
+        "stage2": {
+          "file": "/Users/tianliang/Documents/Codex/2026-10-18/referenced-chatgpt-conversation-this-is-an/outputs/baimei_ink_stage2/playtest.html",
+          "line": 222,
+          "fragment": "const SLASH_DURATION=.38"
+        },
+        "upgrade": {
+          "file": "/Users/tianliang/Documents/Codex/2026-10-18/referenced-chatgpt-conversation-this-is-an/outputs/baimei_ink_studio_v1/playtest.html",
+          "line": 182,
+          "fragment": "const SLASH_DURATION=.38"
+        }
+      },
+      "verification": "Final integrated source comparison completed; behavioral tests reported separately",
+      "status": "Frozen"
+    },
+    {
+      "id": "TR-freeze-009",
+      "requirement": "剑光有效半径 px",
+      "value": "76",
+      "evidence": {
+        "v33": {
+          "file": "/Users/tianliang/Documents/Codex/2026-10-18/referenced-chatgpt-conversation-this-is-an/work/moon_v01/v33_original.html",
+          "line": 176,
+          "fragment": "SLASH_RADIUS=76"
+        },
+        "stage2": {
+          "file": "/Users/tianliang/Documents/Codex/2026-10-18/referenced-chatgpt-conversation-this-is-an/outputs/baimei_ink_stage2/playtest.html",
+          "line": 222,
+          "fragment": "SLASH_RADIUS=76"
+        },
+        "upgrade": {
+          "file": "/Users/tianliang/Documents/Codex/2026-10-18/referenced-chatgpt-conversation-this-is-an/outputs/baimei_ink_studio_v1/playtest.html",
+          "line": 182,
+          "fragment": "SLASH_RADIUS=76"
+        }
+      },
+      "verification": "Final integrated source comparison completed; behavioral tests reported separately",
+      "status": "Frozen"
+    },
+    {
+      "id": "TR-freeze-010",
+      "requirement": "扫掠弧度/展开时间",
+      "value": "1.78π=320.4°；0.38×0.69=0.2622s",
+      "evidence": {
+        "v33": {
+          "file": "/Users/tianliang/Documents/Codex/2026-10-18/referenced-chatgpt-conversation-this-is-an/work/moon_v01/v33_original.html",
+          "line": 182,
+          "fragment": "Math.PI*1.78*sweep"
+        },
+        "stage2": {
+          "file": "/Users/tianliang/Documents/Codex/2026-10-18/referenced-chatgpt-conversation-this-is-an/outputs/baimei_ink_stage2/playtest.html",
+          "line": 228,
+          "fragment": "Math.PI*1.78*sweep"
+        },
+        "upgrade": {
+          "file": "/Users/tianliang/Documents/Codex/2026-10-18/referenced-chatgpt-conversation-this-is-an/outputs/baimei_ink_studio_v1/playtest.html",
+          "line": 188,
+          "fragment": "Math.PI*1.78*sweep"
+        }
+      },
+      "verification": "Final integrated source comparison completed; behavioral tests reported separately",
+      "status": "Frozen"
+    },
+    {
+      "id": "TR-freeze-011",
+      "requirement": "输入开放时刻 s",
+      "value": "0.17",
+      "evidence": {
+        "v33": {
+          "file": "/Users/tianliang/Documents/Codex/2026-10-18/referenced-chatgpt-conversation-this-is-an/work/moon_v01/v33_original.html",
+          "line": 36,
+          "fragment": "SLASH_CANCEL_AT=.17"
+        },
+        "stage2": {
+          "file": "/Users/tianliang/Documents/Codex/2026-10-18/referenced-chatgpt-conversation-this-is-an/outputs/baimei_ink_stage2/playtest.html",
+          "line": 37,
+          "fragment": "SLASH_CANCEL_AT=.17"
+        },
+        "upgrade": {
+          "file": "/Users/tianliang/Documents/Codex/2026-10-18/referenced-chatgpt-conversation-this-is-an/outputs/baimei_ink_studio_v1/playtest.html",
+          "line": 72,
+          "fragment": "SLASH_CANCEL_AT=.17"
+        }
+      },
+      "verification": "Final integrated source comparison completed; behavioral tests reported separately",
+      "status": "Frozen"
+    },
+    {
+      "id": "TR-freeze-012",
+      "requirement": "轻功输入缓冲 s",
+      "value": "0.17",
+      "evidence": {
+        "v33": {
+          "file": "/Users/tianliang/Documents/Codex/2026-10-18/referenced-chatgpt-conversation-this-is-an/work/moon_v01/v33_original.html",
+          "line": 36,
+          "fragment": "JUMP_BUFFER=.17"
+        },
+        "stage2": {
+          "file": "/Users/tianliang/Documents/Codex/2026-10-18/referenced-chatgpt-conversation-this-is-an/outputs/baimei_ink_stage2/playtest.html",
+          "line": 37,
+          "fragment": "JUMP_BUFFER=.17"
+        },
+        "upgrade": {
+          "file": "/Users/tianliang/Documents/Codex/2026-10-18/referenced-chatgpt-conversation-this-is-an/outputs/baimei_ink_studio_v1/playtest.html",
+          "line": 72,
+          "fragment": "JUMP_BUFFER=.17"
+        }
+      },
+      "verification": "Final integrated source comparison completed; behavioral tests reported separately",
+      "status": "Frozen"
+    },
+    {
+      "id": "TR-freeze-013",
+      "requirement": "双按识别 ms",
+      "value": "190 或另一侧仍按住",
+      "evidence": {
+        "v33": {
+          "file": "/Users/tianliang/Documents/Codex/2026-10-18/referenced-chatgpt-conversation-this-is-an/work/moon_v01/v33_original.html",
+          "line": 35,
+          "fragment": "const BOTH_WINDOW=190"
+        },
+        "stage2": {
+          "file": "/Users/tianliang/Documents/Codex/2026-10-18/referenced-chatgpt-conversation-this-is-an/outputs/baimei_ink_stage2/playtest.html",
+          "line": 36,
+          "fragment": "const BOTH_WINDOW=190"
+        },
+        "upgrade": {
+          "file": "/Users/tianliang/Documents/Codex/2026-10-18/referenced-chatgpt-conversation-this-is-an/outputs/baimei_ink_studio_v1/playtest.html",
+          "line": 71,
+          "fragment": "const BOTH_WINDOW=190"
+        }
+      },
+      "verification": "Final integrated source comparison completed; behavioral tests reported separately",
+      "status": "Frozen"
+    },
+    {
+      "id": "TR-freeze-014",
+      "requirement": "四档踏空阈值",
+      "value": "1→2:3次；2→3:7次；3→4:12次",
+      "evidence": {
+        "v33": {
+          "file": "/Users/tianliang/Documents/Codex/2026-10-18/referenced-chatgpt-conversation-this-is-an/work/moon_v01/v33_original.html",
+          "line": 38,
+          "fragment": "tier=kicks>=12?4:kicks>=7?3:kicks>=3?2:1"
+        },
+        "stage2": {
+          "file": "/Users/tianliang/Documents/Codex/2026-10-18/referenced-chatgpt-conversation-this-is-an/outputs/baimei_ink_stage2/playtest.html",
+          "line": 39,
+          "fragment": "tier=kicks>=12?4:kicks>=7?3:kicks>=3?2:1"
+        },
+        "upgrade": {
+          "file": "/Users/tianliang/Documents/Codex/2026-10-18/referenced-chatgpt-conversation-this-is-an/outputs/baimei_ink_studio_v1/playtest.html",
+          "line": 74,
+          "fragment": "tier=kicks>=12?4:kicks>=7?3:kicks>=3?2:1"
+        }
+      },
+      "verification": "Final integrated source comparison completed; behavioral tests reported separately",
+      "status": "Frozen"
+    },
+    {
+      "id": "TR-freeze-015",
+      "requirement": "斩中速度修正",
+      "value": "vx×0.88；向目标反向5.8",
+      "evidence": {
+        "v33": {
+          "file": "/Users/tianliang/Documents/Codex/2026-10-18/referenced-chatgpt-conversation-this-is-an/work/moon_v01/v33_original.html",
+          "line": 170,
+          "fragment": "slash=0; hero.vx*=.88"
+        },
+        "stage2": {
+          "file": "/Users/tianliang/Documents/Codex/2026-10-18/referenced-chatgpt-conversation-this-is-an/outputs/baimei_ink_stage2/playtest.html",
+          "line": 216,
+          "fragment": "slash=0; hero.vx*=.88"
+        },
+        "upgrade": {
+          "file": "/Users/tianliang/Documents/Codex/2026-10-18/referenced-chatgpt-conversation-this-is-an/outputs/baimei_ink_studio_v1/playtest.html",
+          "line": 176,
+          "fragment": "slash=0; hero.vx*=.88"
+        }
+      },
+      "verification": "Final integrated source comparison completed; behavioral tests reported separately",
+      "status": "Frozen"
+    },
+    {
+      "id": "TR-freeze-016",
+      "requirement": "飞镖伤害",
+      "value": "相对运动连续线段，3圆 offset/r=(33/12,17/13,5/9)",
+      "evidence": {
+        "v33": {
+          "file": "/Users/tianliang/Documents/Codex/2026-10-18/referenced-chatgpt-conversation-this-is-an/work/moon_v01/v33_original.html",
+          "line": 275,
+          "fragment": "if(near(33,12)||near(17,13)||near(5,9))"
+        },
+        "stage2": {
+          "file": "/Users/tianliang/Documents/Codex/2026-10-18/referenced-chatgpt-conversation-this-is-an/outputs/baimei_ink_stage2/playtest.html",
+          "line": 321,
+          "fragment": "if(near(33,12)||near(17,13)||near(5,9))"
+        },
+        "upgrade": {
+          "file": "/Users/tianliang/Documents/Codex/2026-10-18/referenced-chatgpt-conversation-this-is-an/outputs/baimei_ink_studio_v1/playtest.html",
+          "line": 281,
+          "fragment": "if(near(33,12)||near(17,13)||near(5,9))"
+        }
+      },
+      "verification": "Final integrated source comparison completed; behavioral tests reported separately",
+      "status": "Frozen"
+    },
+    {
+      "id": "TR-freeze-017",
+      "requirement": "受伤后免伤 s",
+      "value": "0.43",
+      "evidence": {
+        "v33": {
+          "file": "/Users/tianliang/Documents/Codex/2026-10-18/referenced-chatgpt-conversation-this-is-an/work/moon_v01/v33_original.html",
+          "line": 276,
+          "fragment": "hp--;hit=.43"
+        },
+        "stage2": {
+          "file": "/Users/tianliang/Documents/Codex/2026-10-18/referenced-chatgpt-conversation-this-is-an/outputs/baimei_ink_stage2/playtest.html",
+          "line": 322,
+          "fragment": "hp--;hit=.43"
+        },
+        "upgrade": {
+          "file": "/Users/tianliang/Documents/Codex/2026-10-18/referenced-chatgpt-conversation-this-is-an/outputs/baimei_ink_studio_v1/playtest.html",
+          "line": 282,
+          "fragment": "hp--;hit=.43"
+        }
+      },
+      "verification": "Final integrated source comparison completed; behavioral tests reported separately",
+      "status": "Frozen"
+    },
+    {
+      "id": "TR-freeze-018",
+      "requirement": "弹反有效区域",
+      "value": "飞镖更新后端点 swordHit(x,y,6)",
+      "evidence": {
+        "v33": {
+          "file": "/Users/tianliang/Documents/Codex/2026-10-18/referenced-chatgpt-conversation-this-is-an/work/moon_v01/v33_original.html",
+          "line": 265,
+          "fragment": "swordHit(s.x,s.y,6)"
+        },
+        "stage2": {
+          "file": "/Users/tianliang/Documents/Codex/2026-10-18/referenced-chatgpt-conversation-this-is-an/outputs/baimei_ink_stage2/playtest.html",
+          "line": 311,
+          "fragment": "swordHit(s.x,s.y,6)"
+        },
+        "upgrade": {
+          "file": "/Users/tianliang/Documents/Codex/2026-10-18/referenced-chatgpt-conversation-this-is-an/outputs/baimei_ink_studio_v1/playtest.html",
+          "line": 271,
+          "fragment": "swordHit(s.x,s.y,6)"
+        }
+      },
+      "verification": "Final integrated source comparison completed; behavioral tests reported separately",
+      "status": "Frozen"
+    },
+    {
+      "id": "TR-freeze-019",
+      "requirement": "弹反速度",
+      "value": "径向235+hero.v×0.25；外推12；life≤1.3",
+      "evidence": {
+        "v33": {
+          "file": "/Users/tianliang/Documents/Codex/2026-10-18/referenced-chatgpt-conversation-this-is-an/work/moon_v01/v33_original.html",
+          "line": 265,
+          "fragment": "s.vx=dx/m*235+hero.vx*.25"
+        },
+        "stage2": {
+          "file": "/Users/tianliang/Documents/Codex/2026-10-18/referenced-chatgpt-conversation-this-is-an/outputs/baimei_ink_stage2/playtest.html",
+          "line": 311,
+          "fragment": "s.vx=dx/m*235+hero.vx*.25"
+        },
+        "upgrade": {
+          "file": "/Users/tianliang/Documents/Codex/2026-10-18/referenced-chatgpt-conversation-this-is-an/outputs/baimei_ink_studio_v1/playtest.html",
+          "line": 271,
+          "fragment": "s.vx=dx/m*235+hero.vx*.25"
+        }
+      },
+      "verification": "Final integrated source comparison completed; behavioral tests reported separately",
+      "status": "Frozen"
+    },
+    {
+      "id": "TR-freeze-020",
+      "requirement": "绿色下降倍率",
+      "value": "3.1；初速25×3.1；目标速度R(70,108)×3.1",
+      "evidence": {
+        "v33": {
+          "file": "/Users/tianliang/Documents/Codex/2026-10-18/referenced-chatgpt-conversation-this-is-an/work/moon_v01/v33_original.html",
+          "line": 119,
+          "fragment": "type==='green'?3.1:1"
+        },
+        "stage2": {
+          "file": "/Users/tianliang/Documents/Codex/2026-10-18/referenced-chatgpt-conversation-this-is-an/outputs/baimei_ink_stage2/playtest.html",
+          "line": 193,
+          "fragment": "type==='green'?3.1:1"
+        },
+        "upgrade": {
+          "file": "/Users/tianliang/Documents/Codex/2026-10-18/referenced-chatgpt-conversation-this-is-an/outputs/baimei_ink_studio_v1/playtest.html",
+          "line": 153,
+          "fragment": "type==='green'?3.1:1"
+        }
+      },
+      "verification": "Final integrated source comparison completed; behavioral tests reported separately",
+      "status": "Frozen"
+    },
+    {
+      "id": "TR-freeze-021",
+      "requirement": "绿色落地优先投镖",
+      "value": "尚未投过时 warn=0.27",
+      "evidence": {
+        "v33": {
+          "file": "/Users/tianliang/Documents/Codex/2026-10-18/referenced-chatgpt-conversation-this-is-an/work/moon_v01/v33_original.html",
+          "line": 232,
+          "fragment": "if(n.type==='green'&&!n.firstShot){n.warn=.27;n.firstShot=true}"
+        },
+        "stage2": {
+          "file": "/Users/tianliang/Documents/Codex/2026-10-18/referenced-chatgpt-conversation-this-is-an/outputs/baimei_ink_stage2/playtest.html",
+          "line": 278,
+          "fragment": "if(n.type==='green'&&!n.firstShot){n.warn=.27;n.firstShot=true}"
+        },
+        "upgrade": {
+          "file": "/Users/tianliang/Documents/Codex/2026-10-18/referenced-chatgpt-conversation-this-is-an/outputs/baimei_ink_studio_v1/playtest.html",
+          "line": 238,
+          "fragment": "if(n.type==='green'&&!n.firstShot){n.warn=.27;n.firstShot=true}"
+        }
+      },
+      "verification": "Final integrated source comparison completed; behavioral tests reported separately",
+      "status": "Frozen"
+    },
+    {
+      "id": "TR-freeze-022",
+      "requirement": "红色双镖",
+      "value": "首发后burst=1，间隔0.19s",
+      "evidence": {
+        "v33": {
+          "file": "/Users/tianliang/Documents/Codex/2026-10-18/referenced-chatgpt-conversation-this-is-an/work/moon_v01/v33_original.html",
+          "line": 260,
+          "fragment": "if(n.type==='red'){n.burst=1;n.burstDelay=.19;}"
+        },
+        "stage2": {
+          "file": "/Users/tianliang/Documents/Codex/2026-10-18/referenced-chatgpt-conversation-this-is-an/outputs/baimei_ink_stage2/playtest.html",
+          "line": 306,
+          "fragment": "if(n.type==='red'){n.burst=1;n.burstDelay=.19;}"
+        },
+        "upgrade": {
+          "file": "/Users/tianliang/Documents/Codex/2026-10-18/referenced-chatgpt-conversation-this-is-an/outputs/baimei_ink_studio_v1/playtest.html",
+          "line": 266,
+          "fragment": "if(n.type==='red'){n.burst=1;n.burstDelay=.19;}"
+        }
+      },
+      "verification": "Final integrated source comparison completed; behavioral tests reported separately",
+      "status": "Frozen"
+    },
+    {
+      "id": "TR-freeze-023",
+      "requirement": "巡逻",
+      "value": "16..28 px/s；落地0.34s后行走；预警/连发时停止",
+      "evidence": {
+        "v33": {
+          "file": "/Users/tianliang/Documents/Codex/2026-10-18/referenced-chatgpt-conversation-this-is-an/work/moon_v01/v33_original.html",
+          "line": 238,
+          "fragment": "n.groundAge>.34"
+        },
+        "stage2": {
+          "file": "/Users/tianliang/Documents/Codex/2026-10-18/referenced-chatgpt-conversation-this-is-an/outputs/baimei_ink_stage2/playtest.html",
+          "line": 284,
+          "fragment": "n.groundAge>.34"
+        },
+        "upgrade": {
+          "file": "/Users/tianliang/Documents/Codex/2026-10-18/referenced-chatgpt-conversation-this-is-an/outputs/baimei_ink_studio_v1/playtest.html",
+          "line": 244,
+          "fragment": "n.groundAge>.34"
+        }
+      },
+      "verification": "Final integrated source comparison completed; behavioral tests reported separately",
+      "status": "Frozen"
+    },
+    {
+      "id": "TR-freeze-024",
+      "requirement": "出场与投镖难度",
+      "value": "最多23；spawn R(.65,1.1)×max(.65,1−clock/180)；攻击R(2.3,2.9)×(1−.57min(1,clock/270))",
+      "evidence": {
+        "v33": {
+          "file": "/Users/tianliang/Documents/Codex/2026-10-18/referenced-chatgpt-conversation-this-is-an/work/moon_v01/v33_original.html",
+          "line": 232,
+          "fragment": "foes.length<23"
+        },
+        "stage2": {
+          "file": "/Users/tianliang/Documents/Codex/2026-10-18/referenced-chatgpt-conversation-this-is-an/outputs/baimei_ink_stage2/playtest.html",
+          "line": 278,
+          "fragment": "foes.length<23"
+        },
+        "upgrade": {
+          "file": "/Users/tianliang/Documents/Codex/2026-10-18/referenced-chatgpt-conversation-this-is-an/outputs/baimei_ink_studio_v1/playtest.html",
+          "line": 238,
+          "fragment": "foes.length<23"
+        }
+      },
+      "verification": "Final integrated source comparison completed; behavioral tests reported separately",
+      "status": "Frozen"
+    },
+    {
+      "id": "TR-freeze-025",
+      "requirement": "尸体重力/清场",
+      "value": "正常740；clearOut430",
+      "evidence": {
+        "v33": {
+          "file": "/Users/tianliang/Documents/Codex/2026-10-18/referenced-chatgpt-conversation-this-is-an/work/moon_v01/v33_original.html",
+          "line": 226,
+          "fragment": "o.vy+=430*dt"
+        },
+        "stage2": {
+          "file": "/Users/tianliang/Documents/Codex/2026-10-18/referenced-chatgpt-conversation-this-is-an/outputs/baimei_ink_stage2/playtest.html",
+          "line": 272,
+          "fragment": "o.vy+=430*dt"
+        },
+        "upgrade": {
+          "file": "/Users/tianliang/Documents/Codex/2026-10-18/referenced-chatgpt-conversation-this-is-an/outputs/baimei_ink_studio_v1/playtest.html",
+          "line": 232,
+          "fragment": "o.vy+=430*dt"
+        }
+      },
+      "verification": "Final integrated source comparison completed; behavioral tests reported separately",
+      "status": "Frozen"
+    },
+    {
+      "id": "TR-freeze-026",
+      "requirement": "尸体支撑",
+      "value": "G+23−corpseBottomOffset(o)",
+      "evidence": {
+        "v33": {
+          "file": "/Users/tianliang/Documents/Codex/2026-10-18/referenced-chatgpt-conversation-this-is-an/work/moon_v01/v33_original.html",
+          "line": 280,
+          "fragment": "let floor=G+23-corpseBottomOffset(o)"
+        },
+        "stage2": {
+          "file": "/Users/tianliang/Documents/Codex/2026-10-18/referenced-chatgpt-conversation-this-is-an/outputs/baimei_ink_stage2/playtest.html",
+          "line": 326,
+          "fragment": "let floor=G+23-corpseBottomOffset(o)"
+        },
+        "upgrade": {
+          "file": "/Users/tianliang/Documents/Codex/2026-10-18/referenced-chatgpt-conversation-this-is-an/outputs/baimei_ink_studio_v1/playtest.html",
+          "line": 286,
+          "fragment": "let floor=G+23-corpseBottomOffset(o)"
+        }
+      },
+      "verification": "Final integrated source comparison completed; behavioral tests reported separately",
+      "status": "Frozen"
+    },
+    {
+      "id": "TR-freeze-027",
+      "requirement": "尸体休眠",
+      "value": "|vx|<8 & |vr|<.22 连续>.32s；速度归零",
+      "evidence": {
+        "v33": {
+          "file": "/Users/tianliang/Documents/Codex/2026-10-18/referenced-chatgpt-conversation-this-is-an/work/moon_v01/v33_original.html",
+          "line": 280,
+          "fragment": "if(o.settle>.32){o.sleep=true;o.vx=o.vr=0}"
+        },
+        "stage2": {
+          "file": "/Users/tianliang/Documents/Codex/2026-10-18/referenced-chatgpt-conversation-this-is-an/outputs/baimei_ink_stage2/playtest.html",
+          "line": 326,
+          "fragment": "if(o.settle>.32){o.sleep=true;o.vx=o.vr=0}"
+        },
+        "upgrade": {
+          "file": "/Users/tianliang/Documents/Codex/2026-10-18/referenced-chatgpt-conversation-this-is-an/outputs/baimei_ink_studio_v1/playtest.html",
+          "line": 286,
+          "fragment": "if(o.settle>.32){o.sleep=true;o.vx=o.vr=0}"
+        }
+      },
+      "verification": "Final integrated source comparison completed; behavioral tests reported separately",
+      "status": "Frozen"
+    },
+    {
+      "id": "TR-freeze-028",
+      "requirement": "尸体落地弹性",
+      "value": "|vy|>45 时 vy×−.2,vx×.7,vr×.6；低速摩擦exp(−9dt)",
+      "evidence": {
+        "v33": {
+          "file": "/Users/tianliang/Documents/Codex/2026-10-18/referenced-chatgpt-conversation-this-is-an/work/moon_v01/v33_original.html",
+          "line": 280,
+          "fragment": "if(Math.abs(o.vy)>45)"
+        },
+        "stage2": {
+          "file": "/Users/tianliang/Documents/Codex/2026-10-18/referenced-chatgpt-conversation-this-is-an/outputs/baimei_ink_stage2/playtest.html",
+          "line": 326,
+          "fragment": "if(Math.abs(o.vy)>45)"
+        },
+        "upgrade": {
+          "file": "/Users/tianliang/Documents/Codex/2026-10-18/referenced-chatgpt-conversation-this-is-an/outputs/baimei_ink_studio_v1/playtest.html",
+          "line": 286,
+          "fragment": "if(Math.abs(o.vy)>45)"
+        }
+      },
+      "verification": "Final integrated source comparison completed; behavioral tests reported separately",
+      "status": "Frozen"
+    },
+    {
+      "id": "TR-freeze-029",
+      "requirement": "尸体推移",
+      "value": "仅sleep尸体；近X<18近Y<5；最多22px/s",
+      "evidence": {
+        "v33": {
+          "file": "/Users/tianliang/Documents/Codex/2026-10-18/referenced-chatgpt-conversation-this-is-an/work/moon_v01/v33_original.html",
+          "line": 247,
+          "fragment": "if(nearX<18&&nearY<5)"
+        },
+        "stage2": {
+          "file": "/Users/tianliang/Documents/Codex/2026-10-18/referenced-chatgpt-conversation-this-is-an/outputs/baimei_ink_stage2/playtest.html",
+          "line": 293,
+          "fragment": "if(nearX<18&&nearY<5)"
+        },
+        "upgrade": {
+          "file": "/Users/tianliang/Documents/Codex/2026-10-18/referenced-chatgpt-conversation-this-is-an/outputs/baimei_ink_studio_v1/playtest.html",
+          "line": 253,
+          "fragment": "if(nearX<18&&nearY<5)"
+        }
+      },
+      "verification": "Final integrated source comparison completed; behavioral tests reported separately",
+      "status": "Frozen"
+    }
+  ]
+}

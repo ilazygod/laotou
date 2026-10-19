@@ -1,0 +1,16 @@
+{
+  "version": "ink_studio_v1",
+  "html_sha256": "11b0cebe70e26ad5a39c5459b274fe76723811152d11317a7ab44ea8901aba47",
+  "automated": {
+    "pass": 36,
+    "fail": 0
+  },
+  "browser": {
+    "pass": 17,
+    "fail": 0
+  },
+  "frozen_files_unchanged": 173,
+  "new_art": "candidate_pending_user_visual_acceptance",
+  "native_mobile_performance": "NOT_RUN",
+  "pending_permission_blockers": []
+}

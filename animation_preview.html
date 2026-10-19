@@ -1,0 +1,19 @@
+<!doctype html><meta charset="utf-8"><title>水墨动作 · 正常与慢放</title><style>body{margin:0;background:#dedbd3;color:#242321;font:14px system-ui;display:flex;justify-content:center;gap:24px;padding:15px}iframe{width:390px;height:844px;border:0;transform-origin:top center}aside{width:260px;padding-top:20px}button{padding:10px;border:1px solid #888;background:#f6f2e8;color:#242321;margin:3px}video{width:240px} @media(max-height:880px){iframe{transform:scale(.78);margin:0 -43px -185px}}</style><iframe id="game" src="qa/game_manual.html?v=11b0cebe70e2"></iframe><aside><h2>水墨动作验收</h2><p>与正式版本使用同一份游戏代码和素材。</p><button data-scene="combat">圆月斩与弹反</button><button data-scene="speed">轻功速度线</button><button data-scene="cast">忍者动作</button><button data-scene="death">腰斩接地</button><button data-scene="idle">站立循环</button><button id="slow">正常速度 ×1</button><button id="mirror">向右</button><button id="pause">暂停</button><button id="record">录制6秒预览</button><p id="status">载入素材</p><video id="recordedView" controls></video><p><a href="phone_preview.html">返回手机试玩</a></p></aside><script>
+let api,mode='combat',speed=1,face=1,paused=false,elapsed=0,last=0,emitted=false,maxReflect=0,maxDamage=0;
+const game=document.getElementById('game'),status=document.getElementById('status');
+function reset(){api.scene(mode,face);elapsed=0;emitted=false;maxReflect=0;maxDamage=0}
+document.querySelectorAll('[data-scene]').forEach(b=>b.onclick=()=>{mode=b.dataset.scene;reset()});
+document.getElementById('slow').onclick=e=>{speed=speed===1?.25:1;e.target.textContent=speed===1?'正常速度 ×1':'慢动作 ×0.25'};
+document.getElementById('mirror').onclick=e=>{face*=-1;e.target.textContent=face>0?'向右':'向左';reset()};
+document.getElementById('pause').onclick=e=>{paused=!paused;e.target.textContent=paused?'继续':'暂停'};
+game.onload=async()=>{api=game.contentWindow.studioTest;await api.ready;reset();requestAnimationFrame(tick)};
+function tick(t){let dt=Math.min(.035,(t-last)/1000||0);last=t;
+ if(!paused){elapsed+=dt*speed;if(elapsed>(mode==='combat'||mode==='speed'?2:mode==='death'?7:6))reset();
+  if(mode==='cast'){const w=game.contentWindow;w.eval('for(const n of foes){n.warn=(clock%2)<.6?.55-(clock%2):0;n.timer=999}');}
+  api.rawStep(dt*speed);let s=api.state();
+  if(mode==='combat'&&s.slash<.38&&s.slash>.105&&!emitted){emitted=true;const p=s.hero;const darts=[];for(const a of [-1.2,-.2]){const dx=Math.cos(a)*face,dy=Math.sin(a);darts.push({x:p.x+dx*96,y:p.y-21+dy*96,vx:-dx*280+p.vx,vy:-dy*280+p.vy,rot:0,life:2})}darts.push({x:p.x-face*30,y:p.y-17,vx:face*270+p.vx,vy:p.vy,rot:0,life:2});game.contentWindow.studioPreviewDarts=darts;game.contentWindow.eval('shots.push(...window.studioPreviewDarts)');}
+  s=api.state();maxReflect=Math.max(maxReflect,s.shots.filter(x=>x.reflected).length);maxDamage=Math.max(maxDamage,3-s.hp);api.render(t);
+  status.textContent=(mode==='combat'?'弹飞 '+maxReflect+' · 受到伤害 '+maxDamage+' · ':'')+'视口 '+s.W+'×'+s.H+' · '+(speed===1?'正常速度':'四分之一速度');
+ }requestAnimationFrame(tick)}
+document.getElementById('record').onclick=()=>{reset();const c=game.contentDocument.getElementById('c'),chunks=[];const r=new MediaRecorder(c.captureStream(30));r.ondataavailable=e=>chunks.push(e.data);r.onstop=()=>{const v=document.getElementById('recordedView');v.src=URL.createObjectURL(new Blob(chunks,{type:r.mimeType}));status.textContent='录制完成，可播放或保存'};r.start();setTimeout(()=>r.stop(),6000)};
+</script>

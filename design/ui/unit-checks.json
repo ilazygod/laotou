@@ -1,0 +1,27 @@
+{
+  "status": "PASS",
+  "tests": [
+    "DOM IDs unique",
+    "all localization tokens resolved",
+    "normal state binding",
+    "fourth tier and ultimate ready",
+    "three life seals and lost state",
+    "rank toast expires",
+    "result rank and next threshold",
+    "retry only emits command",
+    "reset clears result",
+    "highest rank handling",
+    "input state object unchanged",
+    "text contrast AA 4.5"
+  ],
+  "contrast": {
+    "242321": 14.0457862535317,
+    "68675f": 5.085242542196212,
+    "a54e3b": 5.005537038090011
+  },
+  "limits": [
+    "No real browser layout test in this isolated UI task",
+    "No gamepad implementation or gamepad hardware test",
+    "No human visual acceptance"
+  ]
+}
